@@ -1,0 +1,13 @@
+# 如果链接为空请一定要写一个“”占位！！
+
+- title: A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models
+  time: 2024
+  pub: ICLR 2024
+  paper_link: https://arxiv.org/pdf/2312.07243
+  code_link: ""
+
+- title: "Skeleton-of-Thought: Prompting Large Language Models for Efficient Parallel Generation"
+  time: 2024
+  pub: ICLR 2024
+  paper_link: https://arxiv.org/abs/2307.15337
+  code_link: "https://github.com/imagination-research/sot"

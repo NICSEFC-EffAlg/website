@@ -1,0 +1,35 @@
+- class: Efficient LLM
+  projects:
+  - title: SOT
+    text: Prompting Large Language Models for Efficient Parallel Generation
+    link: https://github.com/imagination-research/sot
+  - title: SOT2
+    text: Prompting Large Language Models for Efficient Parallel Generation
+    link: https://github.com/imagination-research/sot
+
+- class: Agent
+  projects:
+  - title: A1
+    text: Test
+    link: https://github.com/imagination-research/sot
+  - title: A2
+    text: Test2
+    link: https://github.com/imagination-research/sot
+
+- class: Efficient AIGC
+  projects:
+  - title: DPM
+    text: Test333
+    link: https://github.com/imagination-research/sot
+  - title: DPM2
+    text: Test444
+    link: https://github.com/imagination-research/sot
+
+- class: Test
+  projects:
+  - title: DPM
+    text: A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models
+    link: https://github.com/imagination-research/sot
+  - title: DPM2
+    text: A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models
+    link: https://github.com/imagination-research/sot
