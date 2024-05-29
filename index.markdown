@@ -62,11 +62,18 @@ To choose projects, simply check the boxes of the categories, topics and techniq
 
 <div id="content-container">
 {% for class in site.data.project_class %}
-  <div id="{{ class.class }}-content">
+  <div id="{{ class.class }}-content" style="display: none;">
     <h3>{{ class.class }} Projects</h3>
     {% for project in class.projects %}
-        <p>{{ project.title }}</p>
-        <p>{{ project.text }}</p>
+      <span class="project_span">
+        <img src="{{ project.image }}" alt="Project Image" class="project-image">
+        <span class="project-content">
+          <h3 class="project-title">{{ project.title }}</h3>
+          <p class="project-text">{{ project.text }}</p>
+          <a href="{{ project.link }}" class="project-link">Learn More</a>
+        </span>
+      </span>
+
     {% endfor %}
   </div>
 {% endfor %}
