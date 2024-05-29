@@ -34,4 +34,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "minimal-mistakes-jekyll"
 
-gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
+# gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins

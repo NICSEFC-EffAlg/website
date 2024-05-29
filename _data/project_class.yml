@@ -2,34 +2,42 @@
   projects:
   - title: SOT
     text: Prompting Large Language Models for Efficient Parallel Generation
+    image: /assets/images/eyes-285825_1920.png
     link: https://github.com/imagination-research/sot
   - title: SOT2
     text: Prompting Large Language Models for Efficient Parallel Generation
+    image: /assets/images/eyes-285825_1920.png
     link: https://github.com/imagination-research/sot
 
 - class: Agent
   projects:
   - title: A1
     text: Test
+    image: /assets/images/eyes-285825_1920.png
     link: https://github.com/imagination-research/sot
   - title: A2
     text: Test2
+    image: /assets/images/eyes-285825_1920.png
     link: https://github.com/imagination-research/sot
 
 - class: Efficient AIGC
   projects:
   - title: DPM
     text: Test333
+    image: /assets/images/eyes-285825_1920.png
     link: https://github.com/imagination-research/sot
   - title: DPM2
     text: Test444
+    image: /assets/images/eyes-285825_1920.png
     link: https://github.com/imagination-research/sot
 
 - class: Test
   projects:
   - title: DPM
+    image: /assets/images/eyes-285825_1920.png
     text: A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models
     link: https://github.com/imagination-research/sot
   - title: DPM2
     text: A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models
+    image: /assets/images/eyes-285825_1920.png
     link: https://github.com/imagination-research/sot
