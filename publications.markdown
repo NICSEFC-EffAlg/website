@@ -8,8 +8,9 @@ permalink: /publications/
 <ul>
 {% for pub in site.data.pubs %}
   <li>
-    <span>{{ pub.time }}</span> |
-      {{ pub.title }} 
+    <span>{{ pub.conference }}</span> |
+      {{ pub.title }} <br/> 
+      Authors: {{ pub.author }}
 
     {% if pub.paper_link != "" %} | <a href="{{ pub.paper_link }}">
       Paper

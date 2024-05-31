@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: NICSEFC-EffAlg
+title: NICS-EffAlg
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   We are pioneers in energy-efficient AI hardware and software solutions that unlock exponential performance gains.
 baseurl: "" # the subpath of your site, e.g. /blog
 logo: "https://nicsefc.ee.tsinghua.edu.cn/images/logo.png"
-domain: NICSEFC-EffAlg.github.io
-url: https://NICSEFC-EffAlg.github.io
+domain: NICS-EffAlg.com
+url: https://NICS-EffAlg.com
 # teaser: /assets/images/scifi-4916165_1920.jpg
 # header:
 #   teaser: /assets/images/scifi-4916165_1920.jpg

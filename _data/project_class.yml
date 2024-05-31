@@ -16,7 +16,7 @@
     image: /assets/images/eyes-285825_1920.png
     link: https://arxiv.org/abs/2309.12825
 
-- class: Efficient AIGC 
+- class: Generative AI 
   projects:
   - title: FlashEval
     text: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models
@@ -27,7 +27,7 @@
     image: /assets/images/eyes-285825_1920.png
     link: https://openaccess.thecvf.com/content/WACV2024/papers/Li_TCP_Triplet_Contrastive-Relationship_Preserving_for_Class-Incremental_Learning_WACV_2024_paper.pdf
 
-- class: Test 
+- class: TinyML
   projects:
   - title: MixDQ
     text: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization

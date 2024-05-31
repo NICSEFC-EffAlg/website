@@ -8,7 +8,7 @@ header:
   image: /assets/images/eyes_small.png
 #   image: /assets/images/scifi-4916165_1920.jpg
 classes: wide
-
+header-font-family: "Open Sans,sans-serif"
 ---
 
 ## Who We Are
