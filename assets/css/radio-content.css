@@ -2,25 +2,31 @@
     margin-bottom: 20px;
     margin-left: 10px;
     /* background-color: blue; */
+    display:block;
   }
 
   /* 选中状态的样式 */
-input[type="radio"]:checked {
+input[type="checkbox"]:checked {
   border: 6px solid #3498db;
 }
 
-#option-container label {
-    display: inline-block;
+.option_checkbox {
   cursor: pointer;
   padding: 5px 1%;
   margin: 5px 1%;
   /* margin: 5px 10px; */
-  border-radius: 20px;
+  border-radius: 10px;
   width: 22.5%;
   background-color: #f2f2f2;
   transition: 0.2s all linear;
+  white-space:nowrap; 
+  display:inline-block;
   }
 
+.project_class_checkbox {
+  display:inline;
+
+}
 
 .project_card {
   /* display: inline-block; */

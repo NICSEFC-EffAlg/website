@@ -40,49 +40,27 @@ To choose projects, simply check the boxes of the categories, topics and techniq
 
 <div id="option-container">
   {% for class in site.data.projects_class %}
-  <h4> {{ class.class_name }} </h4> 
-  {% for item in class.items %}
-  <!-- <option value="{{ item.id }}">{{ item.show_name }}</option> -->
   <div>
-  <input type="checkbox" name="option" id="{{ item.id }}">{{ item.show_name }}
+    <h4> {{ class.class_name }} </h4> 
+    {% for item in class.items %}
+    <label class="option_checkbox">
+      <input type="checkbox" name="option" id="{{ item.id }}" class="project_class_checkbox"> 
+      <span class="project_class_checkbox"> &nbsp; {{ item.show_name }} </span>
+    </label>
+    {% endfor %}
   </div>
-  <!-- <label>
-    <input type="radio" name="option" value="{{ item.id }}">
-    {{ item.show_name }}
-  </label> -->
   {% endfor %}
-
-{% endfor %}
-<!-- 
-  <label>
-    <input type="radio" name="option" value="option1" checked>
-    Effcient LLM
-  </label>
-  <label>
-    <input type="radio" name="option" value="option2">
-    Agent
-  </label>
-  <label>
-    <input type="radio" name="option" value="option3">
-    Efficient AIGC
-  </label> -->
 </div>
 
 <div id="content-container">
-{% for class in site.data.projects %}
-  <div id="{{ class.class }}-content" style="display: none;">
-    <h3>{{ class.class }} Projects</h3>
-    {% for project in class.projects %}
-      <span class="project_card">
-        <img src="{{ project.image }}" alt="Project Image" class="project-image">
-        <span class="project-content">
-          <h3 class="project-title">{{ project.title }}</h3>
-          <p class="project-text">{{ project.text }}</p>
-          <a href="{{ project.link }}" class="project-link">Learn More</a>
-        </span>
-      </span>
-
-    {% endfor %}
+{% for project in site.data.projects %}
+  <div class="project_card" id="{{ project.topic }},{{ project.technique }}" style="display: none">
+    <img src="{{ project.image }}" alt="Project Image" class="project-image">
+    <span class="project-content">
+      <h3 class="project-title">{{ project.title }}</h3>
+      <p class="project-text">{{ project.text }}</p>
+      <a href="{{ project.link }}" class="project-link">Learn More</a>
+    </span>
   </div>
 {% endfor %}
 </div>

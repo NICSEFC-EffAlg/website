@@ -1,84 +1,21 @@
-- class: Efficient LLM 
-  projects:
-  - title: Skeleton-of-Thought
-    text: Prompting Large Language Models for Efficient Parallel Generation
-    image: /assets/images/eyes-285825_1920.png
-    link: https://github.com/imagination-research/sot
 
-- class: Agent 
-  projects:
-  - title: LLM-Powered Hierarchical Language Agent
-    text: LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination
-    image: /assets/images/eyes-285825_1920.png
-    link: https://aamas24.sotons.ac.uk/papers/aamas24-preprints/p1276.pdf
-  - title: OmniDrones
-    text: An Efficient and Flexible Platform for Reinforcement Learning in Drone Control
-    image: /assets/images/eyes-285825_1920.png
-    link: https://arxiv.org/abs/2309.12825
+- title: Skeleton-of-Thought
+  text: Prompting Large Language Models for Efficient Parallel Generation
+  image: /assets/images/eyes-285825_1920.png
+  link: https://github.com/imagination-research/sot
+  topic: llms
+  technique: data_augmentation
 
-- class: Generative AI 
-  projects:
-  - title: FlashEval
-    text: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models
-    image: /assets/images/eyes-285825_1920.png
-    link: https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_FlashEval_Towards_Fast_and_Accurate_Evaluation_of_Text-to-Image_Diffusion_Generative_CVPR_2024_paper.html
-  - title: TCP
-    text: Triplet Contrastive-relationship Preserving for Class-Incremental Learning
-    image: /assets/images/eyes-285825_1920.png
-    link: https://openaccess.thecvf.com/content/WACV2024/papers/Li_TCP_Triplet_Contrastive-Relationship_Preserving_for_Class-Incremental_Learning_WACV_2024_paper.pdf
+- title: LLM-Powered Hierarchical Language Agent
+  text: LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination
+  image: /assets/images/eyes-285825_1920.png
+  link: https://aamas24.sotons.ac.uk/papers/aamas24-preprints/p1276.pdf
+  topic: llms
+  technique: pruning_sparsity
 
-- class: TinyML
-  projects:
-  - title: MixDQ
-    text: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization
-    image: /assets/images/eyes-285825_1920.png
-    link: https://arxiv.org/abs/2401.05124
-  - title: A Unified Sampling Framework
-    text: A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models
-    image: /assets/images/eyes-285825_1920.png
-    link: https://openreview.net/pdf?id=1JNjNZlLgAP
-
-# - class: Efficient LLM
-#   projects:
-#   - title: SOT
-#     text: Prompting Large Language Models for Efficient Parallel Generation
-#     image: /assets/images/eyes-285825_1920.png
-#     link: https://github.com/imagination-research/sot
-#   - title: SOT2
-#     text: Prompting Large Language Models for Efficient Parallel Generation
-#     image: /assets/images/eyes-285825_1920.png
-#     link: https://github.com/imagination-research/sot
-
-# - class: Agent
-#   projects:
-#   - title: A1
-#     text: Test
-#     image: /assets/images/eyes-285825_1920.png
-#     link: https://github.com/imagination-research/sot
-#   - title: A2
-#     text: Test2
-#     image: /assets/images/eyes-285825_1920.png
-#     link: https://github.com/imagination-research/sot
-
-# - class: Efficient AIGC
-#   projects:
-#   - title: DPM
-#     text: Test333
-#     image: /assets/images/eyes-285825_1920.png
-#     link: https://github.com/imagination-research/sot
-#   - title: DPM2
-#     text: Test444
-#     image: /assets/images/eyes-285825_1920.png
-#     link: https://github.com/imagination-research/sot
-
-# - class: Test
-#   projects:
-#   - title: DPM
-#     image: /assets/images/eyes-285825_1920.png
-#     text: A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models
-#     link: https://github.com/imagination-research/sot
-#   - title: DPM2
-#     text: A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models
-#     image: /assets/images/eyes-285825_1920.png
-#     link: https://github.com/imagination-research/sot
-
+- title: OmniDrones
+  text: An Efficient and Flexible Platform for Reinforcement Learning in Drone Control
+  image: /assets/images/eyes-285825_1920.png
+  link: https://arxiv.org/abs/2309.12825
+  topic: generative_ai
+  technique: pruning_sparsity
