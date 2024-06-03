@@ -1,13 +1,135 @@
 # 如果链接为空请一定要写一个“”占位！！
 
+
+
 - title: A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models
-  author: A,B,C
+  author: Enshu Liu, Xuefei Ning, Huazhong Yang, Yu Wang
   conference: ICLR 2024
   paper_link: https://arxiv.org/pdf/2312.07243
   code_link: ""
 
 - title: "Skeleton-of-Thought: Prompting Large Language Models for Efficient Parallel"
-  author: D,E,F
+  author: Xuefei Ning, Zinan Lin, Zixuan Zhou, Zifu Wang, Huazhong Yang, Yu Wang
   conference: ICLR 2024
   paper_link: https://arxiv.org/abs/2307.15337
   code_link: "https://github.com/imagination-research/sot"
+
+- title: OMS-DPM - Deciding The Optimal Model Schedule for Diffusion Probabilistic Model
+  author: Enshu Liu, Xuefei Ning, Zinan Lin, Huazhong Yang, Yu Wang
+  conference: ICML 2023
+  paper_link: ""
+  code_link: ""
+
+- title: Dynamic Ensemble of Low-fidelity Experts - Mitigating NAS "Cold-Start"
+  author: Junbo Zhao, Xuefei Ning, Enshu Liu, Binxin Ru, and Others
+  conference: AAAI 2023 (Oral)
+  paper_link: ""
+  code_link: ""
+
+- title: Memory-Oriented Structural Pruning for Efficient Image Restoration
+  author: Xiangsheng Shi, Xuefei Ning, Lidong Guo, Tianchen Zhao, and Others
+  conference: AAAI 2023
+  paper_link: ""
+  code_link: ""
+
+- title: Ensemble-in-One - Ensemble Learning within Random Gated Networks for Enhanced Adversarial Robustness
+  author: Yi Cai, Xuefei Ning, Yu Wang, Huazhong Yang
+  conference: AAAI 2023
+  paper_link: ""
+  code_link: ""
+
+- title: A Generic Graph-based Neural Architecture Encoding Scheme with Multifaceted Information
+  author: Xuefei Ning, Yin Zheng, Zixuan Zhou, Tianchen Zhao, Huazhong Yang, Yu Wang
+  conference: TPAMI 2023
+  paper_link: ""
+  code_link: ""
+
+- title: CLOSE - Curriculum Learning On the Sharing Extent Towards Better One-shot NAS
+  author: Zixuan Zhou, Xuefei Ning, Yi Cai, Jiashu Han, and Others
+  conference: ECCV 2022
+  paper_link: ""
+  code_link: ""
+
+- title: Gibbon - Efficient Co-Exploration of NN Model and Processing-In-Memory Architecture
+  author: Hanbo Sun, Zhenhua Zhu, Chenyu Wang, Xuefei Ning, and Others
+  conference: DATE 2022 & TCAD 2023
+  paper_link: ""
+  code_link: ""
+
+- title: Exploring the Potential of Low-bit Training of Convolutional Neural Networks
+  author: Kai Zhong, Xuefei Ning, Guohao Dai, Zhenhua Zhu, and Others
+  conference: TCAD 2022
+  paper_link: ""
+  code_link: ""
+
+- title: TA-GATES - An Encoding Scheme for Neural Network Architectures
+  author: Xuefei Ning, Zixuan Zhou, Junbo Zhao, Tianchen Zhao, and Others
+  conference: NeurIPS 2022 (Spotlight)
+  paper_link: ""
+  code_link: ""
+
+- title: Evaluating Efficient Performance Estimators of Neural Architectures
+  author: Xuefei Ning, Changcheng Tang, Wenshuo Li, Zixuan Zhou, and Others
+  conference: NeurIPS 2021
+  paper_link: ""
+  code_link: ""
+
+- title: FedCor - Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning
+  author: Minxue Tang, Xuefei Ning, Yitu Wang, Jingwei Sun, and Others
+  conference: CVPR 2022
+  paper_link: ""
+  code_link: ""
+
+- title: CodedVTR - Codebook-based Sparse Voxel Transformer with Geometric Guidance
+  author: Tianchen Zhao, Niansong Zhang, Xuefei Ning, He Wang, Li Yi, Yu Wang
+  conference: CVPR 2022
+  paper_link: ""
+  code_link: ""
+
+- title: Multi-Agent Vulnerability Discovery for Autonomous Driving with Hazard Arbitration Reward
+  author: Ye Mu, Weilin Liu, Chao Yu, Xuefei Ning, and Others
+  conference: Under Review (RAL) 2021
+  paper_link: ""
+  code_link: ""
+
+- title: FTT-NAS - Discovering Fault-Tolerant Convolutional Neural Architecture
+  author: Xuefei Ning, Guangjun Ge, Wenshuo Li, Zhenhua Zhu, and Others
+  conference: TODAES 2021
+  paper_link: ""
+  code_link: ""
+
+- title: A Generic Graph-based Neural Architecture Encoding Scheme for Predictor-based NAS
+  author: Xuefei Ning, Yin Zheng, Tianchen Zhao, Yu Wang, Huazhong Yang
+  conference: ECCV 2020
+  paper_link: ""
+  code_link: ""
+
+- title: DSA - More Efficient Budgeted Pruning via Differentiable Sparsity Allocation
+  author: Xuefei Ning, Tianchen Zhao, Wenshuo Li, Peng Lei, Yu Wang, Huazhong Yang
+  conference: ECCV 2020 (Spotlight)
+  paper_link: ""
+  code_link: ""
+
+- title: Physical Adversarial Attack on Vehicle Detector in the Carla Simulator
+  author: Tong Wu, Xuefei Ning, Wenshuo Li, Ranran Huang, Huazhong Yang, Yu Wang
+  conference: arXiv 2020 (Technical Report)
+  paper_link: ""
+  code_link: ""
+
+- title: Nonparametric Topic Modeling with Neural Inference
+  author: Xuefei Ning, Yin Zheng, Zhuxi Jiang, Yu Wang, and Others
+  conference: Neurocomputing 2020
+  paper_link: ""
+  code_link: ""
+
+- title: FTT-NAS - Discovering Fault-Tolerant Neural Architecture
+  author: Wenshuo Li, Xuefei Ning, Guangjun Ge, Xiaoming Chen, Yu Wang, Huazhong Yang
+  conference: ASP-DAC 2020
+  paper_link: ""
+  code_link: ""
+
+- title: Mutual Adversarial Training with Diverse Early-Stop PGD
+  author: Xuefei Ning, Wenshuo Li, Yu Wang
+  conference: NeurIPS 2018 Adversarial Vision Challenge Competition (2nd/399)
+  paper_link: ""
+  code_link: ""

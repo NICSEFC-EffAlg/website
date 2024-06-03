@@ -12,8 +12,12 @@ header:
     {% if class.class_name %}<h2> {{ class.class_name }} </h2> {% endif %}
     {% for item in class.people %}
     <a href="{{ item.link }}" style="color: inherit; display:inline-block; text-decoration: none; width: 250px" target="_blank">
+      {% if item.image %}
       <img src="{{ item.image }}" alt="{{ item.name }}" style="width:200px;height:200px;object-fit:cover;">
-      <h5>{{ item.name }} <br/> <span style="font-size: 16px;">{{ item.title }} </span></h5>
+      {% else %}
+      <img src="/assets/people_images/default_people.jpg" alt="{{ item.name }}" style="width:200px;height:200px;object-fit:cover;">
+      {% endif %}
+      <h5 style="margin-top: 18px; margin-bottom: 48px;">{{ item.name }} <br/> <span style="font-size: 16px;">{{ item.title }} </span></h5>
     </a>
     {% endfor %}
   </div>
