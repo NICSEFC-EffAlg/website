@@ -2,6 +2,8 @@
 layout: single
 title: Team
 permalink: /team/
+header:
+  image: /assets/images/header_show.jpg
 ---
 
 ## Investigator

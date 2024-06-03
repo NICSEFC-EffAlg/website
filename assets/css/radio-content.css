@@ -22,7 +22,7 @@ input[type="radio"]:checked {
   }
 
 
-.project_span {
+.project_card {
   /* display: inline-block; */
   display: flex;
   align-items: center;

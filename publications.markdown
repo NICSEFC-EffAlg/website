@@ -2,6 +2,8 @@
 layout: single
 title: Publications
 permalink: /publications/
+header:
+  image: /assets/images/header_show.jpg
 ---
 
 

@@ -3,6 +3,8 @@
 layout: archive
 title: Blog Posts
 permalink: /blogs/
+header:
+  image: /assets/images/header_show.jpg
 ---
 
 <ul>

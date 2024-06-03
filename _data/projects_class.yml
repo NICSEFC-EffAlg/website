@@ -1,0 +1,31 @@
+- class_name: Topics
+  items:
+  - show_name: Large Language Models (LLMs)
+    id: llms
+  - show_name: Generative AI
+    id: generative_ai
+
+# TinyML
+
+# Autonomous Driving
+
+# Training
+
+# Quantum Computing
+
+- class_name: Techniques
+  items:
+  - show_name: Pruning & Sparsity
+    id: pruning_sparsity
+  - show_name: Data Augmentation
+    id: data_augmentation
+
+# Quantization
+
+# Neural Architecture Search (NAS)
+
+# Distillation
+
+# New Architecture
+
+# ML for Hardware & System
