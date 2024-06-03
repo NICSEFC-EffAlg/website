@@ -1,13 +1,13 @@
 ---
 layout: single
 title: 
-permalink: /team/
+permalink: /people/
 header:
   image: /assets/images/header_show.jpg
 ---
 
 <div style="display:inline-block; width: 100%">
-  {% for class in site.data.team %}
+  {% for class in site.data.people %}
   <div style="display:inline-block; padding: 10px 10%; width: 100%; text-align: center;">
     {% if class.class_name %}<h2> {{ class.class_name }} </h2> {% endif %}
     {% for item in class.people %}
