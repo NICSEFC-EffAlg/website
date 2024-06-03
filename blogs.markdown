@@ -1,6 +1,6 @@
 ---
 # layout: category-archive
-layout: archive
+layout: single
 title: Blog Posts
 permalink: /blogs/
 header:

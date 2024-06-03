@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 logo: "https://nicsefc.ee.tsinghua.edu.cn/images/logo.png"
 domain: NICS-EffAlg.com
 url: https://NICS-EffAlg.com
+
 # teaser: /assets/images/scifi-4916165_1920.jpg
 # header:
 #   teaser: /assets/images/scifi-4916165_1920.jpg
@@ -53,6 +54,7 @@ defaults:
       related: true
       show_date: true
       teasers: true  # 启用teasers
+  - primary-color: "#3498db"
 
 plugins:
   - jekyll-feed

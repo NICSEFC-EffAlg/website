@@ -14,11 +14,11 @@ header:
       {{ pub.title }} <br/> 
       Authors: {{ pub.author }}
 
-    {% if pub.paper_link != "" %} | <a href="{{ pub.paper_link }}">
+    {% if pub.paper_link != "" %} <a class="custom_a" href="{{ pub.paper_link }}">
       Paper
     </a> {% endif %}
 
-    {% if pub.code_link != "" %} | <a href="{{ pub.code_link }}">
+    {% if pub.code_link != "" %} <a class="custom_a" href="{{ pub.code_link }}">
       Code
     </a> {% endif %}
     
