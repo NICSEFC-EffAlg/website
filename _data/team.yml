@@ -1,0 +1,25 @@
+- class_name: Investigator
+  people:
+  - name: Yu Wang
+    title: Professor
+    image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/82350f7a-3849-4672-b9af-03bdd5f10c8e.jpg
+    link: https://nicsefc.ee.tsinghua.edu.cn/people/YuWang
+  - name: Xuefei Ning
+    title: Research Assistant Professor
+    image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/edceebf1-ad31-4683-9545-287442f019a8.jpg
+    link: https://nicsefc.ee.tsinghua.edu.cn/people/XuefeiNing
+  - name: Zhihang Yuan
+    title: Researcher
+    image: /assets/images/zhihang_rectangle.jpg
+    link: https://zhihang.cc/
+
+- class_name: Students
+  people:
+  - name: Tianchen Zhao
+    title: Ph.D. Student
+    image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/5d3a9ae8-9bdb-43da-89c0-81a758829691.jpg
+    link: https://nicsefc.ee.tsinghua.edu.cn/people/TianchenZhao
+  - name: Shiyao Li
+    title: Ph.D. Student
+    image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/51896d90-17df-447b-8389-5a926c81edf0.jpg
+    link: https://nicsefc.ee.tsinghua.edu.cn/people/ShiyaoLi

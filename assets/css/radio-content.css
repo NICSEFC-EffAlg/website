@@ -17,6 +17,7 @@ input[type="checkbox"]:checked {
   /* margin: 5px 10px; */
   border-radius: 10px;
   width: 22.5%;
+  min-width: 250px;
   background-color: #f2f2f2;
   transition: 0.2s all linear;
   white-space:nowrap; 
@@ -39,6 +40,8 @@ input[type="checkbox"]:checked {
   height: 200px;
   width: 98%;
   /* max-width: 800px; */
+  /* 超出用overflow scroll */
+  /* overflow: scroll; */
 }
 
 .project-image {
@@ -52,7 +55,9 @@ input[type="checkbox"]:checked {
 
 .project-content {
   display: flex;
+  max-height: 90%;
   flex-direction: column;
+  overflow: scroll;
 }
 
 .project-title {
