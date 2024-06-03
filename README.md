@@ -1,5 +1,7 @@
 # 使用教程
 
+网站地址 http://nics-effalg.com/
+
 在github仓库 https://github.com/NICSEFC-EffAlg/website 提交pull request，管理员审核后merge到main分支后更新网站。
 
 ### 添加publication
