@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Team
+title: 
 permalink: /team/
 header:
   image: /assets/images/header_show.jpg
@@ -9,7 +9,7 @@ header:
 <div style="display:inline-block; width: 100%">
   {% for class in site.data.team %}
   <div style="display:inline-block; padding: 10px 10%; width: 100%; text-align: center;">
-    <h2> {{ class.class_name }} </h2> 
+    {% if class.class_name %}<h2> {{ class.class_name }} </h2> {% endif %}
     {% for item in class.people %}
     <a href="{{ item.link }}" style="color: inherit; display:inline-block; text-decoration: none; width: 250px" target="_blank">
       <img src="{{ item.image }}" alt="{{ item.name }}" style="width:200px;height:200px;object-fit:cover;">
