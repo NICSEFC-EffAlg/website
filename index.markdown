@@ -24,19 +24,19 @@ Our research spans a diverse array of cutting-edge domains, including large lang
 Within this citadel of avant-garde research, we pursue excellence and scale new heights. Our team comprises a multidisciplinary ensemble of brilliant minds, fostering an open and inclusive environment that encourages exploration and innovation. Together, we are shaping the future landscape of AI technology.
 </p>
 
-## Highlights
+## News
 
-Accelerating LLM and Generative AI:
+<!-- Accelerating LLM and Generative AI: -->
 <ul>
-{% for pub in site.data.highlights %}
+{% for new in site.data.news %}
   <li>
-    <a href="{{ pub.link }}" class="custom_a">
-      {{ pub.title }}
-    </a> |
-      {{ pub.text }} 
-    <!-- <a href="{{ pub.link }}">
-      link
-    </a> -->
+    {{ new.time }} |
+    {{ new.text }} 
+    {% if new.link %}
+    <a href="{{ new.link }}" class="custom_a">
+      Link
+    </a>
+    {% endif %}
     
   </li>
 {% endfor %}
