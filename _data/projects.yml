@@ -1,21 +1,28 @@
-
-- title: Skeleton-of-Thought
-  text: Prompting Large Language Models for Efficient Parallel Generation
-  image: /assets/project_images/eyes-285825_1920.png
-  link: https://github.com/imagination-research/sot
-  topic: llms
-  technique: data_augmentation
-
-- title: LLM-Powered Hierarchical Language Agent
-  text: LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination
-  image: /assets/project_images/eyes-285825_1920.png
-  link: https://aamas24.sotons.ac.uk/papers/aamas24-preprints/p1276.pdf
-  topic: llms
-  technique: pruning_sparsity
-
-- title: OmniDrones
-  text: An Efficient and Flexible Platform for Reinforcement Learning in Drone Control
-  image: /assets/project_images/eyes-285825_1920.png
-  link: https://arxiv.org/abs/2309.12825
+- title: DiTFastAttn
+  text: Accelerate Diffusion Transformers Through Efficient Attention Computation. Accelerate up to 1.6x on image/video generation.
+  image: /assets/project_images/DiTFastAttn_project.jpg
+  link: http://nics-effalg.com/DiTFastAttn
   topic: generative_ai
-  technique: pruning_sparsity
+  technique: others
+
+
+# - title: Skeleton-of-Thought
+#   text: Prompting Large Language Models for Efficient Parallel Generation
+#   image: /assets/project_images/eyes-285825_1920.png
+#   link: https://github.com/imagination-research/sot
+#   topic: llms
+#   technique: data_augmentation
+
+# - title: LLM-Powered Hierarchical Language Agent
+#   text: LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination
+#   image: /assets/project_images/eyes-285825_1920.png
+#   link: https://aamas24.sotons.ac.uk/papers/aamas24-preprints/p1276.pdf
+#   topic: llms
+#   technique: pruning_sparsity
+
+# - title: OmniDrones
+#   text: An Efficient and Flexible Platform for Reinforcement Learning in Drone Control
+#   image: /assets/project_images/eyes-285825_1920.png
+#   link: https://arxiv.org/abs/2309.12825
+#   topic: generative_ai
+#   technique: pruning_sparsity

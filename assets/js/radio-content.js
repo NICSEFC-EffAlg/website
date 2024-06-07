@@ -24,10 +24,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
   optionContainer.addEventListener('change', function(event) {
     const selectedOption = event.target.id;
-    if(now_selected.includes(selectedOption)){
-      now_selected.splice(now_selected.indexOf(selectedOption),1);
-    }else{
-      now_selected.push(selectedOption)
+    // check if event.target is a checkbox, is it is checked, add it to now_selected, if not, remove it from now_selected
+    if (event.target.type === 'checkbox') {
+      if (event.target.checked) {
+        now_selected.push(selectedOption);
+      } else {
+        const index = now_selected.indexOf(selectedOption);
+        if (index > -1) {
+          now_selected.splice(index, 1);
+        }
+      }
     }
     
     // 遍历所有元素

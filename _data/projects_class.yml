@@ -25,6 +25,8 @@
     id: new_architecture
   - show_name: Hardware & System
     id: hardware_system
+  - show_name: Others
+    id: others
 
 # Quantization
 
