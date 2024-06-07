@@ -1,6 +1,6 @@
 ---
 # layout: post
-title:  "DiTFastAttn: Accelerate Diffusion Transformers Through Efficient Attention Computation"
+title:  "DiTFastAttn: Attention Compression for Diffusion Transformer Models"
 date:   2024-06-07
 permalink: /DiTFastAttn
 ---
@@ -9,3 +9,4 @@ Diffusion Transformers (DiT) have emerged as a powerful tool for image and video
 
 ![DiTFastAttn Overview](/assets/posts_images/DiTFastAttn_overview.jpg)
 
+The code will be release soon.

@@ -32,11 +32,6 @@
   paper_link: ""
   code_link: ""
 
-- title: Ensemble-in-One - Ensemble Learning within Random Gated Networks for Enhanced Adversarial Robustness
-  author: Yi Cai, Xuefei Ning, Yu Wang, Huazhong Yang
-  conference: AAAI 2023
-  paper_link: ""
-  code_link: ""
 
 - title: A Generic Graph-based Neural Architecture Encoding Scheme with Multifaceted Information
   author: Xuefei Ning, Yin Zheng, Zixuan Zhou, Tianchen Zhao, Huazhong Yang, Yu Wang
@@ -86,17 +81,7 @@
   paper_link: ""
   code_link: ""
 
-- title: Multi-Agent Vulnerability Discovery for Autonomous Driving with Hazard Arbitration Reward
-  author: Ye Mu, Weilin Liu, Chao Yu, Xuefei Ning, and Others
-  conference: Under Review (RAL) 2021
-  paper_link: ""
-  code_link: ""
 
-- title: FTT-NAS - Discovering Fault-Tolerant Convolutional Neural Architecture
-  author: Xuefei Ning, Guangjun Ge, Wenshuo Li, Zhenhua Zhu, and Others
-  conference: TODAES 2021
-  paper_link: ""
-  code_link: ""
 
 - title: A Generic Graph-based Neural Architecture Encoding Scheme for Predictor-based NAS
   author: Xuefei Ning, Yin Zheng, Tianchen Zhao, Yu Wang, Huazhong Yang
@@ -110,26 +95,3 @@
   paper_link: ""
   code_link: ""
 
-- title: Physical Adversarial Attack on Vehicle Detector in the Carla Simulator
-  author: Tong Wu, Xuefei Ning, Wenshuo Li, Ranran Huang, Huazhong Yang, Yu Wang
-  conference: arXiv 2020 (Technical Report)
-  paper_link: ""
-  code_link: ""
-
-- title: Nonparametric Topic Modeling with Neural Inference
-  author: Xuefei Ning, Yin Zheng, Zhuxi Jiang, Yu Wang, and Others
-  conference: Neurocomputing 2020
-  paper_link: ""
-  code_link: ""
-
-- title: FTT-NAS - Discovering Fault-Tolerant Neural Architecture
-  author: Wenshuo Li, Xuefei Ning, Guangjun Ge, Xiaoming Chen, Yu Wang, Huazhong Yang
-  conference: ASP-DAC 2020
-  paper_link: ""
-  code_link: ""
-
-- title: Mutual Adversarial Training with Diverse Early-Stop PGD
-  author: Xuefei Ning, Wenshuo Li, Yu Wang
-  conference: NeurIPS 2018 Adversarial Vision Challenge Competition (2nd/399)
-  paper_link: ""
-  code_link: ""

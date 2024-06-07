@@ -1,27 +1,32 @@
 ---
 layout: single
-title: Publications
+# title: Publications
 permalink: /publications/
 header:
   image: /assets/images/header_show.jpg
 ---
 
+<h1 class="custom_title"> Publications </h1>
 
 <ul>
 {% for pub in site.data.pubs %}
   <li>
-    <span>{{ pub.conference }}</span> |
-      {{ pub.title }} <br/> 
-      Authors: {{ pub.author }}
+    <div style="display:flex; font-size:18px">
+      <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px">{{ pub.conference }}</div> 
+      <div style="display:block; width: 85%;">
+        <span style="color: #0c53a5">{{ pub.title }} </span> <br/> 
+        Authors: {{ pub.author }}
 
-    {% if pub.paper_link != "" %} <a class="custom_a" href="{{ pub.paper_link }}">
-      Paper
-    </a> {% endif %}
+      {% if pub.paper_link != "" %} <a class="custom_buttom" href="{{ pub.paper_link }}">
+        Paper
+      </a> {% endif %}
 
-    {% if pub.code_link != "" %} <a class="custom_a" href="{{ pub.code_link }}">
-      Code
-    </a> {% endif %}
-    
+      {% if pub.code_link != "" %} <a class="custom_buttom" href="{{ pub.code_link }}">
+        Code
+      </a> {% endif %}
+
+      </div>
+    </div>
     
   </li>
 {% endfor %}

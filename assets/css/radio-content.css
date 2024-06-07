@@ -23,14 +23,17 @@ input[type="checkbox"]:checked {
   white-space:nowrap; 
   display:inline-block;
   }
+.option_checkbox:hover {
+  background-color: #e9eff6;
+}
+  
 
 .project_class_checkbox {
   display:inline;
-
 }
 
+
 .project_card {
-  /* display: inline-block; */
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
@@ -39,9 +42,6 @@ input[type="checkbox"]:checked {
   padding: 20px;
   height: 200px;
   width: 98%;
-  /* max-width: 800px; */
-  /* 超出用overflow scroll */
-  /* overflow: scroll; */
 }
 
 .project-image {
@@ -57,7 +57,7 @@ input[type="checkbox"]:checked {
   display: flex;
   max-height: 90%;
   flex-direction: column;
-  /* overflow: scroll; */
+  overflow-y: auto;
 }
 
 .project-title {
@@ -83,6 +83,51 @@ input[type="checkbox"]:checked {
 } */
 
 
-.project-link:hover {
-  background-color: #a9a9a9; /* 悬停时稍深的灰色背景 */
+.custom_title {
+  /* color: #3480d9; */
+  color:#0c53a5;
+  font-size: 38px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  /* font-weight: 800; */
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 44px;
+  box-sizing: border-box;
+}
+
+.custom_project_back_card{
+  background-color: #fafbfd;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+.custom_buttom{
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  text-align: left;
+  background-color: #f3f3f3;
+  border-radius: 4px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  
+}
+
+.custom_buttom:hover {
+  background-color: #0c53a5;
+  color: white;
 }

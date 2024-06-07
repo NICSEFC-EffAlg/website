@@ -10,8 +10,8 @@ header:
 classes: wide
 header-font-family: "Open Sans,sans-serif"
 ---
+<h1 class="custom_title"> Who We Are </h1>
 
-## Who We Are
 <p style="text-align:justify; text-justify:inter-ideograph;">
 Welcome to NICS-EffAlg, a pioneering research group at Tsinghua University, where we explore the frontiers of artificial intelligence (AI) and computer architecture. Under the esteemed guidance of Professors Yu Wang and Xuefei Ning, our team is dedicated to the seamless integration of algorithms and hardware, pushing the boundaries of efficiency in AI systems.
 </p>
@@ -24,8 +24,7 @@ Our research spans a diverse array of cutting-edge domains, including large lang
 Within this citadel of avant-garde research, we pursue excellence and scale new heights. Our team comprises a multidisciplinary ensemble of brilliant minds, fostering an open and inclusive environment that encourages exploration and innovation. Together, we are shaping the future landscape of AI technology.
 </p>
 
-## News
-
+<h1 class="custom_title"> News </h1>
 <!-- Accelerating LLM and Generative AI: -->
 <ul>
 {% for new in site.data.news %}
@@ -42,33 +41,36 @@ Within this citadel of avant-garde research, we pursue excellence and scale new 
 {% endfor %}
 </ul>
 
-## Our Full-Stack Projects
 
-To choose projects, simply check the boxes of the categories, topics and techniques.
+<!-- <div class="custom_project_back_card"> -->
 
-<div id="option-container">
-  {% for class in site.data.projects_class %}
-  <div>
-    <h4> {{ class.class_name }} </h4> 
-    {% for item in class.items %}
-    <label class="option_checkbox">
-      <input type="checkbox" name="option" id="{{ item.id }}" class="project_class_checkbox"> 
-      <span class="project_class_checkbox"> &nbsp; {{ item.show_name }} </span>
-    </label>
+  <h1 class="custom_title"> Projects </h1>
+
+  <div id="option-container">
+    {% for class in site.data.projects_class %}
+    <div>
+      <h4> {{ class.class_name }} </h4> 
+      {% for item in class.items %}
+      <label class="option_checkbox">
+        <input type="checkbox" name="option" id="{{ item.id }}" class="project_class_checkbox"> 
+        <span class="project_class_checkbox"> &nbsp; {{ item.show_name }} </span>
+      </label>
+      {% endfor %}
+    </div>
     {% endfor %}
   </div>
-  {% endfor %}
-</div>
 
-<div id="content-container">
-{% for project in site.data.projects %}
-  <div class="project_card" id="{{ project.topic }},{{ project.technique }}" style="display: none">
-    <img src="{{ project.image }}" alt="Project Image" class="project-image">
-    <span class="project-content">
-      <h3 class="project-title">{{ project.title }}</h3>
-      <p class="project-text">{{ project.text }}</p>
-      <a href="{{ project.link }}" class="project-link">Learn More</a>
-    </span>
+  <div id="content-container">
+  {% for project in site.data.projects %}
+    <div class="project_card" id="{{ project.topic }},{{ project.technique }}" style="display: none">
+      <img src="{{ project.image }}" alt="Project Image" class="project-image">
+      <span class="project-content">
+        <h3 class="project-title">{{ project.title }}</h3>
+        <p class="project-text">{{ project.text }}</p>
+        <a href="{{ project.link }}" class="project-link">Learn More</a>
+      </span>
+    </div>
+  {% endfor %}
   </div>
-{% endfor %}
-</div>
+
+<!-- </div> -->

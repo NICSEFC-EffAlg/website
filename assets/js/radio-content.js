@@ -22,6 +22,13 @@ document.addEventListener('DOMContentLoaded', function() {
   const projectCards = document.querySelectorAll('.project_card');
   var now_selected=[];
 
+  // Traverse all checkboxes inside optionContainer
+  optionContainer.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+    if (checkbox.checked) {
+      now_selected.push(checkbox.id);
+    }
+  });
+  
   optionContainer.addEventListener('change', function(event) {
     const selectedOption = event.target.id;
     // check if event.target is a checkbox, is it is checked, add it to now_selected, if not, remove it from now_selected

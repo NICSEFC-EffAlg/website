@@ -1,13 +1,16 @@
 ---
 # layout: category-archive
 layout: single
-title: Blog Posts
+# title: Blog Posts
 # entries_layout: grid
 author_profile: true
 permalink: /blogs/
 header:
   image: /assets/images/header_show.jpg
 ---
+
+
+<h1 class="custom_title"> Blogs </h1>
 
 <!-- <ul>
   {% for post in site.posts %}
