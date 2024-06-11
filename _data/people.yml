@@ -91,3 +91,26 @@
     title: Visiting Student
     image: 
     link: 
+
+- class_name: Collaborators
+  people:
+  - name: Zinan Lin
+    title: Researcher@MSR
+    image: https://zinanlin.me/bio/bio.jpg
+    link: https://zinanlin.me/bio/
+  - name: Guyue Huang
+    title: Researcher@NVIDIA
+    image: https://hgyhungry.github.io/photo.jpeg
+    link: https://hgyhungry.github.io/
+  - name: Linfeng Zhang
+    title: Assistant Professor@SJTU
+    image: http://www.zhanglinfeng.tech/Linfeng%20Zhang's%20Homepage_files/%E8%AF%81%E4%BB%B6%E7%85%A7.jpg
+    link: http://www.zhanglinfeng.tech/
+  - name: Zifu Wang
+    title: Ph.D Candidate@KU Leuven
+    image: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=AFOk6rsAAAAJ&citpid=1
+    link: https://www.kuleuven.be/wieiswie/en/person/00137624
+  - name: Junyi Zhu
+    title: Ph.D Candidate@KU Leuven
+    image: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=3LeC4cMAAAAJ&citpid=1
+    link: https://www.kuleuven.be/wieiswie/en/person/00137607
