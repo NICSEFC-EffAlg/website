@@ -1,9 +1,11 @@
 - title: DiTFastAttn
-  text: Accelerate Diffusion Transformers Through Efficient Attention Computation. Accelerate up to 1.6x on image/video generation.
+  text: "Accelerate Diffusion Transformers Through Efficient Attention Computation. Accelerate up to 1.6x on image/video generation.Accelerate Diffusion Transformers Through Efficient Attention Computation. Accelerate up to 1.6x on image/video generation.Accelerate Diffusion Transformers <strong>Through </strong> Efficient Attention Computation.<br/> Accelerate up to 1.6x on image/video generation."
   image: /assets/project_images/DiTFastAttn_project.jpg
   link: http://nics-effalg.com/DiTFastAttn
-  topic: generative_ai
-  technique: others
+  level1_class: generative_ai
+  level2_class: others
+  special_class:
+  target_class:
 
 
 # - title: Skeleton-of-Thought
