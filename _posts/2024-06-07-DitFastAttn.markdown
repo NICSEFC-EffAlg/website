@@ -9,4 +9,5 @@ Diffusion Transformers (DiT) have emerged as a powerful tool for image and video
 
 ![DiTFastAttn Overview](/assets/posts_images/DiTFastAttn_overview.jpg)
 
-The code will be release soon.
+<!-- The code will be release soon. -->
+You can find the code for DiTFastAttn on GitHub at [DiTFastAttention](https://github.com/thu-nics/DiTFastAttn). Feel free to check out the repository for more details and to access the code.

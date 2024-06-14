@@ -54,7 +54,7 @@ defaults:
       related: false
       show_date: true
       teasers: true  # 启用teasers
-  - primary-color: "#3498db"
+  - primary-color: "#0c53a5"
 
 plugins:
   - jekyll-feed

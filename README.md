@@ -26,7 +26,9 @@
 
 修改`_data/highlights.yml`
 
-# Run
+# Run Local
+
+Install jekyll `https://jekyllrb.com/docs/installation/`.
 
 ```
 jekyll serve --watch
