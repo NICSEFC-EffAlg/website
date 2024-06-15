@@ -4,3 +4,5 @@ _site
 .jekyll-metadata
 vendor
 minimal-mistakes-jekyll*
+auto_pull.sh
+pull_logs.txt
