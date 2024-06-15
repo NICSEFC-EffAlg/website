@@ -8,8 +8,8 @@
 
 
 - time: 2024/02/27
-  text: 1 paper, [FlashEval](https://arxiv.org/abs/2403.16379), is accepted by CVPR'24. This work is on selecting a compact data subset to evaluate text-to-image Diffusion models. Congrats and thanks to the students and collaborators.
-  link: https://arxiv.org/abs/2403.16379
+  text: 1 paper, <a href="https://arxiv.org/abs/2403.16379" target="_blank">FlashEval</a>, is accepted by CVPR'24. This work is on selecting a compact data subset to evaluate text-to-image Diffusion models. Congrats and thanks to the students and collaborators.
+  # link: https://arxiv.org/abs/2403.16379
 
 - time: 2024/01/17
   text: 2 papers are acccepted by ICLR'24. One is Skeleton-of-Thoughts, which accelerates LLM generation by letting the LLM itself to plan and generate segments in parallel, achieving ~2x speed-ups; Another is USF, which summarizes the sampling strategies for diffusion and search for the best sampling strategy. Congrats and thanks to the collaborators and students.
