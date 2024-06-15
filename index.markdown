@@ -13,9 +13,9 @@ header-font-family: "Open Sans,sans-serif"
 <h1 class="custom_title"> Who We Are </h1>
 
 <p style="text-align:justify; text-justify:inter-ideograph;">
-The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Group (<a href="http://nicsefc.ee.tsinghua.edu.cn/" target="_blank">NICS-EFC</a>) in the Department of Electronic Engineering at Tsinghua University is led by Professor Yu Wang. The Efficient Algorithm Team (EffAlg) in the NICS-EFC group is led by Research Assistant Professor Xuefei Ning. 
+The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Group (<a href="http://nicsefc.ee.tsinghua.edu.cn/" target="_blank" style="color: #0000FF;">NICS-EFC</a>) in the Department of Electronic Engineering at Tsinghua University is led by Professor Yu Wang. The Efficient Algorithm Team (EffAlg) in the NICS-EFC group is led by Research Assistant Professor Xuefei Ning. 
 Our research primarily focuses on efficient deep learning, including model compression, architecture design, system co-optimization, and other techniques. Our work focuses on several application domains, including language generative models (i.e., LLMs), vision generative models, vision understanding models and so on.
-Our team has an in-depth collaboration with <a href="https://cloud.infini-ai.com/" target="_blank">Infinigence-AI in Beijing, China</a>.
+Our team has an in-depth collaboration with <a href="https://cloud.infini-ai.com/" target="_blank" style="color: #0000FF;">Infinigence-AI in Beijing, China</a>.
 </p>
 
 <h1 class="custom_title"> News </h1>
