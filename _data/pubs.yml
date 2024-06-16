@@ -24,6 +24,12 @@
   paper_link: ""
   code_link: ""
 
+- title: "LV-Eval: A Balanced Long-Context Benchmark with 5 Length Levels Up to 256K"
+  author: Tao Yuan, Xuefei Ning+, Dong Zhou, Zhijie Yang, Shiyao Li, Minghui Zhuang, Zheyue Tan, Zhuyu Yao, Dahua Lin, Boxun Li, Guohao Dai+, Shengen Yan, Yu Wang+
+  conference: ArXiv 2024
+  paper_link: "https://arxiv.org/abs/2402.05136"
+  code_link: "https://github.com/infinigence/LVEval"
+
 - title: "Evaluating Quantized Large Language Models"
   author: Shiyao Li, Xuefei Ning+, Luning Wang, Tengxuan Liu, Xiangsheng Shi, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: ICML 2024
