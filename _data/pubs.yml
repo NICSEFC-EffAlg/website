@@ -13,13 +13,13 @@
   code_link: ""
 
 - title: "MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization"
-  author: Tianchen Zhao*, Xuefei Ning*+, Tongcheng Fang*, Enshu Liu, Guyue Huang, Zinan Lin, Shengen Yan, Guohao Dai, and Yu Wang
+  author: Tianchen Zhao*, Xuefei Ning*+, Tongcheng Fang*, Enshu Liu, Guyue Huang, Zinan Lin, Shengen Yan, Guohao Dai, and Yu Wang+
   conference: ArXiv 2024
   paper_link: ""
   code_link: ""
 
 - title: "A Survey on Efficient Inference for Large Language Models"
-  author: Zixuan Zhou*, Xuefei Ning*+, Ke Hong*, Tianyu Fu, Jiaming Xu, Shiyao Li, Yuming Lou, Luning Wang, Zhihang Yuan, Xiuhong Li, Shengen Yan, Guohao Dai, Xiao-Ping Zhang, Yuhan Dong, Yu Wang+
+  author: Zixuan Zhou*, Xuefei Ning*+, Ke Hong*, Tianyu Fu, Jiaming Xu, Shiyao Li, Yuming Lou, Luning Wang, Zhihang Yuan, Xiuhong Li, Shengen Yan, Guohao Dai+, Xiao-Ping Zhang, Yuhan Dong, Yu Wang+
   conference: ArXiv 2024
   paper_link: ""
   code_link: ""
