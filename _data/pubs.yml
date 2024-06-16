@@ -1,96 +1,151 @@
 # 如果链接为空请一定要写一个“”占位！！
 
+- title: "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation"
+  author: Tianchen Zhao, Tongcheng Fang, Enshu Liu, Wan Rui, Widyadewi Soedarmadji, Shiyao Li, Zinan Lin, Guohao Dai, Shengen Yan, Huazhong Yang, Xuefei Ning, Yu Wang
+  conference: ArXiv 2024
+  paper_link: ""
+  code_link: ""
 
+- title: "Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better"
+  author: Enshu Liu*, Junyi Zhu*, Zinan Lin, Xuefei Ning, Matthew B. Blaschko, Sergey Yekhanin, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang
+  conference: ArXiv 2024
+  paper_link: ""
+  code_link: ""
 
-- title: A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models
+- title: "MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization"
+  author: Tianchen Zhao*, Xuefei Ning*, Tongcheng Fang*, Enshu Liu, Guyue Huang, Zinan Lin, Shengen Yan, Guohao Dai, and Yu Wang
+  conference: ArXiv 2024
+  paper_link: ""
+  code_link: ""
+
+- title: "A Survey on Efficient Inference for Large Language Models"
+  author: Zixuan Zhou*, Xuefei Ning*, Ke Hong*, Tianyu Fu, Jiaming Xu, Shiyao Li, Yuming Lou, Luning Wang, Zhihang Yuan, Xiuhong Li, Shengen Yan, Guohao Dai, Xiao-Ping Zhang, Yuhan Dong, Yu Wang+
+  conference: ArXiv 2024
+  paper_link: ""
+  code_link: ""
+
+- title: "Evaluating Quantized Large Language Models"
+  author: Shiyao Li, Xuefei Ning+, Luning Wang, Tengxuan Liu, Xiangsheng Shi, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
+  conference: ICML 2024
+  paper_link: ""
+  code_link: ""
+
+- title: "FlashEval: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models"
+  author: Lin Zhao*, Tianchen Zhao*, Zinan Lin, Xuefei Ning+, Guohao Dai, Huazhong Yang, Yu Wang+
+  conference: CVPR 2024
+  paper_link: ""
+  code_link: ""
+
+- title: "A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models"
   author: Enshu Liu, Xuefei Ning, Huazhong Yang, Yu Wang
   conference: ICLR 2024
   paper_link: https://arxiv.org/pdf/2312.07243
   code_link: ""
 
 - title: "Skeleton-of-Thought: Prompting Large Language Models for Efficient Parallel"
-  author: Xuefei Ning, Zinan Lin, Zixuan Zhou, Zifu Wang, Huazhong Yang, Yu Wang
+  author: Xuefei Ning*, Zinan Lin*, Zixuan Zhou*, Zifu Wang, Huazhong Yang, Yu Wang
   conference: ICLR 2024
   paper_link: https://arxiv.org/abs/2307.15337
   code_link: "https://github.com/imagination-research/sot"
 
-- title: OMS-DPM - Deciding The Optimal Model Schedule for Diffusion Probabilistic Model
-  author: Enshu Liu, Xuefei Ning, Zinan Lin, Huazhong Yang, Yu Wang
+- title: "TCP: Triplet Contrastive-relationship Preserving for Class-Incremental Learning"
+  author: Shiyao Li, Xuefei Ning+, Shanghang Zhang, Lidong Guo, Tianchen Zhao, Huazhong Yang, Yu Wang+
+  conference: WACV 2024
+  paper_link: ""
+  code_link: ""
+
+- title: "LLM-MQ: Mixed-precision Quantization for Efficient LLM Deployment"
+  author: Shiyao Li, Xuefei Ning, Ke Hong, Tengxuan Liu, Luning Wang, Xiuhong Li, Kai Zhong, Guohao Dai, Huazhong Yang, Yu Wang
+  conference: NeurIPS Workshop 2023
+  paper_link: ""
+  code_link: ""
+
+- title: "Ada3D: Exploiting the Spatial Redundancy with Adaptive Inference for Efficient 3D Object Detection"
+  author: Tianchen Zhao, Xuefei Ning, Ke Hong, Zhongyuan Qiu, Pu Lu, Linfeng Zhang, Yali Zhao, Lipu Zhou, Guohao Dai, Huazhong Yang, Yu Wang
   conference: ICML 2023
   paper_link: ""
   code_link: ""
 
-- title: Dynamic Ensemble of Low-fidelity Experts - Mitigating NAS "Cold-Start"
-  author: Junbo Zhao, Xuefei Ning, Enshu Liu, Binxin Ru, and Others
+- title: "OMS-DPM: Deciding The Optimal Model Schedule for Diffusion Probabilistic Model"
+  author: Enshu Liu*, Xuefei Ning*, Zinan Lin, Huazhong Yang, Yu Wang
+  conference: ICML 2023
+  paper_link: ""
+  code_link: ""
+
+- title: 'Dynamic Ensemble of Low-fidelity Experts - Mitigating NAS "Cold-Start"'
+  author: Junbo Zhao*, Xuefei Ning*, Enshu Liu, Binxin Ru, and Others
   conference: AAAI 2023 (Oral)
   paper_link: ""
   code_link: ""
 
-- title: Memory-Oriented Structural Pruning for Efficient Image Restoration
-  author: Xiangsheng Shi, Xuefei Ning, Lidong Guo, Tianchen Zhao, and Others
+- title: "Memory-Oriented Structural Pruning for Efficient Image Restoration"
+  author: Xiangsheng Shi*, Xuefei Ning*, Lidong Guo*, Tianchen Zhao, and Others
   conference: AAAI 2023
   paper_link: ""
   code_link: ""
 
+- title: "Ensemble-in-One: Ensemble Learning within Random Gated Networks for Enhanced Adversarial Robustness"
+  author: Yi Cai, Xuefei Ning, Huazhong Yang, Yu Wang
+  conference: AAAI 2023
+  paper_link: ""
+  code_link: ""
 
-- title: A Generic Graph-based Neural Architecture Encoding Scheme with Multifaceted Information
+- title: "A Generic Graph-based Neural Architecture Encoding Scheme with Multifaceted Information"
   author: Xuefei Ning, Yin Zheng, Zixuan Zhou, Tianchen Zhao, Huazhong Yang, Yu Wang
   conference: TPAMI 2023
   paper_link: ""
   code_link: ""
 
-- title: CLOSE - Curriculum Learning On the Sharing Extent Towards Better One-shot NAS
-  author: Zixuan Zhou, Xuefei Ning, Yi Cai, Jiashu Han, and Others
-  conference: ECCV 2022
-  paper_link: ""
-  code_link: ""
-
-- title: Gibbon - Efficient Co-Exploration of NN Model and Processing-In-Memory Architecture
+- title: "Gibbon: Efficient Co-Exploration of NN Model and Processing-In-Memory Architecture"
   author: Hanbo Sun, Zhenhua Zhu, Chenyu Wang, Xuefei Ning, and Others
   conference: DATE 2022 & TCAD 2023
   paper_link: ""
   code_link: ""
 
-- title: Exploring the Potential of Low-bit Training of Convolutional Neural Networks
+- title: "Exploring the Potential of Low-bit Training of Convolutional Neural Networks"
   author: Kai Zhong, Xuefei Ning, Guohao Dai, Zhenhua Zhu, and Others
   conference: TCAD 2022
   paper_link: ""
   code_link: ""
 
-- title: TA-GATES - An Encoding Scheme for Neural Network Architectures
-  author: Xuefei Ning, Zixuan Zhou, Junbo Zhao, Tianchen Zhao, and Others
-  conference: NeurIPS 2022 (Spotlight)
-  paper_link: ""
-  code_link: ""
-
-- title: Evaluating Efficient Performance Estimators of Neural Architectures
-  author: Xuefei Ning, Changcheng Tang, Wenshuo Li, Zixuan Zhou, and Others
-  conference: NeurIPS 2021
-  paper_link: ""
-  code_link: ""
-
-- title: FedCor - Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning
-  author: Minxue Tang, Xuefei Ning, Yitu Wang, Jingwei Sun, and Others
-  conference: CVPR 2022
-  paper_link: ""
-  code_link: ""
-
-- title: CodedVTR - Codebook-based Sparse Voxel Transformer with Geometric Guidance
+- title: "CodedVTR: Codebook-based Sparse Voxel Transformer with Geometric Guidance"
   author: Tianchen Zhao, Niansong Zhang, Xuefei Ning, He Wang, Li Yi, Yu Wang
   conference: CVPR 2022
   paper_link: ""
   code_link: ""
 
+- title: "FedCor: Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning"
+  author: Minxue Tang, Xuefei Ning, Yitu Wang, Jingwei Sun, and Others
+  conference: CVPR 2022
+  paper_link: ""
+  code_link: ""
 
+- title: "CLOSE: Curriculum Learning On the Sharing Extent Towards Better One-shot NAS"
+  author: Zixuan Zhou*, Xuefei Ning*, Yi Cai, Jiashu Han, and Others
+  conference: ECCV 2022
+  paper_link: ""
+  code_link: ""
 
-- title: A Generic Graph-based Neural Architecture Encoding Scheme for Predictor-based NAS
+- title: "TA-GATES: An Encoding Scheme for Neural Network Architectures"
+  author: Xuefei Ning*, Zixuan Zhou*, Junbo Zhao, Tianchen Zhao, and Others
+  conference: NeurIPS 2022 (Spotlight)
+  paper_link: ""
+  code_link: ""
+
+- title: "Evaluating Efficient Performance Estimators of Neural Architectures"
+  author: Xuefei Ning, Changcheng Tang, Wenshuo Li, Zixuan Zhou, and Others
+  conference: NeurIPS 2021
+  paper_link: ""
+  code_link: ""
+
+- title: "A Generic Graph-based Neural Architecture Encoding Scheme for Predictor-based NAS"
   author: Xuefei Ning, Yin Zheng, Tianchen Zhao, Yu Wang, Huazhong Yang
   conference: ECCV 2020
   paper_link: ""
   code_link: ""
 
-- title: DSA - More Efficient Budgeted Pruning via Differentiable Sparsity Allocation
-  author: Xuefei Ning, Tianchen Zhao, Wenshuo Li, Peng Lei, Yu Wang, Huazhong Yang
+- title: "DSA: More Efficient Budgeted Pruning via Differentiable Sparsity Allocation"
+  author: Xuefei Ning*, Tianchen Zhao*, Wenshuo Li, Peng Lei, Yu Wang, Huazhong Yang
   conference: ECCV 2020 (Spotlight)
   paper_link: ""
   code_link: ""
