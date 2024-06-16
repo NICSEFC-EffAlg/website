@@ -1,25 +1,25 @@
 # 如果链接为空请一定要写一个“”占位！！
 
 - title: "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation"
-  author: Tianchen Zhao, Tongcheng Fang, Enshu Liu, Wan Rui, Widyadewi Soedarmadji, Shiyao Li, Zinan Lin, Guohao Dai, Shengen Yan, Huazhong Yang, Xuefei Ning, Yu Wang
+  author: Tianchen Zhao, Tongcheng Fang, Enshu Liu, Wan Rui, Widyadewi Soedarmadji, Shiyao Li, Zinan Lin, Guohao Dai, Shengen Yan, Huazhong Yang, Xuefei Ning+, Yu Wang+
   conference: ArXiv 2024
   paper_link: ""
   code_link: ""
 
 - title: "Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better"
-  author: Enshu Liu*, Junyi Zhu*, Zinan Lin, Xuefei Ning, Matthew B. Blaschko, Sergey Yekhanin, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang
+  author: Enshu Liu*, Junyi Zhu*, Zinan Lin+, Xuefei Ning+, Matthew B. Blaschko, Sergey Yekhanin, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: ArXiv 2024
   paper_link: ""
   code_link: ""
 
 - title: "MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization"
-  author: Tianchen Zhao*, Xuefei Ning*, Tongcheng Fang*, Enshu Liu, Guyue Huang, Zinan Lin, Shengen Yan, Guohao Dai, and Yu Wang
+  author: Tianchen Zhao*, Xuefei Ning*+, Tongcheng Fang*, Enshu Liu, Guyue Huang, Zinan Lin, Shengen Yan, Guohao Dai, and Yu Wang
   conference: ArXiv 2024
   paper_link: ""
   code_link: ""
 
 - title: "A Survey on Efficient Inference for Large Language Models"
-  author: Zixuan Zhou*, Xuefei Ning*, Ke Hong*, Tianyu Fu, Jiaming Xu, Shiyao Li, Yuming Lou, Luning Wang, Zhihang Yuan, Xiuhong Li, Shengen Yan, Guohao Dai, Xiao-Ping Zhang, Yuhan Dong, Yu Wang+
+  author: Zixuan Zhou*, Xuefei Ning*+, Ke Hong*, Tianyu Fu, Jiaming Xu, Shiyao Li, Yuming Lou, Luning Wang, Zhihang Yuan, Xiuhong Li, Shengen Yan, Guohao Dai, Xiao-Ping Zhang, Yuhan Dong, Yu Wang+
   conference: ArXiv 2024
   paper_link: ""
   code_link: ""
@@ -31,19 +31,19 @@
   code_link: ""
 
 - title: "FlashEval: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models"
-  author: Lin Zhao*, Tianchen Zhao*, Zinan Lin, Xuefei Ning+, Guohao Dai, Huazhong Yang, Yu Wang+
+  author: Lin Zhao*, Tianchen Zhao*, Zinan Lin+, Xuefei Ning+, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: CVPR 2024
   paper_link: ""
   code_link: ""
 
 - title: "A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models"
-  author: Enshu Liu, Xuefei Ning, Huazhong Yang, Yu Wang
+  author: Enshu Liu, Xuefei Ning+, Huazhong Yang, Yu Wang+
   conference: ICLR 2024
   paper_link: https://arxiv.org/pdf/2312.07243
   code_link: ""
 
 - title: "Skeleton-of-Thought: Prompting Large Language Models for Efficient Parallel"
-  author: Xuefei Ning*, Zinan Lin*, Zixuan Zhou*, Zifu Wang, Huazhong Yang, Yu Wang
+  author: Xuefei Ning*+, Zinan Lin*, Zixuan Zhou*, Zifu Wang, Huazhong Yang, Yu Wang+
   conference: ICLR 2024
   paper_link: https://arxiv.org/abs/2307.15337
   code_link: "https://github.com/imagination-research/sot"
@@ -55,19 +55,19 @@
   code_link: ""
 
 - title: "LLM-MQ: Mixed-precision Quantization for Efficient LLM Deployment"
-  author: Shiyao Li, Xuefei Ning, Ke Hong, Tengxuan Liu, Luning Wang, Xiuhong Li, Kai Zhong, Guohao Dai, Huazhong Yang, Yu Wang
+  author: Shiyao Li, Xuefei Ning+, Ke Hong, Tengxuan Liu, Luning Wang, Xiuhong Li, Kai Zhong, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: NeurIPS Workshop 2023
   paper_link: ""
   code_link: ""
 
 - title: "Ada3D: Exploiting the Spatial Redundancy with Adaptive Inference for Efficient 3D Object Detection"
-  author: Tianchen Zhao, Xuefei Ning, Ke Hong, Zhongyuan Qiu, Pu Lu, Linfeng Zhang, Yali Zhao, Lipu Zhou, Guohao Dai, Huazhong Yang, Yu Wang
-  conference: ICML 2023
+  author: Tianchen Zhao, Xuefei Ning+, Ke Hong, Zhongyuan Qiu, Pu Lu, Linfeng Zhang, Yali Zhao, Lipu Zhou, Guohao Dai, Huazhong Yang, Yu Wang+
+  conference: ICCV 2023
   paper_link: ""
   code_link: ""
 
 - title: "OMS-DPM: Deciding The Optimal Model Schedule for Diffusion Probabilistic Model"
-  author: Enshu Liu*, Xuefei Ning*, Zinan Lin, Huazhong Yang, Yu Wang
+  author: Enshu Liu*, Xuefei Ning*+, Zinan Lin*, Huazhong Yang, Yu Wang+
   conference: ICML 2023
   paper_link: ""
   code_link: ""
