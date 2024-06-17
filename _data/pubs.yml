@@ -245,7 +245,7 @@
   domain: Vision Recognition
 
 - title: "Hardware Design and Software Practices for Efficient Neural Network Inference"
-  authors: "Yu Wang, Xuefei Ning, Shulin Zeng, Yi Cai, Kaiyuan Guo, Hanbo Sun, Changcheng Tang, Tianyi Lu, Shuang Liang, Tianchen Zhao"
+  authors: Yu Wang, Xuefei Ning, Shulin Zeng, Yi Cai, Kaiyuan Guo, Hanbo Sun, Changcheng Tang, Tianyi Lu, Shuang Liang, Tianchen Zhao
   conference: "Low-Power CV 2022"
   paper_link: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003162810-4/hardware-design-software-practices-efficient-neural-network-inference-yu-wang-xuefei-ning-shulin-zeng-yi-cai-kaiyuan-guo-hanbo-sun-changcheng-tang-tianyi-lu-shuang-liang-tianchen-zhao"
   technique: System-level
