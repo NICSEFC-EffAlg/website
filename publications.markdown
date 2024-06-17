@@ -17,11 +17,11 @@ header:
         <span style="color: #0c53a5">{{ pub.title }} </span> <br/> 
         Authors: {{ pub.author }}
 
-      {% if pub.paper_link != "" %} <a class="custom_buttom" target="_blank" href="{{ pub.paper_link }}">
+      {% if pub.paper_link %} <a class="custom_buttom" target="_blank" href="{{ pub.paper_link }}">
         Paper
       </a> {% endif %}
 
-      {% if pub.code_link != "" %} <a class="custom_buttom" target="_blank" href="{{ pub.code_link }}">
+      {% if pub.code_link %} <a class="custom_buttom" target="_blank" href="{{ pub.code_link }}">
         Code
       </a> {% endif %}
 

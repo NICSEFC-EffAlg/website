@@ -3,6 +3,8 @@
 layout: single
 # title: Blog Posts
 # entries_layout: grid
+post:
+  excerpt: false
 author_profile: true
 permalink: /blogs/
 header:

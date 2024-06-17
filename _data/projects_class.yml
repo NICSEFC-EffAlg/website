@@ -6,11 +6,11 @@
   - System-level
 
 - Target:
-  - Inference acceleration
-  - Training acceleration
-  - Optimization process acceleration
+  - Inference Acceleration
+  - Training Acceleration
+  - Optimization Process Acceleration
 
 - Domain:
   - Language
-  - Vision generation
-  - Vision recognition
+  - Vision Generation
+  - Vision Recognition

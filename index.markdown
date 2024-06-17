@@ -63,14 +63,20 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
         <div class="project_card">
           <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px">{{ pub.conference }}</div> 
           <div style="display:block; width: 85%;">
-              <span style="color: #0c53a5">{{ pub.title }} </span> <br/> 
+              <span style="color: #0c53a5">{{ pub.title }} </span> 
+              {% if pub.special_label %} 
+                <span class="project-special-label">
+                  {{ pub.special_label }}
+                </span> 
+              {% endif %} 
+              <br/> 
               {{ pub.technique }} | {{ pub.target }} | {{ pub.domain }}
 
-          {% if pub.paper_link != "" %} <a class="project-buttom" target="_blank" href="{{ pub.paper_link }}">
+          {% if pub.paper_link %} <a class="project-buttom" target="_blank" href="{{ pub.paper_link }}">
               Paper
           </a> {% endif %}
 
-          {% if pub.code_link != "" %} <a class="project-buttom" target="_blank" href="{{ pub.code_link }}">
+          {% if pub.code_link %} <a class="project-buttom" target="_blank" href="{{ pub.code_link }}">
               Code
           </a> {% endif %}
           </div>
