@@ -38,6 +38,13 @@ input[type="checkbox"]:checked {
   font-size: 16px; /* 字体大小 */
 }
 
+.masthead{
+  position: sticky;
+  top: 0; /* 当页面滚动到header顶部时，它将固定在顶部 */
+  background-color: #fff;
+  z-index: 1000;
+}
+
 .project-buttom {
   background-color: #e0f1f894; /* 淡蓝色背景 */
   margin: 5px;

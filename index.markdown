@@ -29,7 +29,7 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
 {% for new in site.data.news %}
   <li>
     <div style="display:flex;">
-      <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px">{{ new.time }}</div> 
+      <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px; font-family: 'Consolas', monospace;">{{ new.time }}</div> 
       <div style="display:block; width: 85%;">
         {{ new.text }}
       </div>

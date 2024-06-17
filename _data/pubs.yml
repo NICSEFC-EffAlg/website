@@ -163,7 +163,7 @@
   conference: DATE 2022 & TCAD 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/b6a3130a-52cc-4896-9cb5-d34b56adc968.pdf"
   code_link: ""
-  technique: Model-level (Structure Optimization)
+  technique: Model-level (Structure Optimization), System-level
   target: Optimization process acceleration
   domain: Vision recognition
 

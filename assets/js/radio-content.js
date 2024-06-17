@@ -7,13 +7,19 @@ function filterCards() {
 
   console.log('Debug information:', technique_selected, target_selected, domain_selected);
   projectCards.forEach(card => {
-    const technique = card.getAttribute('data-technique');
-    const target = card.getAttribute('data-target');
-    const domain = card.getAttribute('data-domain');
+    const techniques = card.getAttribute('data-technique');
+    const targets = card.getAttribute('data-target');
+    const domains = card.getAttribute('data-domain');
+    var technique = techniques.split(',').map(t => t.trim());
+    var target = targets.split(',').map(t => t.trim());
+    var domain = domains.split(',').map(d => d.trim());
+    var technique_condition = technique_selected.length === 0 || technique.some(t => technique_selected.includes(t));
+    var target_condition = target_selected.length === 0 || target.some(t => target_selected.includes(t));
+    var domain_condition = domain_selected.length === 0 || domain.some(d => domain_selected.includes(d));
 
-    var technique_condition = technique_selected.length === 0 || technique_selected.includes(technique);
-    var target_condition = target_selected.length === 0 || target_selected.includes(target);
-    var domain_condition = domain_selected.length === 0 || domain_selected.includes(domain);
+    // var technique_condition = technique_selected.length === 0 || technique_selected.includes(technique);
+    // var target_condition = target_selected.length === 0 || target_selected.includes(target);
+    // var domain_condition = domain_selected.length === 0 || domain_selected.includes(domain);
 
     if (technique_condition && target_condition && domain_condition) {
       card.style.display = 'flex';
