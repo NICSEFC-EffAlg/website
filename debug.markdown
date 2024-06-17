@@ -3,10 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: index
+permalink: /debug
 header:
   image: /assets/images/header_show.jpg
-#   image: /assets/images/eyes-285825_1920.png
-#   image: /assets/images/scifi-4916165_1920.jpg
 classes: wide
 header-font-family: "Open Sans,sans-serif"
 ---
@@ -37,6 +36,9 @@ Our group welcomes all kinds of collaborations, and is continuously recruiting v
   </li>
 {% endfor %}
 </ul>
+
+
+<!-- <div class="custom_project_back_card"> -->
 
 <h1 class="custom_title"> Projects </h1>
 <div id="option-container">
@@ -80,3 +82,33 @@ Our group welcomes all kinds of collaborations, and is continuously recruiting v
     {% endfor %}
     </ul>
 </div>
+
+
+<!-- <div id="option-container"> 
+{% for class in site.data.projects_class %}
+<div>
+    <h4> {{ class.class_name }} </h4> 
+    {% for item in class.items %}
+    <label class="option_checkbox">
+    <input type="checkbox" name="option" id="{{ item.id }}" class="project_class_checkbox"> 
+    <span class="project_class_checkbox"> &nbsp; {{ item.show_name }} </span>
+    </label>
+    {% endfor %}
+</div>
+{% endfor %}
+</div>
+
+<div id="content-container">
+{% for project in site.data.projects %}
+<div class="project_card" id="{{ project.topic }},{{ project.technique }}" style="display: none">
+    <img src="{{ project.image }}" alt="Project Image" class="project-image">
+    <span class="project-content">
+    <h3 class="project-title">{{ project.title }}</h3>
+    <p class="project-text">{{ project.text }}</p>
+    <a href="{{ project.link }}" class="project-link">Learn More</a>
+    </span>
+</div>
+{% endfor %}
+</div> -->
+
+<!-- </div> -->

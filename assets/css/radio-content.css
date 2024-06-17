@@ -16,12 +16,14 @@ input[type="checkbox"]:checked {
   margin: 5px 1%;
   /* margin: 5px 10px; */
   border-radius: 10px;
-  width: 22.5%;
+  width: 30%;
+  /* font-size: 15px; */
   min-width: 250px;
   background-color: #f2f2f2;
   transition: 0.2s all linear;
   white-space:nowrap; 
   display:inline-block;
+  overflow: hidden
   }
 .option_checkbox:hover {
   background-color: #e9eff6;

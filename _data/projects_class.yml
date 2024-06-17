@@ -1,39 +1,18 @@
-- class_name: Topics
-  items:
-  - show_name: LLMs
-    id: llms
-  - show_name: Generative AI
-    id: generative_ai
-  - show_name: TinyML
-    id: tiny_ml
-  - show_name: Training
-    id: training
+- Technique:
+  - Algorithm-level
+  - System-level
+  - Hardware-level
+  - Quantization
+  - Sparsification
+  - Structure design
+  - NAS
 
-- class_name: Techniques
-  items:
-  - show_name: Pruning & Sparsity
-    id: pruning_sparsity
-  - show_name: Data Augmentation
-    id: data_augmentation
-  - show_name: Quantization
-    id: quantization
-  - show_name: NAS
-    id: nas
-  - show_name: Distillation
-    id: distillation
-  - show_name: New Architecture
-    id: new_architecture
-  - show_name: Hardware & System
-    id: hardware_system
-  - show_name: Others
-    id: others
+- Target:
+  - Inference acceleration
+  - Training acceleration
+  - Compression process
 
-# Quantization
-
-# Neural Architecture Search (NAS)
-
-# Distillation
-
-# New Architecture
-
-# ML for Hardware & System
+- Domain:
+  - Language
+  - Vision generation
+  - Vision recongnition
