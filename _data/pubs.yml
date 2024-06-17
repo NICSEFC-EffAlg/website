@@ -109,7 +109,7 @@
   conference: ICCV 2023
   paper_link: "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Ada3D__Exploiting_the_Spatial_Redundancy_with_Adaptive_Inference_for_ICCV_2023_paper.pdf"
   code_link: ""
-  technique: Algorithm-level
+  technique: Model-level (Sparsification)
   target: Inference acceleration
   domain: Vision recognition
 
@@ -181,7 +181,7 @@
   conference: CVPR 2022
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F4e19ce30-1cb0-4447-91b2-ed2da43238e9.pdf"
   code_link: ""
-  technique: Model-level (Sparsification)
+  technique: Model-level (Structure Optimization)
   target: Inference acceleration
   domain: Vision recognition
 
