@@ -5,7 +5,7 @@ function filterCards() {
   const target_selected = Array.from(document.querySelectorAll('#Target input[type="checkbox"]:checked')).map(checkbox => checkbox.id);
   const domain_selected = Array.from(document.querySelectorAll('#Domain input[type="checkbox"]:checked')).map(checkbox => checkbox.id);
 
-  console.log('Debug information:', technique_selected, target_selected, domain_selected);
+  // console.log('Debug information:', technique_selected, target_selected, domain_selected);
   projectCards.forEach(card => {
     const techniques = card.getAttribute('data-technique');
     const targets = card.getAttribute('data-target');
