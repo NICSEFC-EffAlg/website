@@ -78,14 +78,14 @@
   paper_link: ""
   code_link: ""
 
-- title: 'Dynamic Ensemble of Low-fidelity Experts - Mitigating NAS "Cold-Start"'
-  author: Junbo Zhao*, Xuefei Ning*, Enshu Liu, Binxin Ru, and Others
+- title: 'Dynamic Ensemble of Low-fidelity Experts: Mitigating NAS "Cold-Start"'
+  author: Junbo Zhao*, Xuefei Ning*+, Enshu Liu, Binxin Ru, Zixuan Zhou, Tianchen Zhao, Chen Chen, Jiajin Zhang, Qingmin Liao, Yu Wang+
   conference: AAAI 2023 (Oral)
   paper_link: ""
   code_link: ""
 
 - title: "Memory-Oriented Structural Pruning for Efficient Image Restoration"
-  author: Xiangsheng Shi*, Xuefei Ning*, Lidong Guo*, Tianchen Zhao, and Others
+  author: Xiangsheng Shi*, Xuefei Ning*+, Lidong Guo*, Tianchen Zhao, Enshu Liu, Yi Cai, Yuhan Dong, Huazhong Yang, Yu Wang+
   conference: AAAI 2023
   paper_link: ""
   code_link: ""
@@ -103,13 +103,13 @@
   code_link: ""
 
 - title: "Gibbon: Efficient Co-Exploration of NN Model and Processing-In-Memory Architecture"
-  author: Hanbo Sun, Zhenhua Zhu, Chenyu Wang, Xuefei Ning, and Others
+  author: Hanbo Sun*, Chenyu Wang*, Zhenhua Zhu, Xuefei Ning+, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: DATE 2022 & TCAD 2023
   paper_link: ""
   code_link: ""
 
 - title: "Exploring the Potential of Low-bit Training of Convolutional Neural Networks"
-  author: Kai Zhong, Xuefei Ning, Guohao Dai, Zhenhua Zhu, and Others
+  author: Kai Zhong, Xuefei Ning, Guohao Dai, Zhenhua Zhu, Tianchen Zhao, Shulin Zeng, Yu Wang+, Huazhong Yang
   conference: TCAD 2022
   paper_link: ""
   code_link: ""
@@ -121,25 +121,25 @@
   code_link: ""
 
 - title: "FedCor: Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning"
-  author: Minxue Tang, Xuefei Ning, Yitu Wang, Jingwei Sun, and Others
+  author: Minxue Tang, Xuefei Ning, Yitu Wang, Jingwei Sun, Yu Wang, Hai Li, Yiran Chen+
   conference: CVPR 2022
   paper_link: ""
   code_link: ""
 
 - title: "CLOSE: Curriculum Learning On the Sharing Extent Towards Better One-shot NAS"
-  author: Zixuan Zhou*, Xuefei Ning*, Yi Cai, Jiashu Han, and Others
+  author: Zixuan Zhou*, Xuefei Ning*+, Yi Cai, Jiashu Han, Yiping Deng, Yuhan Dong, Huazhong Yang, Yu Wang+
   conference: ECCV 2022
   paper_link: ""
   code_link: ""
 
 - title: "TA-GATES: An Encoding Scheme for Neural Network Architectures"
-  author: Xuefei Ning*, Zixuan Zhou*, Junbo Zhao, Tianchen Zhao, and Others
+  author: Xuefei Ning*+, Zixuan Zhou*, Junbo Zhao, Tianchen Zhao, Yiping Deng, Changcheng Tang, Shuang Liang, Huazhong Yang, Yu Wang+
   conference: NeurIPS 2022 (Spotlight)
   paper_link: ""
   code_link: ""
 
 - title: "Evaluating Efficient Performance Estimators of Neural Architectures"
-  author: Xuefei Ning, Changcheng Tang, Wenshuo Li, Zixuan Zhou, and Others
+  author: Xuefei Ning+, Changcheng Tang, Wenshuo Li, Zixuan Zhou, Shuang Liang, Huazhong Yang+, Yu Wang+
   conference: NeurIPS 2021
   paper_link: ""
   code_link: ""
