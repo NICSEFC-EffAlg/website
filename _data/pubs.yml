@@ -1,13 +1,22 @@
-# Technique can be selected from: Algorithm-level, System-level, Hardware-level, Model-level (Quantization), Model-level (Sparsification), Model-level (Structure Optimization), NAS
+# Technique can be selected from: Algorithm-level, System-level, Hardware-level, Model-level (Quantization), Model-level (Sparsification), Model-level (Structure Optimization)
 # Target can be selected from: Inference acceleration, Training acceleration, Optimization process acceleration
 # Domain can be selected from: Language, Vision generation, Vision recognition
+
+- title: "DiM: Diffusion Mamba for Efficient High-Resolution Image Synthesis"
+  author: Yao Teng, Yue Wu, Han Shi, Xuefei Ning, Guohao Dai, Yu Wang, Zhenguo Li, Xihui Liu+
+  conference: ArXiv 2024
+  paper_link: "https://arxiv.org/abs/2405.14224"
+  code_link: "https://github.com/tyshiwo1/DiM-DiffusionMamba/"
+  technique: Model-level (Structure Optimization)
+  target: Inference acceleration
+  domain: Vision generation
 
 - title: "DiTFastAttn: Attention Compression for Diffusion Transformer Models"
   author: Zhihang Yuan*, Pu Lu*, Hanling Zhang*, Xuefei Ning+, Linfeng Zhang, Tianchen Zhao, Shengen Yan, Guohao Dai, Yu Wang+
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2406.08552"
   code_link: "https://github.com/thu-nics/DiTFastAttn"
-  technique: Algorithm-level, Model-level
+  technique: Algorithm-level, Model-level (Sparsification)
   target: Inference acceleration
   domain: Vision generation
 
@@ -219,6 +228,15 @@
   code_link: "https://github.com/walkerning/aw_nas"
   technique: Model-level (Structure Optimization)
   target: Optimization process acceleration
+  domain: Vision recognition
+
+- title: "Black Box Search Space Profiling for Accelerator-Aware Neural Architecture Search"
+  author: Shulin Zeng, Hanbo Sun, Yu Xing, Xuefei Ning, Yi Shan, Xiaoming Chen, Yu Wang, Huazhong Yang
+  conference: ASP-DAC 2020
+  paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2Fbfc28f78-9c63-46b2-82d5-5fad5d540087.pdf"
+  code_link: "https://github.com/walkerning/aw_nas/tree/master/examples/research/bbssp"
+  technique: Model-level (Structure Optimization)
+  target: Optimization process acceleration, Inference acceleration
   domain: Vision recognition
 
 - title: "A Generic Graph-based Neural Architecture Encoding Scheme for Predictor-based NAS"
