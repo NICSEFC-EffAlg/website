@@ -111,7 +111,7 @@
   target: Inference Acceleration
   domain: Vision Generation
 
-- title: "Skeleton-of-Thought: Prompting Large Language Models for Efficient Parallel"
+- title: "Skeleton-of-Thought: Prompting Large Language Models for Efficient Parallel Generation"
   author: Xuefei Ning*+, Zinan Lin*, Zixuan Zhou*, Zifu Wang, Huazhong Yang, Yu Wang+
   conference: ICLR 2024
   paper_link: https://arxiv.org/abs/2307.15337
