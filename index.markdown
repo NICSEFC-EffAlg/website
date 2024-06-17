@@ -57,7 +57,7 @@ Our group welcomes all kinds of collaborations, and is continuously recruiting v
 
 <div id="project-container">
     <ul>
-    {% for pub in site.data.projects %}
+    {% for pub in site.data.pubs %}
         <li data-technique="{{ pub.technique }}" data-target="{{ pub.target }}" data-domain="{{ pub.domain }}">
             <div style="display:flex; font-size:18px">
             <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px">{{ pub.conference }}</div> 

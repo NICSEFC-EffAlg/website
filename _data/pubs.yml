@@ -1,34 +1,52 @@
 # 如果链接为空请一定要写一个“”占位！！
+# Tequnique can be selected from: Algorithm-level, System-level, Hardware-level, Quantization, Sparsification, Structure design, NAS
+# Target can be selected from: Inference acceleration, Training acceleration, Compression process
+# Domain can be selected from: Language, Vision generation, Vision recongnition
 
 - title: "DiTFastAttn: Attention Compression for Diffusion Transformer Models"
   author: Zhihang Yuan*, Pu Lu*, Hanling Zhang*, Xuefei Ning+, Linfeng Zhang, Tianchen Zhao, Shengen Yan, Guohao Dai, Yu Wang+
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2406.08552"
   code_link: "https://github.com/thu-nics/DiTFastAttn"
+  technique: Algorithm-level
+  target: Inference acceleration
+  domain: Vision generation
 
 - title: "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation"
   author: Tianchen Zhao, Tongcheng Fang, Enshu Liu, Wan Rui, Widyadewi Soedarmadji, Shiyao Li, Zinan Lin, Guohao Dai, Shengen Yan, Huazhong Yang, Xuefei Ning+, Yu Wang+
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2406.02540"
   code_link: ""
+  technique: Quantization
+  target: Inference acceleration
+  domain: Vision generation
 
 - title: "Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better"
   author: Enshu Liu*, Junyi Zhu*, Zinan Lin+, Xuefei Ning+, Matthew B. Blaschko, Sergey Yekhanin, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2404.02241"
   code_link: "https://github.com/imagination-research/LCSC"
+  technique: 
+  target: Training acceleration
+  domain: Vision generation
 
 - title: "MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization"
   author: Tianchen Zhao*, Xuefei Ning*+, Tongcheng Fang*, Enshu Liu, Guyue Huang, Zinan Lin, Shengen Yan, Guohao Dai, and Yu Wang+
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2405.17873"
   code_link: ""
+  technique: Quantization
+  target: Inference acceleration
+  domain: Vision generation
 
 - title: "A Survey on Efficient Inference for Large Language Models"
   author: Zixuan Zhou*, Xuefei Ning*+, Ke Hong*, Tianyu Fu, Jiaming Xu, Shiyao Li, Yuming Lou, Luning Wang, Zhihang Yuan, Xiuhong Li, Shengen Yan, Guohao Dai+, Xiao-Ping Zhang, Yuhan Dong, Yu Wang+
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2404.14294"
   code_link: ""
+  technique: All-level
+  target: Inference acceleration
+  domain: Language
 
 - title: "LV-Eval: A Balanced Long-Context Benchmark with 5 Length Levels Up to 256K"
   author: Tao Yuan, Xuefei Ning+, Dong Zhou, Zhijie Yang, Shiyao Li, Minghui Zhuang, Zheyue Tan, Zhuyu Yao, Dahua Lin, Boxun Li, Guohao Dai+, Shengen Yan, Yu Wang+
@@ -41,24 +59,36 @@
   conference: ICML 2024
   paper_link: "https://arxiv.org/pdf/2402.18158"
   code_link: "https://github.com/thu-nics/qllm-eval"
+  technique: Quantization
+  target: Inference acceleration
+  domain: Language
 
 - title: "FlashEval: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models"
   author: Lin Zhao*, Tianchen Zhao*, Zinan Lin+, Xuefei Ning+, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: CVPR 2024
   paper_link: "https://arxiv.org/pdf/2403.16379"
   code_link: "https://github.com/thu-nics/FlashEval"
+  technique: Algorithm-level
+  target: Compression process acceleration
+  domain: Vision generation
 
 - title: "A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models"
   author: Enshu Liu, Xuefei Ning+, Huazhong Yang, Yu Wang+
   conference: ICLR 2024
   paper_link: https://arxiv.org/pdf/2312.07243
   code_link: ""
+  technique: Algorithm-level
+  target: Inference acceleration
+  domain: Vision generation
 
 - title: "Skeleton-of-Thought: Prompting Large Language Models for Efficient Parallel"
   author: Xuefei Ning*+, Zinan Lin*, Zixuan Zhou*, Zifu Wang, Huazhong Yang, Yu Wang+
   conference: ICLR 2024
   paper_link: https://arxiv.org/abs/2307.15337
   code_link: "https://github.com/imagination-research/sot"
+  technique: Algorithm-level
+  target: Inference acceleration
+  domain: Language
 
 - title: "TCP: Triplet Contrastive-relationship Preserving for Class-Incremental Learning"
   author: Shiyao Li, Xuefei Ning+, Shanghang Zhang, Lidong Guo, Tianchen Zhao, Huazhong Yang, Yu Wang+
@@ -71,94 +101,141 @@
   conference: NeurIPS Workshop 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/5c805adc-b555-499f-9882-5ca35ce674b5.pdf"
   code_link: ""
+  technique: Quantization
+  target: Inference acceleration
+  domain: Language
 
 - title: "Ada3D: Exploiting the Spatial Redundancy with Adaptive Inference for Efficient 3D Object Detection"
   author: Tianchen Zhao, Xuefei Ning+, Ke Hong, Zhongyuan Qiu, Pu Lu, Linfeng Zhang, Yali Zhao, Lipu Zhou, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: ICCV 2023
   paper_link: "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Ada3D__Exploiting_the_Spatial_Redundancy_with_Adaptive_Inference_for_ICCV_2023_paper.pdf"
   code_link: ""
+  technique: Algorithm-level
+  target: Inference acceleration
+  domain: Vision recognition
 
 - title: "OMS-DPM: Deciding The Optimal Model Schedule for Diffusion Probabilistic Model"
   author: Enshu Liu*, Xuefei Ning*+, Zinan Lin*, Huazhong Yang, Yu Wang+
   conference: ICML 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2Ff34b14d9-6e99-4fc6-ae98-3e4c7c966ef9.pdf"
   code_link: "https://github.com/jsttlgdkycy/OMS-DPM"
+  technique: Algorithm-level
+  target: Inference acceleration
+  domain: Vision generation
 
 - title: 'Dynamic Ensemble of Low-fidelity Experts: Mitigating NAS "Cold-Start"'
   author: Junbo Zhao*, Xuefei Ning*+, Enshu Liu, Binxin Ru, Zixuan Zhou, Tianchen Zhao, Chen Chen, Jiajin Zhang, Qingmin Liao, Yu Wang+
   conference: AAAI 2023 (Oral)
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/4208e529-772e-4977-be31-0b7cc4c7a9fc.pdf"
   code_link: "https://github.com/A-LinCui/DELE."
+  technique: NAS
+  target: Compression process acceleration
+  domain: Vision recognition
 
 - title: "Memory-Oriented Structural Pruning for Efficient Image Restoration"
   author: Xiangsheng Shi*, Xuefei Ning*+, Lidong Guo*, Tianchen Zhao, Enshu Liu, Yi Cai, Yuhan Dong, Huazhong Yang, Yu Wang+
   conference: AAAI 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F8ed3ecfa-b1ea-4230-88a3-14eca04c87ef.pdf"
   code_link: ""
+  technique: Sparsification
+  target: Inference acceleration
+  domain: Vision generation
 
 - title: "Ensemble-in-One: Ensemble Learning within Random Gated Networks for Enhanced Adversarial Robustness"
   author: Yi Cai, Xuefei Ning, Huazhong Yang, Yu Wang
   conference: AAAI 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F8ed3ecfa-b1ea-4230-88a3-14eca04c87ef.pdf"
   code_link: ""
+  technique: Algorithm-level
+  target: Inference acceleration
+  domain: Vision recognition
 
 - title: "A Generic Graph-based Neural Architecture Encoding Scheme with Multifaceted Information"
   author: Xuefei Ning, Yin Zheng, Zixuan Zhou, Tianchen Zhao, Huazhong Yang, Yu Wang
   conference: TPAMI 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/a10f869e-e43c-43bb-9be5-6c574a344bfc.pdf"
   code_link: "https://github.com/walkerning/aw_nas"
+  technique: NAS
+  target: Compression process acceleration
+  domain: Vision recognition
 
 - title: "Gibbon: Efficient Co-Exploration of NN Model and Processing-In-Memory Architecture"
   author: Hanbo Sun*, Chenyu Wang*, Zhenhua Zhu, Xuefei Ning+, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: DATE 2022 & TCAD 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/b6a3130a-52cc-4896-9cb5-d34b56adc968.pdf"
   code_link: ""
+  technique: NAS
+  target: Compression process acceleration
+  domain: Vision recognition
 
 - title: "Exploring the Potential of Low-bit Training of Convolutional Neural Networks"
   author: Kai Zhong, Xuefei Ning, Guohao Dai, Zhenhua Zhu, Tianchen Zhao, Shulin Zeng, Yu Wang+, Huazhong Yang
   conference: TCAD 2022
   paper_link: "https://arxiv.org/pdf/2006.02804"
   code_link: ""
+  technique: Quantization
+  target: Training acceleration
+  domain: Vision recognition
 
 - title: "CodedVTR: Codebook-based Sparse Voxel Transformer with Geometric Guidance"
   author: Tianchen Zhao, Niansong Zhang, Xuefei Ning, He Wang, Li Yi, Yu Wang
   conference: CVPR 2022
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F4e19ce30-1cb0-4447-91b2-ed2da43238e9.pdf"
   code_link: ""
+  technique: Sparsification
+  target: Inference acceleration
+  domain: Vision recognition
 
 - title: "FedCor: Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning"
   author: Minxue Tang, Xuefei Ning, Yitu Wang, Jingwei Sun, Yu Wang, Hai Li, Yiran Chen+
   conference: CVPR 2022
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/2a74b4a9-8673-47b2-8524-6b0e8cf19ee1.pdf"
   code_link: ""
+  technique: Algorithm-level
+  target: Training acceleration
+  domain: Vision recognition
 
 - title: "CLOSE: Curriculum Learning On the Sharing Extent Towards Better One-shot NAS"
   author: Zixuan Zhou*, Xuefei Ning*+, Yi Cai, Jiashu Han, Yiping Deng, Yuhan Dong, Huazhong Yang, Yu Wang+
   conference: ECCV 2022
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F4a169027-0719-45e8-bafd-78535c8abcf6.pdf"
   code_link: ""
+  technique: NAS
+  target: Compression process acceleration
+  domain: Vision recognition
 
 - title: "TA-GATES: An Encoding Scheme for Neural Network Architectures"
   author: Xuefei Ning*+, Zixuan Zhou*, Junbo Zhao, Tianchen Zhao, Yiping Deng, Changcheng Tang, Shuang Liang, Huazhong Yang, Yu Wang+
   conference: NeurIPS 2022 (Spotlight)
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2Fafc3d0ea-87b7-4277-9c37-54e294512390.pdf"
   code_link: ""
+  technique: NAS
+  target: Compression process acceleration
+  domain: Vision recognition
 
 - title: "Evaluating Efficient Performance Estimators of Neural Architectures"
   author: Xuefei Ning+, Changcheng Tang, Wenshuo Li, Zixuan Zhou, Shuang Liang, Huazhong Yang+, Yu Wang+
   conference: NeurIPS 2021
   paper_link: "https://proceedings.neurips.cc/paper/2021/file/65d90fc6d307590b14e9e1800d4e8eab-Paper.pdf"
   code_link: "https://github.com/walkerning/aw_nas"
+  technique: NAS
+  target: Compression process acceleration
+  domain: Vision recognition
 
 - title: "A Generic Graph-based Neural Architecture Encoding Scheme for Predictor-based NAS"
   author: Xuefei Ning, Yin Zheng, Tianchen Zhao, Yu Wang, Huazhong Yang
   conference: ECCV 2020
   paper_link: "https://arxiv.org/pdf/2004.01899"
   code_link: ""
+  technique: NAS
+  target: Compression process acceleration
+  domain: Vision recognition
 
 - title: "DSA: More Efficient Budgeted Pruning via Differentiable Sparsity Allocation"
   author: Xuefei Ning*, Tianchen Zhao*, Wenshuo Li, Peng Lei, Yu Wang, Huazhong Yang
   conference: ECCV 2020 (Spotlight)
   paper_link: "https://arxiv.org/pdf/2004.02164"
   code_link: ""
-
+  technique: Sparsification
+  target: Inference acceleration
+  domain: Vision recognition
