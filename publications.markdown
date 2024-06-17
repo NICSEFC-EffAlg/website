@@ -15,7 +15,7 @@ header:
       <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px">{{ pub.conference }}</div> 
       <div style="display:block; width: 85%;">
         <span style="color: #0c53a5">{{ pub.title }} </span> <br/> 
-        Authors: {{ pub.author }}
+        Authors: {{ pub.authors }}
 
       {% if pub.paper_link %} <a class="custom_buttom" target="_blank" href="{{ pub.paper_link }}">
         Paper
