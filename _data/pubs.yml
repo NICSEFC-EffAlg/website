@@ -4,14 +4,6 @@
 # Domain can be selected from: Language, Vision Generation, Vision Recognition
 # special_label can be anything. Currently, there are three types of special labels: Survey, Evaluation, Benchmark
 
-- title: "DiM: Diffusion Mamba for Efficient High-Resolution Image Synthesis"
-  author: Yao Teng, Yue Wu, Han Shi, Xuefei Ning, Guohao Dai, Yu Wang, Zhenguo Li, Xihui Liu+
-  conference: ArXiv 2024
-  paper_link: "https://arxiv.org/abs/2405.14224"
-  code_link: "https://github.com/tyshiwo1/DiM-DiffusionMamba/"
-  technique: Model-level (Structure Optimization)
-  target: Inference Acceleration
-  domain: Vision Generation
 
 - title: "DiTFastAttn: Attention Compression for Diffusion Transformer Models"
   author: Zhihang Yuan*, Pu Lu*, Hanling Zhang*, Xuefei Ning+, Linfeng Zhang, Tianchen Zhao, Shengen Yan, Guohao Dai, Yu Wang+
@@ -28,6 +20,15 @@
   paper_link: "https://arxiv.org/pdf/2406.02540"
   code_link: 
   technique: Model-level (Quantization)
+  target: Inference Acceleration
+  domain: Vision Generation
+
+- title: "DiM: Diffusion Mamba for Efficient High-Resolution Image Synthesis"
+  author: Yao Teng, Yue Wu, Han Shi, Xuefei Ning, Guohao Dai, Yu Wang, Zhenguo Li, Xihui Liu+
+  conference: ArXiv 2024
+  paper_link: "https://arxiv.org/abs/2405.14224"
+  code_link: "https://github.com/tyshiwo1/DiM-DiffusionMamba/"
+  technique: Model-level (Structure Optimization)
   target: Inference Acceleration
   domain: Vision Generation
 
@@ -67,16 +68,16 @@
   special_label: Benchmark, Evaluation
 
 - title: "FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs"
-  authors: "Shulin Zeng*, Jun Liu*, Guohao Dai+, Xinhao Yang, Tianyu Fu, Hongyi Wang, Wenheng Ma, Hanbo Sun, Shiyao Li, Zixiao Huang, Yadong Dai, Jintao Li, Zehao Wang, Ruoyu Zhang, Kairui Wen, Xuefei Ning, Yu Wang+"
+  authors: Shulin Zeng*, Jun Liu*, Guohao Dai+, Xinhao Yang, Tianyu Fu, Hongyi Wang, Wenheng Ma, Hanbo Sun, Shiyao Li, Zixiao Huang, Yadong Dai, Jintao Li, Zehao Wang, Ruoyu Zhang, Kairui Wen, Xuefei Ning, Yu Wang+
   conference: "FPGA 2024"
   paper_link: https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/3fa036e2-0d62-45c4-81e2-20d9b7189504.pdf
   code_link: 
-  technique: System-level
+  technique: System-level, Model-level (Quantization), Model-level (Sparsification)
   target: "Inference Acceleration"
   domain: "Language" 
 
 - title: "DyPIM: Dynamic-inference-enabled Processing-In-Memory Accelerator"
-  authors: "Tongxin Xie, Tianchen Zhao, Zhenhua Zhu, Xuefei Ning, Bing Li, Guohao Dai, Huazhong Yang, Yu Wang"
+  authors: Tongxin Xie, Tianchen Zhao, Zhenhua Zhu, Xuefei Ning, Bing Li, Guohao Dai, Huazhong Yang, Yu Wang
   conference: "DATE 2024"
   paper_link: "https://ieeexplore.ieee.org/abstract/document/10546612"
   technique: System-level
