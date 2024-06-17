@@ -2,7 +2,7 @@
 # Technique can be selected from: Algorithm-level, System-level, Hardware-level, Model-level (Quantization), Model-level (Sparsification), Model-level (Structure Optimization)
 # Target can be selected from: Inference Acceleration, Training Acceleration, Optimization Process Acceleration
 # Domain can be selected from: Language, Vision Generation, Vision Recognition
-# special_label can be anything
+# special_label can be anything. Currently, there are three types of special labels: Survey, Evaluation, Benchmark
 
 - title: "DiM: Diffusion Mamba for Efficient High-Resolution Image Synthesis"
   author: Yao Teng, Yue Wu, Han Shi, Xuefei Ning, Guohao Dai, Yu Wang, Zhenguo Li, Xihui Liu+
@@ -54,7 +54,7 @@
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2404.14294"
   code_link: 
-  technique: 
+  technique:
   target: Inference Acceleration
   domain: Language
   special_label: Survey
@@ -64,7 +64,7 @@
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/abs/2402.05136"
   code_link: "https://github.com/infinigence/LVEval"
-  special_label: Evaluation
+  special_label: Benchmark, Evaluation
 
 - title: "FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs"
   authors: "Shulin Zeng*, Jun Liu*, Guohao Dai+, Xinhao Yang, Tianyu Fu, Hongyi Wang, Wenheng Ma, Hanbo Sun, Shiyao Li, Zixiao Huang, Yadong Dai, Jintao Li, Zehao Wang, Ruoyu Zhang, Kairui Wen, Xuefei Ning, Yu Wang+"
@@ -255,11 +255,11 @@
   author: Xuefei Ning+, Changcheng Tang, Wenshuo Li, Zixuan Zhou, Shuang Liang, Huazhong Yang+, Yu Wang+
   conference: NeurIPS 2021
   paper_link: "https://proceedings.neurips.cc/paper/2021/file/65d90fc6d307590b14e9e1800d4e8eab-Paper.pdf"
-  code_link: "https://github.com/walkerning/aw_nas"
+  code_link: "https://github.com/walkerning/aw_nas/tree/master/examples/research/surgery"
   technique: Model-level (Structure Optimization)
   target: Optimization Process Acceleration
   domain: Vision Recognition
-  special_label: Benchmark
+  special_label: Evaluation
 
 - title: "Black Box Search Space Profiling for Accelerator-Aware Neural Architecture Search"
   author: Shulin Zeng, Hanbo Sun, Yu Xing, Xuefei Ning, Yi Shan, Xiaoming Chen, Yu Wang, Huazhong Yang
@@ -274,7 +274,7 @@
   author: Xuefei Ning, Yin Zheng, Tianchen Zhao, Yu Wang, Huazhong Yang
   conference: ECCV 2020
   paper_link: "https://arxiv.org/pdf/2004.01899"
-  code_link: 
+  code_link: "https://github.com/walkerning/aw_nas/tree/master/examples/research/gates"
   technique: Model-level (Structure Optimization)
   target: Optimization Process Acceleration
   domain: Vision Recognition
@@ -292,7 +292,7 @@
   authors: "Xuefei Ning, Changcheng Tang, Wenshuo Li, Songyi Yang, Tianchen Zhao, Niansong Zhang, Tianyi Lu, Shuang Liang, Huazhong Yang, Yu Wang"
   conference: ArXiv 2020
   paper_link: "https://arxiv.org/abs/2012.10388"
-  code_link: 
+  code_link: "https://github.com/walkerning/aw_nas/"
   technique: Model-level (Structure Optimization)
-  target: "Inference Acceleration"
-  domain: "Vision Recognition"
+  target: Inference Acceleration, Optimization Process Acceleration
+  domain: Vision Recognition, Language
