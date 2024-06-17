@@ -1,16 +1,14 @@
 - Technique:
   - Algorithm-level
+  - Model-level (Quantization)
+  - Model-level (Sparsification)
+  - Model-level (Structure Optimization)
   - System-level
-  - Hardware-level
-  - Quantization
-  - Sparsification
-  - Structure design
-  - NAS
 
 - Target:
   - Inference acceleration
   - Training acceleration
-  - Compression process
+  - Optimization process acceleration
 
 - Domain:
   - Language

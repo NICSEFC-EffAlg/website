@@ -1,7 +1,6 @@
-# 如果链接为空请一定要写一个“”占位！！
-# Tequnique can be selected from: Algorithm-level, System-level, Hardware-level, Quantization, Sparsification, Structure design, NAS
-# Target can be selected from: Inference acceleration, Training acceleration, Compression process
-# Domain can be selected from: Language, Vision generation, Vision recongnition
+# Technique can be selected from: Algorithm-level, System-level, Hardware-level, Model-level (Quantization), Model-level (Sparsification), Model-level (Structure Optimization), NAS
+# Target can be selected from: Inference acceleration, Training acceleration, Optimization process acceleration
+# Domain can be selected from: Language, Vision generation, Vision recognition
 
 - title: "DiTFastAttn: Attention Compression for Diffusion Transformer Models"
   author: Zhihang Yuan*, Pu Lu*, Hanling Zhang*, Xuefei Ning+, Linfeng Zhang, Tianchen Zhao, Shengen Yan, Guohao Dai, Yu Wang+
@@ -17,7 +16,7 @@
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2406.02540"
   code_link: ""
-  technique: Quantization
+  technique: Model-level (Quantization)
   target: Inference acceleration
   domain: Vision generation
 
@@ -35,7 +34,7 @@
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2405.17873"
   code_link: ""
-  technique: Quantization
+  technique: Model-level (Quantization)
   target: Inference acceleration
   domain: Vision generation
 
@@ -44,7 +43,7 @@
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2404.14294"
   code_link: ""
-  technique: All-level
+  technique: 
   target: Inference acceleration
   domain: Language
 
@@ -59,7 +58,7 @@
   conference: ICML 2024
   paper_link: "https://arxiv.org/pdf/2402.18158"
   code_link: "https://github.com/thu-nics/qllm-eval"
-  technique: Quantization
+  technique: Model-level (Quantization)
   target: Inference acceleration
   domain: Language
 
@@ -69,7 +68,7 @@
   paper_link: "https://arxiv.org/pdf/2403.16379"
   code_link: "https://github.com/thu-nics/FlashEval"
   technique: Algorithm-level
-  target: Compression process acceleration
+  target: Optimization process acceleration
   domain: Vision generation
 
 - title: "A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models"
@@ -101,7 +100,7 @@
   conference: NeurIPS Workshop 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/5c805adc-b555-499f-9882-5ca35ce674b5.pdf"
   code_link: ""
-  technique: Quantization
+  technique: Model-level (Quantization)
   target: Inference acceleration
   domain: Language
 
@@ -128,8 +127,8 @@
   conference: AAAI 2023 (Oral)
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/4208e529-772e-4977-be31-0b7cc4c7a9fc.pdf"
   code_link: "https://github.com/A-LinCui/DELE."
-  technique: NAS
-  target: Compression process acceleration
+  technique: Model-level (Structure Optimization)
+  target: Optimization process acceleration
   domain: Vision recognition
 
 - title: "Memory-Oriented Structural Pruning for Efficient Image Restoration"
@@ -137,7 +136,7 @@
   conference: AAAI 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F8ed3ecfa-b1ea-4230-88a3-14eca04c87ef.pdf"
   code_link: ""
-  technique: Sparsification
+  technique: Model-level (Structure Optimization)
   target: Inference acceleration
   domain: Vision generation
 
@@ -155,8 +154,8 @@
   conference: TPAMI 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/a10f869e-e43c-43bb-9be5-6c574a344bfc.pdf"
   code_link: "https://github.com/walkerning/aw_nas"
-  technique: NAS
-  target: Compression process acceleration
+  technique: Model-level (Structure Optimization)
+  target: Optimization process acceleration
   domain: Vision recognition
 
 - title: "Gibbon: Efficient Co-Exploration of NN Model and Processing-In-Memory Architecture"
@@ -164,8 +163,8 @@
   conference: DATE 2022 & TCAD 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/b6a3130a-52cc-4896-9cb5-d34b56adc968.pdf"
   code_link: ""
-  technique: NAS
-  target: Compression process acceleration
+  technique: Model-level (Structure Optimization)
+  target: Optimization process acceleration
   domain: Vision recognition
 
 - title: "Exploring the Potential of Low-bit Training of Convolutional Neural Networks"
@@ -173,7 +172,7 @@
   conference: TCAD 2022
   paper_link: "https://arxiv.org/pdf/2006.02804"
   code_link: ""
-  technique: Quantization
+  technique: Model-level (Quantization)
   target: Training acceleration
   domain: Vision recognition
 
@@ -182,7 +181,7 @@
   conference: CVPR 2022
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F4e19ce30-1cb0-4447-91b2-ed2da43238e9.pdf"
   code_link: ""
-  technique: Sparsification
+  technique: Model-level (Sparsification)
   target: Inference acceleration
   domain: Vision recognition
 
@@ -200,8 +199,8 @@
   conference: ECCV 2022
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F4a169027-0719-45e8-bafd-78535c8abcf6.pdf"
   code_link: ""
-  technique: NAS
-  target: Compression process acceleration
+  technique: Model-level (Structure Optimization)
+  target: Optimization process acceleration
   domain: Vision recognition
 
 - title: "TA-GATES: An Encoding Scheme for Neural Network Architectures"
@@ -209,8 +208,8 @@
   conference: NeurIPS 2022 (Spotlight)
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2Fafc3d0ea-87b7-4277-9c37-54e294512390.pdf"
   code_link: ""
-  technique: NAS
-  target: Compression process acceleration
+  technique: Model-level (Structure Optimization)
+  target: Optimization process acceleration
   domain: Vision recognition
 
 - title: "Evaluating Efficient Performance Estimators of Neural Architectures"
@@ -218,8 +217,8 @@
   conference: NeurIPS 2021
   paper_link: "https://proceedings.neurips.cc/paper/2021/file/65d90fc6d307590b14e9e1800d4e8eab-Paper.pdf"
   code_link: "https://github.com/walkerning/aw_nas"
-  technique: NAS
-  target: Compression process acceleration
+  technique: Model-level (Structure Optimization)
+  target: Optimization process acceleration
   domain: Vision recognition
 
 - title: "A Generic Graph-based Neural Architecture Encoding Scheme for Predictor-based NAS"
@@ -227,8 +226,8 @@
   conference: ECCV 2020
   paper_link: "https://arxiv.org/pdf/2004.01899"
   code_link: ""
-  technique: NAS
-  target: Compression process acceleration
+  technique: Model-level (Structure Optimization)
+  target: Optimization process acceleration
   domain: Vision recognition
 
 - title: "DSA: More Efficient Budgeted Pruning via Differentiable Sparsity Allocation"
@@ -236,6 +235,6 @@
   conference: ECCV 2020 (Spotlight)
   paper_link: "https://arxiv.org/pdf/2004.02164"
   code_link: ""
-  technique: Sparsification
+  technique: Model-level (Structure Optimization)
   target: Inference acceleration
   domain: Vision recognition

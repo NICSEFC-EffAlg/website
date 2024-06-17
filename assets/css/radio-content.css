@@ -1,5 +1,5 @@
 #option-container {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     margin-left: 10px;
     /* background-color: blue; */
     display:block;
@@ -12,11 +12,11 @@ input[type="checkbox"]:checked {
 
 .option_checkbox {
   cursor: pointer;
-  padding: 5px 1%;
-  margin: 5px 1%;
+  padding: 3px 1%;
+  margin: 3px 1%;
   /* margin: 5px 10px; */
   border-radius: 10px;
-  width: 30%;
+  width: 45%;
   /* font-size: 15px; */
   min-width: 250px;
   background-color: #f2f2f2;
@@ -28,14 +28,48 @@ input[type="checkbox"]:checked {
 .option_checkbox:hover {
   background-color: #e9eff6;
 }
-  
+
+.project-conference {
+  background-color: #e0f1f894; /* 淡蓝色背景 */
+  margin: 3px;
+  padding: 5px 5px; /* 内边距，使文本与背景之间有一定的空间 */
+  border-radius: 4px; /* 圆角边框 */
+  color: #333; /* 文本颜色，根据背景色调整以确保可读性 */
+  font-size: 16px; /* 字体大小 */
+}
+
+.project-buttom {
+  background-color: #e0f1f894; /* 淡蓝色背景 */
+  margin: 5px;
+  padding: 5px 5px; /* 内边距，使文本与背景之间有一定的空间 */
+  border-radius: 4px; /* 圆角边框 */
+  color: #333; /* 文本颜色，根据背景色调整以确保可读性 */
+  font-size: 16px; /* 字体大小 */
+  text-decoration: none;
+}
+.project-buttom:hover {
+  background-color: #b9e8fcbb;
+  /* color: white; */
+}
 
 .project_class_checkbox {
   display:inline;
 }
 
-
 .project_card {
+  display: flex;
+  border: 2px solid #3498db; /* 边框宽度为2px，实线，颜色为#3498db */
+  border-radius: 4px; /* 边框圆角半径为8px */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  padding: 10px; /* 内边距，确保内容不会被边框覆盖 */
+  margin: 10px 20px; /* 外边距，确保元素间有足够的空间 */
+  background-color: #fff; /* 背景颜色 */
+  color: #333; /* 文字颜色 */
+  line-height: 1.5; /* 行高 */
+  width: 100%;
+}
+
+/* .project_card {
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
@@ -44,7 +78,7 @@ input[type="checkbox"]:checked {
   padding: 20px;
   height: 200px;
   width: 98%;
-}
+} */
 
 .project-image {
   max-width: 30%;

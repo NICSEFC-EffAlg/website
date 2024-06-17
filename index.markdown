@@ -23,26 +23,28 @@ Our group welcomes all kinds of collaborations, and is continuously recruiting v
 
 <h1 class="custom_title"> News </h1>
 <!-- Accelerating LLM and Generative AI: -->
+
+
 <ul>
 {% for new in site.data.news %}
   <li>
-    {{ new.time }} |
-    {{ new.text }} 
-    {% if new.link %}
-    <a href="{{ new.link }}" class="custom_a">
-      Link
-    </a>
-    {% endif %}
+    <div style="display:flex;">
+      <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px">{{ new.time }}</div> 
+      <div style="display:block; width: 85%;">
+        {{ new.text }}
+      </div>
+    </div>
     
   </li>
 {% endfor %}
 </ul>
 
-<h1 class="custom_title"> Projects </h1>
+
+<h1 class="custom_title"> Efficient DL Projects </h1>
 <div id="option-container">
 {% for category in site.data.projects_class %}
   {% for item in category %}
-    <h4>{{ item[0] }}</h4>
+    <h4 style="margin-top: 10px;">{{ item[0] }}</h4>
     <div id="{{ item[0] }}">
     {% for subitem in item[1] %}
         <label class="option_checkbox">
@@ -56,27 +58,24 @@ Our group welcomes all kinds of collaborations, and is continuously recruiting v
 </div>
 
 <div id="project-container">
-    <ul>
-    {% for pub in site.data.pubs %}
-        <li data-technique="{{ pub.technique }}" data-target="{{ pub.target }}" data-domain="{{ pub.domain }}">
-            <div style="display:flex; font-size:18px">
-            <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px">{{ pub.conference }}</div> 
-            <div style="display:block; width: 85%;">
-                <span style="color: #0c53a5">{{ pub.title }} </span> <br/> 
-                {{ pub.technique }} | {{ pub.target }} | {{ pub.domain }}
+{% for pub in site.data.pubs %}
+    <li data-technique="{{ pub.technique }}" data-target="{{ pub.target }}" data-domain="{{ pub.domain }}">
+        <div class="project_card">
+          <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px">{{ pub.conference }}</div> 
+          <div style="display:block; width: 85%;">
+              <span style="color: #0c53a5">{{ pub.title }} </span> <br/> 
+              {{ pub.technique }} | {{ pub.target }} | {{ pub.domain }}
 
-            {% if pub.paper_link != "" %} <a class="custom_buttom" target="_blank" href="{{ pub.paper_link }}">
-                Paper
-            </a> {% endif %}
+          {% if pub.paper_link != "" %} <a class="project-buttom" target="_blank" href="{{ pub.paper_link }}">
+              Paper
+          </a> {% endif %}
 
-            {% if pub.code_link != "" %} <a class="custom_buttom" target="_blank" href="{{ pub.code_link }}">
-                Code
-            </a> {% endif %}
-
-            </div>
-            </div>
-            
-        </li>
-    {% endfor %}
-    </ul>
+          {% if pub.code_link != "" %} <a class="project-buttom" target="_blank" href="{{ pub.code_link }}">
+              Code
+          </a> {% endif %}
+          </div>
+        </div>
+        
+    </li>
+{% endfor %}
 </div>
