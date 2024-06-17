@@ -7,7 +7,7 @@
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2406.08552"
   code_link: "https://github.com/thu-nics/DiTFastAttn"
-  technique: Algorithm-level
+  technique: Algorithm-level, Model-level
   target: Inference acceleration
   domain: Vision generation
 
@@ -164,7 +164,7 @@
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/b6a3130a-52cc-4896-9cb5-d34b56adc968.pdf"
   code_link: ""
   technique: Model-level (Structure Optimization), System-level
-  target: Optimization process acceleration
+  target: Optimization process acceleration, Inference acceleration
   domain: Vision recognition
 
 - title: "Exploring the Potential of Low-bit Training of Convolutional Neural Networks"
