@@ -6,9 +6,9 @@
   - System-level
 
 - Target:
-  - Inference Acceleration
-  - Training Acceleration
-  - Optimization Process Acceleration
+  - Efficient Inference
+  - Efficient Training
+  - Efficient Optimization Process
 
 - Domain:
   - Language
