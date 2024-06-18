@@ -1,6 +1,6 @@
 # 如果没有link，需要留空
-# Technique can be selected from: Algorithm-level, System-level, Hardware-level, Model-level (Quantization), Model-level (Sparsification), Model-level (Structure Optimization)
-# Target can be selected from: Inference Acceleration, Training Acceleration, Optimization Process Acceleration
+# Technique can be selected from: Algorithm-level, System-level, Model-level (Quantization), Model-level (Sparsification), Model-level (Structure Optimization)
+# Target can be selected from: Efficient Inference, Efficient Training, Efficient Optimization Process
 # Domain can be selected from: Language, Vision Generation, Vision Recognition
 # special_label can be anything. Currently, there are three types of special labels: Survey, Evaluation, Benchmark
 
@@ -10,8 +10,8 @@
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2406.08552"
   code_link: "https://github.com/thu-nics/DiTFastAttn"
-  technique: Algorithm-level, Model-level (Sparsification)
-  target: Inference Acceleration
+  technique: Model-level (Sparsification), Model-level (Structure Optimization)
+  target: Efficient Inference
   domain: Vision Generation
 
 - title: "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation"
@@ -20,7 +20,7 @@
   paper_link: "https://arxiv.org/pdf/2406.02540"
   code_link: 
   technique: Model-level (Quantization)
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Vision Generation
 
 - title: "DiM: Diffusion Mamba for Efficient High-Resolution Image Synthesis"
@@ -29,7 +29,7 @@
   paper_link: "https://arxiv.org/abs/2405.14224"
   code_link: "https://github.com/tyshiwo1/DiM-DiffusionMamba/"
   technique: Model-level (Structure Optimization)
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Vision Generation
 
 - title: "Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better"
@@ -37,8 +37,8 @@
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2404.02241"
   code_link: "https://github.com/imagination-research/LCSC"
-  technique: 
-  target: Training Acceleration
+  technique: Algorithm-level
+  target: Efficient Training, Efficient Inference
   domain: Vision Generation
 
 - title: "MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization"
@@ -47,7 +47,7 @@
   paper_link: "https://arxiv.org/pdf/2405.17873"
   code_link: 
   technique: Model-level (Quantization)
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Vision Generation
 
 - title: "A Survey on Efficient Inference for Large Language Models"
@@ -56,7 +56,7 @@
   paper_link: "https://arxiv.org/pdf/2404.14294"
   code_link: 
   technique:
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Language
   special_label: Survey
 
@@ -73,7 +73,7 @@
   paper_link: https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/3fa036e2-0d62-45c4-81e2-20d9b7189504.pdf
   code_link: 
   technique: System-level, Model-level (Quantization), Model-level (Sparsification)
-  target: "Inference Acceleration"
+  target: "Efficient Inference"
   domain: "Language" 
 
 - title: "DyPIM: Dynamic-inference-enabled Processing-In-Memory Accelerator"
@@ -81,7 +81,7 @@
   conference: "DATE 2024"
   paper_link: "https://ieeexplore.ieee.org/abstract/document/10546612"
   technique: System-level
-  target: "Inference Acceleration"
+  target: "Efficient Inference"
   domain: "Vision Recognition"
 
 - title: "Evaluating Quantized Large Language Models"
@@ -90,7 +90,7 @@
   paper_link: "https://arxiv.org/pdf/2402.18158"
   code_link: "https://github.com/thu-nics/qllm-eval"
   technique: Model-level (Quantization)
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Language
   special_label: Evaluation
 
@@ -100,7 +100,7 @@
   paper_link: "https://arxiv.org/pdf/2403.16379"
   code_link: "https://github.com/thu-nics/FlashEval"
   technique: Algorithm-level
-  target: Optimization Process Acceleration
+  target: Efficient Optimization Process
   domain: Vision Generation
 
 - title: "A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models"
@@ -109,7 +109,7 @@
   paper_link: https://arxiv.org/pdf/2312.07243
   code_link: 
   technique: Algorithm-level
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Vision Generation
 
 - title: "Skeleton-of-Thought: Prompting Large Language Models for Efficient Parallel Generation"
@@ -118,7 +118,7 @@
   paper_link: https://arxiv.org/abs/2307.15337
   code_link: "https://github.com/imagination-research/sot"
   technique: Algorithm-level
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Language
 
 - title: "TCP: Triplet Contrastive-relationship Preserving for Class-Incremental Learning"
@@ -133,7 +133,7 @@
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/5c805adc-b555-499f-9882-5ca35ce674b5.pdf"
   code_link: 
   technique: Model-level (Quantization)
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Language
 
 - title: "Ada3D: Exploiting the Spatial Redundancy with Adaptive Inference for Efficient 3D Object Detection"
@@ -142,7 +142,7 @@
   paper_link: "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Ada3D__Exploiting_the_Spatial_Redundancy_with_Adaptive_Inference_for_ICCV_2023_paper.pdf"
   code_link: 
   technique: Model-level (Sparsification)
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Vision Recognition
 
 - title: "OMS-DPM: Deciding The Optimal Model Schedule for Diffusion Probabilistic Model"
@@ -151,7 +151,7 @@
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2Ff34b14d9-6e99-4fc6-ae98-3e4c7c966ef9.pdf"
   code_link: "https://github.com/jsttlgdkycy/OMS-DPM"
   technique: Algorithm-level
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Vision Generation
 
 - title: 'Dynamic Ensemble of Low-fidelity Experts: Mitigating NAS "Cold-Start"'
@@ -160,7 +160,7 @@
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/4208e529-772e-4977-be31-0b7cc4c7a9fc.pdf"
   code_link: "https://github.com/A-LinCui/DELE."
   technique: Model-level (Structure Optimization)
-  target: Optimization Process Acceleration
+  target: Efficient Optimization Process
   domain: Vision Recognition
 
 - title: "Memory-Oriented Structural Pruning for Efficient Image Restoration"
@@ -169,7 +169,7 @@
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F8ed3ecfa-b1ea-4230-88a3-14eca04c87ef.pdf"
   code_link: 
   technique: Model-level (Structure Optimization)
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Vision Generation
 
 - title: "Ensemble-in-One: Ensemble Learning within Random Gated Networks for Enhanced Adversarial Robustness"
@@ -177,8 +177,8 @@
   conference: AAAI 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F8ed3ecfa-b1ea-4230-88a3-14eca04c87ef.pdf"
   code_link: 
-  technique: Algorithm-level
-  target: Inference Acceleration
+  technique: 
+  target: 
   domain: Vision Recognition
 
 - title: "A Generic Graph-based Neural Architecture Encoding Scheme with Multifaceted Information"
@@ -187,7 +187,7 @@
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/a10f869e-e43c-43bb-9be5-6c574a344bfc.pdf"
   code_link: "https://github.com/walkerning/aw_nas"
   technique: Model-level (Structure Optimization)
-  target: Optimization Process Acceleration
+  target: Efficient Optimization Process
   domain: Vision Recognition
 
 - title: "Gibbon: Efficient Co-Exploration of NN Model and Processing-In-Memory Architecture"
@@ -196,7 +196,7 @@
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/b6a3130a-52cc-4896-9cb5-d34b56adc968.pdf"
   code_link: 
   technique: Model-level (Structure Optimization), System-level
-  target: Optimization Process Acceleration, Inference Acceleration
+  target: Efficient Optimization Process, Efficient Inference
   domain: Vision Recognition
 
 - title: "Exploring the Potential of Low-bit Training of Convolutional Neural Networks"
@@ -205,7 +205,7 @@
   paper_link: "https://arxiv.org/pdf/2006.02804"
   code_link: 
   technique: Model-level (Quantization)
-  target: Training Acceleration
+  target: Efficient Training
   domain: Vision Recognition
 
 - title: "CodedVTR: Codebook-based Sparse Voxel Transformer with Geometric Guidance"
@@ -214,7 +214,7 @@
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F4e19ce30-1cb0-4447-91b2-ed2da43238e9.pdf"
   code_link: 
   technique: Model-level (Structure Optimization)
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Vision Recognition
 
 - title: "FedCor: Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning"
@@ -223,7 +223,7 @@
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/2a74b4a9-8673-47b2-8524-6b0e8cf19ee1.pdf"
   code_link: 
   technique: Algorithm-level
-  target: Training Acceleration
+  target: Efficient Training
   domain: Vision Recognition
 
 - title: "CLOSE: Curriculum Learning On the Sharing Extent Towards Better One-shot NAS"
@@ -232,7 +232,7 @@
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F4a169027-0719-45e8-bafd-78535c8abcf6.pdf"
   code_link: 
   technique: Model-level (Structure Optimization)
-  target: Optimization Process Acceleration
+  target: Efficient Optimization Process
   domain: Vision Recognition
 
 - title: "TA-GATES: An Encoding Scheme for Neural Network Architectures"
@@ -241,15 +241,15 @@
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2Fafc3d0ea-87b7-4277-9c37-54e294512390.pdf"
   code_link: 
   technique: Model-level (Structure Optimization)
-  target: Optimization Process Acceleration
+  target: Efficient Optimization Process
   domain: Vision Recognition
 
 - title: "Hardware Design and Software Practices for Efficient Neural Network Inference"
   authors: Yu Wang, Xuefei Ning, Shulin Zeng, Yi Cai, Kaiyuan Guo, Hanbo Sun, Changcheng Tang, Tianyi Lu, Shuang Liang, Tianchen Zhao
   conference: "Low-Power CV 2022"
   paper_link: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003162810-4/hardware-design-software-practices-efficient-neural-network-inference-yu-wang-xuefei-ning-shulin-zeng-yi-cai-kaiyuan-guo-hanbo-sun-changcheng-tang-tianyi-lu-shuang-liang-tianchen-zhao"
-  technique: System-level
-  target: "Inference Acceleration"
+  technique: Model-level (Structure Optimization), Model-level (Quantization), System-level
+  target: "Efficient Inference"
   domain: "Vision Recognition"
 
 - title: "Evaluating Efficient Performance Estimators of Neural Architectures"
@@ -258,7 +258,7 @@
   paper_link: "https://proceedings.neurips.cc/paper/2021/file/65d90fc6d307590b14e9e1800d4e8eab-Paper.pdf"
   code_link: "https://github.com/walkerning/aw_nas/tree/master/examples/research/surgery"
   technique: Model-level (Structure Optimization)
-  target: Optimization Process Acceleration
+  target: Efficient Optimization Process
   domain: Vision Recognition
   special_label: Evaluation
 
@@ -268,7 +268,7 @@
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2Fbfc28f78-9c63-46b2-82d5-5fad5d540087.pdf"
   code_link: "https://github.com/walkerning/aw_nas/tree/master/examples/research/bbssp"
   technique: Model-level (Structure Optimization)
-  target: Optimization Process Acceleration, Inference Acceleration
+  target: Efficient Optimization Process, Efficient Inference
   domain: Vision Recognition
 
 - title: "A Generic Graph-based Neural Architecture Encoding Scheme for Predictor-based NAS"
@@ -277,7 +277,7 @@
   paper_link: "https://arxiv.org/pdf/2004.01899"
   code_link: "https://github.com/walkerning/aw_nas/tree/master/examples/research/gates"
   technique: Model-level (Structure Optimization)
-  target: Optimization Process Acceleration
+  target: Efficient Optimization Process
   domain: Vision Recognition
 
 - title: "DSA: More Efficient Budgeted Pruning via Differentiable Sparsity Allocation"
@@ -286,7 +286,7 @@
   paper_link: "https://arxiv.org/pdf/2004.02164"
   code_link: 
   technique: Model-level (Structure Optimization)
-  target: Inference Acceleration
+  target: Efficient Inference
   domain: Vision Recognition
 
 - title: "aw_nas: A Modularized and Extensible NAS framework"
@@ -295,5 +295,5 @@
   paper_link: "https://arxiv.org/abs/2012.10388"
   code_link: "https://github.com/walkerning/aw_nas/"
   technique: Model-level (Structure Optimization)
-  target: Inference Acceleration, Optimization Process Acceleration
+  target: Efficient Inference, Efficient Optimization Process
   domain: Vision Recognition, Language
