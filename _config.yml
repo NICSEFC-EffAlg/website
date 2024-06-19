@@ -23,7 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   We are pioneers in energy-efficient AI hardware and software solutions that unlock exponential performance gains.
 baseurl: "" # the subpath of your site, e.g. /blog
-logo: "https://nicsefc.ee.tsinghua.edu.cn/images/logo.png"
+logo: "/assets/images/logo.png"
 domain: NICS-EffAlg.com
 url: https://NICS-EffAlg.com
 
