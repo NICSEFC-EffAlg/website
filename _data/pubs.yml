@@ -4,6 +4,14 @@
 # Domain can be selected from: Language, Vision Generation, Vision Recognition
 # special_label can be anything. Currently, there are three types of special labels: Survey, Evaluation, Benchmark
 
+- title: "MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression"
+  authors: Tianyu Fu*, Haofeng Huang*, Xuefei Ning*+, Genghan Zhang, Boju Chen, Tianqi Wu, Hongyi Wang, Zixiao Huang, Shiyao Li, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
+  conference: ArXiv 2024
+  paper_link: "https://arxiv.org/abs/2406.14909"
+  code_link: "https://github.com/thu-nics/MoA"
+  technique: Model-level (Sparsification), Algorithm-level
+  target: Efficient Inference
+  domain: Language
 
 - title: "DiTFastAttn: Attention Compression for Diffusion Transformer Models"
   authors: Zhihang Yuan*, Pu Lu*, Hanling Zhang*, Xuefei Ning+, Linfeng Zhang, Tianchen Zhao, Shengen Yan, Guohao Dai, Yu Wang+
