@@ -1,0 +1,24 @@
+---
+# layout: post
+title:  "MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression"
+date:   2024-06-25
+permalink: /MoA
+---
+
+<iframe
+  src="https://thu-nics.github.io/MoA_project_page/"
+  style="
+    position: fixed;
+    right: 0px;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 999999;
+    height: 100%;
+  ">
+</iframe>
+
+
+
