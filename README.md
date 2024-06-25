@@ -19,10 +19,14 @@
 
 修改`_data/highlights.yml`
 
-# Run Local
+# 本地运行指南
 
-Install jekyll `https://jekyllrb.com/docs/installation/`.
+- 如果在国内，要挂代理哦，软件都要外网！
+- 安装 jekyll，安装教程 `https://jekyllrb.com/docs/installation/`.
+- 注释中`Gemfile`中的 `gem "github-pages", group: :jekyll_plugins`
+- 注释`_config.yml`中的`remote_theme: "mmistakes/minimal-mistakes@4.26.2"`
+- 取消注释`_config.yml`中的`theme: minimal-mistakes-jekyll`
+- 运行`bundle install`
+- 运行`jekyll serve --watch`
 
-```
-jekyll serve --watch
-```
+注意！修改完代码之后，不要把修改后的`Gemfile`和`_config.yml`上传，否则githubio不能正常编译。
