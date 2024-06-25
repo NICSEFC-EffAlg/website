@@ -1,0 +1,25 @@
+---
+# layout: post
+title:  "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation"
+date:   2024-06-25
+permalink: /ViDiT_Q
+---
+
+<iframe
+  src="https://a-suozhang.xyz/viditq.github.io/"
+  style="
+    position: fixed;
+    right: 0px;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 999999;
+    height: 100%;
+  ">
+</iframe>
+
+
+
+
