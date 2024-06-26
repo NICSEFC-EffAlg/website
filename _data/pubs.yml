@@ -4,6 +4,15 @@
 # Domain can be selected from: Language, Vision Generation, Vision Recognition
 # special_label can be anything. Currently, there are three types of special labels: Survey, Evaluation, Benchmark
 
+- title: Can LLMs Learn by Teaching? A Preliminary Study
+  authors: Xuefei Ning*+, Zifu Wang*, Shiyao Li*, Zinan Lin*+, Peiran Yao*, Tianyu Fu, Matthew B. Blaschko, Guohao Dai, Huazhong Yang, Yu Wang+
+  conference: ArXiv 2024
+  paper_link: "https://arxiv.org/abs/2406.14629"
+  code_link: "https://github.com/imagination-research/lbt"
+  technique:
+  target:
+  domain: Language
+
 - title: "MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression"
   authors: Tianyu Fu*, Haofeng Huang*, Xuefei Ning*+, Genghan Zhang, Boju Chen, Tianqi Wu, Hongyi Wang, Zixiao Huang, Shiyao Li, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: ArXiv 2024
