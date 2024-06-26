@@ -18,7 +18,7 @@
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/abs/2406.14909"
   code_link: "https://github.com/thu-nics/MoA"
-  technique: Model-level (Sparsification), Algorithm-level
+  technique: Model-level (Sparsification)
   target: Efficient Inference
   domain: Language
 
