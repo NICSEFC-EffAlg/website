@@ -4,6 +4,15 @@
 # Domain can be selected from: Language, Vision Generation, Vision Recognition
 # special_label can be anything. Currently, there are three types of special labels: Survey, Evaluation, Benchmark
 
+- title: 'Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs'
+  authors: Enshu Liu*, Junyi Zhu*, Zinan Lin+, Xuefei Ning+, Matthew B. Blaschko, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
+  conference: ArXiv 2024
+  paper_link: "https://arxiv.org/abs/2407.00945"
+  code_link: "https://github.com/imagination-research/EEP"
+  technique: Model-level (Pruning)
+  target: Efficient Inference
+  domain: Language
+
 - title: Can LLMs Learn by Teaching? A Preliminary Study
   authors: Xuefei Ning*+, Zifu Wang*, Shiyao Li*, Zinan Lin*+, Peiran Yao*, Tianyu Fu, Matthew B. Blaschko, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: ArXiv 2024
