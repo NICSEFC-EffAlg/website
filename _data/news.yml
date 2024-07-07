@@ -1,3 +1,6 @@
+- time: 2024/07/01
+  text: 'Our paper <a href="https://arxiv.org/abs/2407.00945" target="_blank" style="color: #0c53a5;">Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs</a> is public on arXiv. We surprsingly find that pruning can sometimes enhance MoE LLM on downstream tasks. We also propose to use weight merging as a gradient-free way to inherit the knowledge for pruned MoE models. Our code will soon be available at <a href="https://github.com/imagination-research/EEP" target="_blank" style="color: #0c53a5;">code</a>'
+
 - time: 2024/06/24
   text: 'Our paper <a href="https://arxiv.org/abs/2406.14629" target="_blank" style="color: #0c53a5;">Can LLMs Learn by Teaching? A Preliminary Study</a> is public on arXiv. We make the first attempt in adapting the "learning by teach" strategy in education into LLMs and see if the contemporary LLMs are ready to learn by teach to improve the outcome or ability for mathematical reasoning and code synthesis tasks. The results are mixed but indeed show some promise. We also provide a roadmap for future research. Welcome to check the <a href="https://github.com/imagination-research/lbt" target="_blank" style="color: #0c53a5;">code</a>'
 
