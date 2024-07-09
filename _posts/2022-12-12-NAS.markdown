@@ -1,0 +1,26 @@
+---
+# layout: post
+title:  "An Introduction to Quantization of Large Language Models"
+date:   2023-08-30
+permalink: /NAS
+---
+
+<span>
+    <a class="custom_buttom" href="../assets/ppt/2022-12-12-NAS.pdf">
+    Slides
+    </a>
+</span>
+
+<div style="flex: 1; flex-direction: column; padding: 20px;" class="project_card">
+    This talk includes three parts:
+    <ul>
+      <li>First, I introduce the basics of neural architecture search (NAS), including background, motivation, problem definition.</li>
+      <li>Then, I give an overview of NAS researches, organized by research questions, i.e., “what to search”, “how to search”, “what does the search tell us”. I summarize existing solutions to solve these questions.</li>
+      <li>Finally, I introduce my researches that utilize architecture encoding to answer “how to search” along two directions, i.e., accelerate exploration and improve evaluation.</li>
+    </ul>
+    The talk is in Chinese, and the English-version video will soon be available.
+</div>
+
+
+
+
