@@ -1,7 +1,7 @@
 ---
 # layout: post
-title:  "An Introduction to Quantization of Large Language Models"
-date:   2023-08-30
+title:  "Neural Architecture Search and Architecture Encoding"
+date:   2022-12-12
 permalink: /NAS
 ---
 
