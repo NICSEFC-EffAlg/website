@@ -4,6 +4,14 @@
 # Domain can be selected from: Language, Vision Generation, Vision Recognition, 3D Modeling
 # special_label can be anything. Currently, there are three types of special labels: Survey, Evaluation, Benchmark
 
+- title: 'Accelerating Auto-regressive Text-to-Image Generation with Training-free Speculative Jacobi Decoding'
+  authors: Yao Teng, Han Shi, Xian Liu, Xuefei Ning, Guohao Dai, Yu Wang, Zhenguo Li, Xihui Liu+
+  conference: ArXiv 2024
+  paper_link: "https://arxiv.org/abs/2410.01699"
+  technique: Algorithm-level
+  target: Efficient Inference
+  domain: Vision Generation
+
 - title: 'Rad-NeRF: Ray-decoupled Training of Neural Radiance Field'
   authors: Lidong Guo*, Xuefei Ning*+, Yonggan Fu, Tianchen Zhao, Zhuoliang Kang, Jincheng Yu, Yingyan Celine Lin, Yu Wang+
   conference: NeurIPS 2024
