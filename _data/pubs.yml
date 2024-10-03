@@ -7,20 +7,9 @@
 - title: 'Rad-NeRF: Ray-decoupled Training of Neural Radiance Field'
   authors: Lidong Guo*, Xuefei Ning*+, Yonggan Fu, Tianchen Zhao, Zhuoliang Kang, Jincheng Yu, Yingyan Celine Lin, Yu Wang+
   conference: NeurIPS 2024
-  paper_link: ""
-  code_link: ""
   technique:
   target: Efficient Inference
   domain: 3D Modeling
-
-- title: 'Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs'
-  authors: Enshu Liu*, Junyi Zhu*, Zinan Lin+, Xuefei Ning+, Matthew B. Blaschko, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
-  conference: ArXiv 2024
-  paper_link: "https://arxiv.org/abs/2407.00945"
-  code_link: "https://github.com/imagination-research/EEP"
-  technique: Model-level (Pruning)
-  target: Efficient Inference
-  domain: Language
 
 - title: 'Can LLMs Learn by Teaching? A Preliminary Study'
   authors: Xuefei Ning*+, Zifu Wang*, Shiyao Li*, Zinan Lin*+, Peiran Yao*, Tianyu Fu, Matthew B. Blaschko, Guohao Dai, Huazhong Yang, Yu Wang+
@@ -29,6 +18,15 @@
   code_link: "https://github.com/imagination-research/lbt"
   technique:
   target:
+  domain: Language
+
+- title: 'Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs'
+  authors: Enshu Liu*, Junyi Zhu*, Zinan Lin+, Xuefei Ning+, Matthew B. Blaschko, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
+  conference: ArXiv 2024
+  paper_link: "https://arxiv.org/abs/2407.00945"
+  code_link: "https://github.com/imagination-research/EEP"
+  technique: Model-level (Pruning)
+  target: Efficient Inference
   domain: Language
 
 - title: "MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression"
@@ -53,7 +51,7 @@
   authors: Tianchen Zhao, Tongcheng Fang, Enshu Liu, Wan Rui, Widyadewi Soedarmadji, Shiyao Li, Zinan Lin, Guohao Dai, Shengen Yan, Huazhong Yang, Xuefei Ning+, Yu Wang+
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2406.02540"
-  code_link: 
+  code_link: "https://github.com/thu-nics/ViDiT-Q"
   technique: Model-level (Quantization)
   target: Efficient Inference
   domain: Vision Generation
@@ -101,6 +99,14 @@
   paper_link: "https://arxiv.org/abs/2402.05136"
   code_link: "https://github.com/infinigence/LVEval"
   special_label: Benchmark, Evaluation
+
+- title: "Towards Floating Point-Based Attention-Free LLM: Hybrid PIM with Non-Uniform Data Format and Reduced Multiplications"
+  authors: Lidong Guo*, Zhenhua Zhu*+, Tengxuan Liu, Xuefei Ning, Shiyao Li, Guohao Dai, Huazhong Yang, Wangyang Fu and Yu Wang+
+  conference: ICCAD 2024
+  paper_link: https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/3b18c2b6-a7c4-439d-9fa8-d6276749f085.pdf
+  technique: System-level
+  target: Efficient Inference
+  domain: Language
 
 - title: "FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs"
   authors: Shulin Zeng*, Jun Liu*, Guohao Dai+, Xinhao Yang, Tianyu Fu, Hongyi Wang, Wenheng Ma, Hanbo Sun, Shiyao Li, Zixiao Huang, Yadong Dai, Jintao Li, Zehao Wang, Ruoyu Zhang, Kairui Wen, Xuefei Ning, Yu Wang+
