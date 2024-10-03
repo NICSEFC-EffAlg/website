@@ -1,8 +1,17 @@
 # 如果没有link，需要留空
 # Technique can be selected from: Algorithm-level, System-level, Model-level (Quantization), Model-level (Sparsification), Model-level (Structure Optimization)
 # Target can be selected from: Efficient Inference, Efficient Training, Efficient Optimization Process
-# Domain can be selected from: Language, Vision Generation, Vision Recognition
+# Domain can be selected from: Language, Vision Generation, Vision Recognition, 3D Modeling
 # special_label can be anything. Currently, there are three types of special labels: Survey, Evaluation, Benchmark
+
+- title: 'Rad-NeRF: Ray-decoupled Training of Neural Radiance Field'
+  authors: Lidong Guo*, Xuefei Ning*+, Yonggan Fu, Tianchen Zhao, Zhuoliang Kang, Jincheng Yu, Yingyan Celine Lin, Yu Wang+
+  conference: NeurIPS 2024
+  paper_link: ""
+  code_link: ""
+  technique:
+  target: Efficient Inference
+  domain: 3D Modeling
 
 - title: 'Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs'
   authors: Enshu Liu*, Junyi Zhu*, Zinan Lin+, Xuefei Ning+, Matthew B. Blaschko, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
@@ -13,9 +22,9 @@
   target: Efficient Inference
   domain: Language
 
-- title: Can LLMs Learn by Teaching? A Preliminary Study
+- title: 'Can LLMs Learn by Teaching? A Preliminary Study'
   authors: Xuefei Ning*+, Zifu Wang*, Shiyao Li*, Zinan Lin*+, Peiran Yao*, Tianyu Fu, Matthew B. Blaschko, Guohao Dai, Huazhong Yang, Yu Wang+
-  conference: ArXiv 2024
+  conference: NeurIPS 2024
   paper_link: "https://arxiv.org/abs/2406.14629"
   code_link: "https://github.com/imagination-research/lbt"
   technique:
@@ -33,7 +42,7 @@
 
 - title: "DiTFastAttn: Attention Compression for Diffusion Transformer Models"
   authors: Zhihang Yuan*, Pu Lu*, Hanling Zhang*, Xuefei Ning+, Linfeng Zhang, Tianchen Zhao, Shengen Yan, Guohao Dai, Yu Wang+
-  conference: ArXiv 2024
+  conference: NeurIPS 2024
   paper_link: "https://arxiv.org/pdf/2406.08552"
   code_link: "https://github.com/thu-nics/DiTFastAttn"
   technique: Model-level (Sparsification), Model-level (Structure Optimization)
