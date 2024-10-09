@@ -43,14 +43,14 @@
     title: Master Student
     image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/3c3793f8-0e76-4b52-9866-69ad63694891.jpg
     link: https://nicsefc.ee.tsinghua.edu.cn/people/JunmingJeffCHEN
+  - name: Tongcheng Fang
+    title: Master Student
+    image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/ee103d3a-49c4-44f5-abdd-add82a701232.jpg
+    link: https://nicsefc.ee.tsinghua.edu.cn/people/TongchengFang
   - name: Haofeng Huang
     title: Undergraduate Student
     image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/39b3636b-7d13-4ed8-af2a-3dc6512fe449.jpg
     link: https://nicsefc.ee.tsinghua.edu.cn/people/HaofengHuang
-  - name: Tongcheng Fang
-    title: Undergraduate Student
-    image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/ee103d3a-49c4-44f5-abdd-add82a701232.jpg
-    link: https://nicsefc.ee.tsinghua.edu.cn/people/TongchengFang
   - name: Tengxuan Liu
     title: Undergraduate Student
     image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/55b95782-3b3c-4045-8f14-1464725ee7d4.jpg
@@ -59,6 +59,14 @@
     title: Undergraduate Student
     image: /assets/people_images/shiyiran.jpg
     link: https://nicsefc.ee.tsinghua.edu.cn/people/YiranShi
+  - name: Qian Chen
+    title: Undergraduate Student
+    image: /assets/people_images/qianchen.jpg
+    link: 
+  - name: Hongyu Zhu
+    title: Undergraduate Student
+    image: /assets/people_images/hongyuzhu.jpg
+    link: 
   - name: Yuming Lou
     title: Undergraduate Student
     image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/1b4d2877-088a-49d5-9f2e-96b84adf6b3e.jpg
