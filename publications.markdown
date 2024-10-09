@@ -25,6 +25,18 @@ header:
         Code
       </a> {% endif %}
 
+      {% if pub.slide_link %} <a class="custom_buttom" target="_blank" href="{{ pub.slide_link }}">
+        Slide
+      </a> {% endif %}
+
+      {% if pub.website_link %} <a class="custom_buttom" target="_blank" href="{{ pub.website_link }}">
+        Website
+      </a> {% endif %}
+
+      {% if pub.video_link %} <a class="custom_buttom" target="_blank" href="{{ pub.video_link }}">
+        Video
+      </a> {% endif %}
+
       </div>
     </div>
     

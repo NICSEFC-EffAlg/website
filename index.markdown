@@ -79,6 +79,19 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
           {% if pub.code_link %} <a class="project-buttom" target="_blank" href="{{ pub.code_link }}">
               Code
           </a> {% endif %}
+
+          {% if pub.slide_link %} <a class="project-buttom" target="_blank" href="{{ pub.slide_link }}">
+              Slide
+          </a> {% endif %}
+
+          {% if pub.website_link %} <a class="project-buttom" target="_blank" href="{{ pub.website_link }}">
+              Website
+          </a> {% endif %}
+
+          {% if pub.video_link %} <a class="project-buttom" target="_blank" href="{{ pub.video_link }}">
+              Video
+          </a> {% endif %}
+          
           </div>
         </div>
         

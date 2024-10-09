@@ -3,6 +3,7 @@
 # Target can be selected from: Efficient Inference, Efficient Training, Efficient Optimization Process
 # Domain can be selected from: Language, Vision Generation, Vision Recognition, 3D Modeling, Other
 # special_label can be anything. Currently, there are three types of special labels: Survey, Evaluation, Benchmark
+# support links: paper_link, code_link, slide_link, website_link, video_link
 
 - title: 'Accelerating Auto-regressive Text-to-Image Generation with Training-free Speculative Jacobi Decoding'
   authors: Yao Teng, Han Shi, Xian Liu, Xuefei Ning, Guohao Dai, Yu Wang, Zhenguo Li, Xihui Liu+
