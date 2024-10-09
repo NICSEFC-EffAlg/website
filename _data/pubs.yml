@@ -310,6 +310,7 @@
 
 - title: "Machine learning for electronic design automation: A survey"
   authors: Guyue Huang, Jingbo Hu, Yifan He, Jialong Liu, Mingyuan Ma, Zhaoyang Shen, Juejian Wu, Yuanfan Xu, Hengrui Zhang, Kai Zhong, Xuefei Ning, Yuzhe Ma, Haoyu Yang, Bei Yu, Huazhong Yang, Yu Wang
+  conference: TODAES 2021
   paper_link: "https://arxiv.org/pdf/2102.03357"
   code_link: "https://github.com/thu-nics/awesome_ai4eda"
   domain: "Other"
