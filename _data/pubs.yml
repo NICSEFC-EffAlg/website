@@ -1,7 +1,7 @@
 # 如果没有link，需要留空
 # Technique can be selected from: Algorithm-level, System-level, Model-level (Quantization), Model-level (Sparsification), Model-level (Structure Optimization)
 # Target can be selected from: Efficient Inference, Efficient Training, Efficient Optimization Process
-# Domain can be selected from: Language, Vision Generation, Vision Recognition, 3D Modeling
+# Domain can be selected from: Language, Vision Generation, Vision Recognition, 3D Modeling, Other
 # special_label can be anything. Currently, there are three types of special labels: Survey, Evaluation, Benchmark
 
 - title: 'Accelerating Auto-regressive Text-to-Image Generation with Training-free Speculative Jacobi Decoding'
@@ -185,6 +185,13 @@
   target: Efficient Inference
   domain: Language
 
+- title: "Jaccard Metric Losses: Optimizing the Jaccard Index with Soft Labels"
+  authors: Zifu Wang, Xuefei Ning, Matthew B. Blaschko
+  conference: NeurIPS 2023
+  paper_link: "https://proceedings.neurips.cc/paper_files/paper/2023/file/ee208bfc04b1bf6125a6a34baa1c28d3-Paper-Conference.pdf"
+  code_link: "https://github.com/zifuwanggg/JDTLosses"
+  domain: Vision Recognition
+
 - title: "Ada3D: Exploiting the Spatial Redundancy with Adaptive Inference for Efficient 3D Object Detection"
   authors: Tianchen Zhao, Xuefei Ning+, Ke Hong, Zhongyuan Qiu, Pu Lu, Linfeng Zhang, Yali Zhao, Lipu Zhou, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: ICCV 2023
@@ -300,6 +307,12 @@
   technique: Model-level (Structure Optimization), Model-level (Quantization), System-level
   target: "Efficient Inference"
   domain: "Vision Recognition"
+
+- title: "Machine learning for electronic design automation: A survey"
+  authors: Guyue Huang, Jingbo Hu, Yifan He, Jialong Liu, Mingyuan Ma, Zhaoyang Shen, Juejian Wu, Yuanfan Xu, Hengrui Zhang, Kai Zhong, Xuefei Ning, Yuzhe Ma, Haoyu Yang, Bei Yu, Huazhong Yang, Yu Wang
+  paper_link: "https://arxiv.org/pdf/2102.03357"
+  code_link: "https://github.com/thu-nics/awesome_ai4eda"
+  domain: "Other"
 
 - title: "Evaluating Efficient Performance Estimators of Neural Architectures"
   authors: Xuefei Ning+, Changcheng Tang, Wenshuo Li, Zixuan Zhou, Shuang Liang, Huazhong Yang+, Yu Wang+
