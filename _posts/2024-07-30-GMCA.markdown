@@ -1,0 +1,12 @@
+---
+# layout: post
+title:  "Generative Model Compression and Acceleration"
+date:   2024-07-31
+permalink: /Compression
+---
+
+<span>
+    <a class="custom_buttom" href="../assets/ppt/2024-07-31-GMCA.pdf">
+    Slides
+    </a>
+</span>
