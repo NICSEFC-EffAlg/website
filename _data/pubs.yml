@@ -43,6 +43,7 @@
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/abs/2406.14909"
   code_link: "https://github.com/thu-nics/MoA"
+  website_link: "https://thu-nics.github.io/MoA_project_page/"
   technique: Model-level (Sparsification)
   target: Efficient Inference
   domain: Language
@@ -52,6 +53,7 @@
   conference: NeurIPS 2024
   paper_link: "https://arxiv.org/pdf/2406.08552"
   code_link: "https://github.com/thu-nics/DiTFastAttn"
+  website_link: "https://nics-effalg.com/DiTFastAttn"
   technique: Model-level (Sparsification), Model-level (Structure Optimization)
   target: Efficient Inference
   domain: Vision Generation
@@ -61,6 +63,7 @@
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2406.02540"
   code_link: "https://github.com/thu-nics/ViDiT-Q"
+  website_link: https://nics-effalg.com/ViDiT_Q
   technique: Model-level (Quantization)
   target: Efficient Inference
   domain: Vision Generation
@@ -88,6 +91,7 @@
   conference: ECCV 2024
   paper_link: "https://arxiv.org/pdf/2405.17873"
   code_link: "https://github.com/thu-nics/MixDQ"
+  website_link: "https://a-suozhang.xyz/mixdq.github.io/"
   technique: Model-level (Quantization)
   target: Efficient Inference
   domain: Vision Generation
