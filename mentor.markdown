@@ -52,7 +52,7 @@ header:
     <div style="display: flex; flex-direction: column; gap: 20px;">
         <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9;">
             <h2 style="margin: 0; font-size: 22px;">
-                <a href="https://nics-effalg.com/Compression" style="text-decoration: none; color: #0c53a5;">Generative Model Compression and Acceleration</a>
+                <a href="https://nics-effalg.com/GMCA" style="text-decoration: none; color: #0c53a5;">Generative Model Compression and Acceleration</a>
             </h2>
             <p style="margin: 5px 0; color: #555;">A talk on generative model compression and acceleration.</p>
         </div>

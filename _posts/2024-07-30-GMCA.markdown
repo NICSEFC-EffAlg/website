@@ -2,7 +2,7 @@
 # layout: post
 title:  "Generative Model Compression and Acceleration"
 date:   2024-07-31
-permalink: /Compression
+permalink: /GMCA
 ---
 
 <span>
