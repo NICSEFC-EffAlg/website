@@ -52,34 +52,27 @@ header:
     <div style="display: flex; flex-direction: column; gap: 20px;">
         <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9;">
             <h2 style="margin: 0; font-size: 22px;">
+                <a href="https://nics-effalg.com/Compression" style="text-decoration: none; color: #0c53a5;">Generative Model Compression and Acceleration</a>
+            </h2>
+            <p style="margin: 5px 0; color: #555;">A talk on generative model compression and acceleration.</p>
+        </div>
+        <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9;">
+            <h2 style="margin: 0; font-size: 22px;">
                 <a href="https://nics-effalg.com/QLLMIntro" style="text-decoration: none; color: #0c53a5;">An Introduction to Quantization of Large Language Models</a>
             </h2>
             <p style="margin: 5px 0; color: #555;">A talk about efficient LLM with a special focus on quantization.</p>
-            <span style="font-size: 0.9em; color: #888;">Last updated on Aug 30, 2023</span>
-            <div style="margin-top: 10px;">
-                <a href="https://nics-effalg.com/assets/ppt/2023-08-30-QLLMIntro.pdf" target="_blank" rel="noopener" class="project-buttom">Slides</a>
-                <a href="https://www.bilibili.com/video/BV1zm4y1u72W/" target="_blank" rel="noopener" class="project-buttom">Video</a>
-            </div>
         </div>
         <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9;">
             <h2 style="margin: 0; font-size: 22px;">
                 <a href="https://nics-effalg.com/Compression" style="text-decoration: none; color: #0c53a5;">Model Compression Towards Efficient Deep Learning Inference</a>
             </h2>
-            <p style="margin: 5px 0; color: #555;">A talk on model compression towards efficient DL inference</p>
-            <span style="font-size: 0.9em; color: #888;">Last updated on Aug 29, 2023</span>
-            <div style="margin-top: 10px;">
-                <a href="https://nics-effalg.com/assets/ppt/2023-08-29-Compression.pdf" target="_blank" rel="noopener" class="project-buttom">Slides</a>
-            </div>
+            <p style="margin: 5px 0; color: #555;">A talk on model compression towards efficient DL inference.</p>
         </div>
         <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9;">
             <h2 style="margin: 0; font-size: 22px;">
                 <a href="https://nics-effalg.com/NAS" style="text-decoration: none; color: #0c53a5;">Neural Architecture Search and Architecture Encoding</a>
             </h2>
             <p style="margin: 5px 0; color: #555;">A talk on NAS researches at Renmin University.</p>
-            <span style="font-size: 0.9em; color: #888;">Last updated on Dec 12, 2022</span>
-            <div style="margin-top: 10px;">
-                <a href="https://nics-effalg.com/assets/ppt/2022-12-12-NAS.pdf" target="_blank" rel="noopener" class="project-buttom">Slides</a>
-            </div>
         </div>
     </div>
 </div>

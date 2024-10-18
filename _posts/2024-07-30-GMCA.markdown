@@ -6,7 +6,7 @@ permalink: /Compression
 ---
 
 <span>
-    <a class="custom_buttom" href="../assets/ppt/2024-07-31-GMCA.pdf">
+    <a class="custom_buttom" href="../assets/ppt/2024-10-18-GMCA.pdf">
     Slides
     </a>
 </span>
