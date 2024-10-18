@@ -23,7 +23,6 @@ header:
             <li style="margin: 0 10px;"><a href="mailto:foxdoraame@gmail.com" aria-label="envelope"><i class="fas fa-envelope" style="font-size: 24px;"></i></a></li>
             <li style="margin: 0 10px;"><a href="https://scholar.google.com/citations?user=oVslpJsAAAAJ" target="_blank" rel="noopener" aria-label="graduation-cap"><i class="fas fa-graduation-cap" style="font-size: 24px;"></i></a></li>
             <li style="margin: 0 10px;"><a href="https://github.com/walkerning" target="_blank" rel="noopener" aria-label="github"><i class="fab fa-github" style="font-size: 24px;"></i></a></li>
-            <li style="margin: 0 10px;"><a href="http://nics-effalg.com/" target="_blank" rel="noopener" aria-label="ideas-repec"><i class="ai ai-ideas-repec" style="font-size: 24px;"></i></a></li>
         </ul>
     </div>
     <div style="flex: 0 0 70%; padding: 10px; padding-left: 50px;  font-size: 18px;">
