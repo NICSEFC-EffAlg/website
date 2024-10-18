@@ -1,6 +1,8 @@
 main:
   - title: "About"
     url: /
+  - title: "Mentor"
+    url: /mentor
   - title: "Publications"
     url: /publications
   - title: "Blogs"
