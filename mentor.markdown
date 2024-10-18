@@ -20,10 +20,10 @@ header:
             </a>
         </h3> -->
         <ul style="list-style: none; padding: 0; display: flex; justify-content: center;">
-            <li style="margin: 0 10px;"><a href="mailto:foxdoraame@gmail.com" aria-label="envelope" title="Email" onmouseover="this.style.color='#548dce'" onmouseout="this.style.color='black'"><i class="fas fa-envelope" style="font-size: 24px;"></i></a></li>
-            <li style="margin: 0 10px;"><a href="https://scholar.google.com/citations?user=oVslpJsAAAAJ" target="_blank" rel="noopener" aria-label="graduation-cap" title="Google Scholar" onmouseover="this.style.color='#548dce'" onmouseout="this.style.color='black'"><i class="fas fa-graduation-cap " style="font-size: 24px;"></i></a></li>
-            <li style="margin: 0 10px;"><a href="https://github.com/walkerning" target="_blank" rel="noopener" aria-label="github" title="GitHub" onmouseover="this.style.color='#548dce'" onmouseout="this.style.color='black'"><i class="fab fa-github" style="font-size: 24px;"></i></a></li>
-            <li style="margin: 0 10px;"><a href="https://nics-effalg.com/assets/cv/resume-xuefei-ning-20241017.pdf" target="_blank" rel="noopener" aria-label="cv" title="Personal CV" onmouseover="this.style.color='#548dce'" onmouseout="this.style.color='black'"><i class="fas fa-file-alt" style="font-size: 24px;"></i></a></li>
+            <li style="margin: 0 10px;"><a style="color: black; transition: color 0.1s;" href="mailto:foxdoraame@gmail.com" aria-label="envelope" title="Email" onmouseover="this.style.color='#548dce'" onmouseout="this.style.color='black'"><i class="fas fa-envelope" style="font-size: 24px;"></i></a></li>
+            <li style="margin: 0 10px;"><a style="color: black; transition: color 0.1s;" href="https://scholar.google.com/citations?user=oVslpJsAAAAJ" target="_blank" rel="noopener" aria-label="graduation-cap" title="Google Scholar" onmouseover="this.style.color='#548dce'" onmouseout="this.style.color='black'"><i class="fas fa-graduation-cap " style="font-size: 24px;"></i></a></li>
+            <li style="margin: 0 10px;"><a style="color: black; transition: color 0.1s;" href="https://github.com/walkerning" target="_blank" rel="noopener" aria-label="github" title="GitHub" onmouseover="this.style.color='#548dce'" onmouseout="this.style.color='black'"><i class="fab fa-github" style="font-size: 24px;"></i></a></li>
+            <li style="margin: 0 10px;"><a style="color: black; transition: color 0.1s;" href="https://nics-effalg.com/assets/cv/resume-xuefei-ning-20241017.pdf" target="_blank" rel="noopener" aria-label="cv" title="Personal CV" onmouseover="this.style.color='#548dce'" onmouseout="this.style.color='black'"><i class="fas fa-file-alt" style="font-size: 24px;"></i></a></li>
         </ul>
     </div>
     <div style="flex: 0 0 70%; padding: 10px; padding-left: 50px;  font-size: 18px;">
