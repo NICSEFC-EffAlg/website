@@ -39,7 +39,7 @@ header:
 
 <div style="margin: 20px 0;">
     <h1 style="text-align: center; margin-bottom: 20px;">Research Interests</h1>
-    <div style="flex: 0 0 100%; padding: 10px; padding-left: 50px;  font-size: 18px;">
+    <div style="display: flex; flex-direction: column; gap: 20px;">
         <div style="font-weight: bold; margin-bottom: 10px;">1. Efficient deep learning (particularly efficient AIGC)</div>
             <p> I’ve been working on efficient DL since 2019. Since 2023, most of my work are centered around efficient AIGC. This is because from a young age, I have been fascinated by a future where we can be enriched with experiences beyond the constraints we face whether physical, artificial, or otherwise. I think AIGC can play a vital role in shaping this future, thus I decided to shift my research focus toward AIGC applications, leveraging my expertise in efficient DL.</p>
         <div style="font-weight: bold; margin-bottom: 10px;">2. Towards better reasoning</div>
