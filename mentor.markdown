@@ -35,8 +35,8 @@ header:
             <div style="flex: 0 0 45%;">
                 <div style="font-weight: bold; margin-bottom: 10px;">Interests</div>
                 <ul style="list-style: none; padding: 0;">
-                    <li>Neural Architecture Search</li>
-                    <li>Efficient Deep Learning</li>
+                    <li>Efficient deep learning (particularly efficient AIGC)</li>
+                    <li>Towards better reasoning</li>
                 </ul>
             </div>
             <div style="flex: 0 0 45%;">
