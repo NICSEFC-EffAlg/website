@@ -32,19 +32,21 @@ header:
             <p>Our group is continuously recruiting visiting students and engineers who are interested in efficient deep learning. I’ve been instructing several undergraduate, master, and PhD students for their first projects, and I must say I have learned a lot and gained valuable experience on how to help different students learn, improve their abilities, and accomplish their goals. I’m sure we can do something interesting and potentially impactful together. Email me and Prof. Yu Wang if you’re interested!</p>
             <p> CV: <a href="https://nics-effalg.com/assets/cv/resume-xuefei-ning-20241017.pdf" target="_blank" rel="noopener" style="color: #0c53a5;">Download</a></p>
         </div>
-        <div style="font-weight: bold; margin-bottom: 10px;">Research Interests</div>
-        <ul style="list-style: none; padding: 0;">
-            <li> <strong>1. Efficient deep learning (particularly efficient AIGC)</strong></li>
-                <p> I’ve been working on efficient DL since 2019. Since 2023, most of my work are centered around efficient AIGC. This is because from a young age, I have been fascinated by a future where we can be enriched with experiences beyond the constraints we face whether physical, artificial, or otherwise. I think AIGC can play a vital role in shaping this future, thus I decided to shift my research focus toward AIGC applications, leveraging my expertise in efficient DL.</p>
-            <li> <strong>2. Towards better reasoning</strong></li>
-                <p> Recently, I have been thinking about the gaps between current techniques and the efficient, intelligent AI I imagine. While my thoughts on “what are the most key gaps and promising pathways to mitigate them” are evolving as our exploration carries on, I’m currently drawing insights from our own cognition and learning to help AI infer and learn in a more efficient and reliable way.</p>
-        </ul>
     </div>
 </div>
 <!-- End of Selection -->
 
 
-
+<div style="margin: 20px 0;">
+    <h1 style="text-align: center; margin-bottom: 20px;">Research Interests</h1>
+    <div style="flex: 0 0 100%; padding: 10px; padding-left: 50px;  font-size: 18px;">
+        <div style="font-weight: bold; margin-bottom: 10px;">1. Efficient deep learning (particularly efficient AIGC)</div>
+            <p> I’ve been working on efficient DL since 2019. Since 2023, most of my work are centered around efficient AIGC. This is because from a young age, I have been fascinated by a future where we can be enriched with experiences beyond the constraints we face whether physical, artificial, or otherwise. I think AIGC can play a vital role in shaping this future, thus I decided to shift my research focus toward AIGC applications, leveraging my expertise in efficient DL.</p>
+        <div style="font-weight: bold; margin-bottom: 10px;">2. Towards better reasoning</div>
+            <p> Recently, I have been thinking about the gaps between current techniques and the efficient, intelligent AI I imagine. While my thoughts on “what are the most key gaps and promising pathways to mitigate them” are evolving as our exploration carries on, I’m currently drawing insights from our own cognition and learning to help AI infer and learn in a more efficient and reliable way.</p>
+        </ul>
+    </div>
+</div>
 
 
 <div style="margin: 20px 0;">
