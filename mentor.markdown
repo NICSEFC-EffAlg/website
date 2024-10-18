@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /mentor/
+permalink: /ningxuefei/
 classes: wide
 header:
   image: /assets/images/header_show.jpg
