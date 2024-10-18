@@ -23,13 +23,14 @@ header:
             <li style="margin: 0 10px;"><a href="mailto:foxdoraame@gmail.com" aria-label="envelope"><i class="fas fa-envelope" style="font-size: 24px;"></i></a></li>
             <li style="margin: 0 10px;"><a href="https://scholar.google.com/citations?user=oVslpJsAAAAJ" target="_blank" rel="noopener" aria-label="graduation-cap"><i class="fas fa-graduation-cap" style="font-size: 24px;"></i></a></li>
             <li style="margin: 0 10px;"><a href="https://github.com/walkerning" target="_blank" rel="noopener" aria-label="github"><i class="fab fa-github" style="font-size: 24px;"></i></a></li>
+            <li style="margin: 0 10px;"><a href="https://nics-effalg.com/assets/cv/resume-xuefei-ning-20241017.pdf" target="_blank" rel="noopener" aria-label="cv"><i class="fas fa-file-alt" style="font-size: 24px;"></i></a></li>
         </ul>
     </div>
     <div style="flex: 0 0 70%; padding: 10px; padding-left: 50px;  font-size: 18px;">
         <div style="margin-bottom: 30px;">
             <p>Starting from 2024, I’m a research assistant professor in the NICS-EFC group at the Department of Electronic Engineering, Tsinghua University. I obtained my B.S. and Ph.D. degrees from the Department of Electronic Engineering, Tsinghua University, in 2016 and 2021, advised by <a href="https://scholar.google.com/citations?user=3m8I0XAAAAAJ" target="_blank" rel="noopener" style="color: #0c53a5;">Prof. Huazhong Yang</a> and <a href="https://scholar.google.com.hk/citations?user=j8JGVvoAAAAJ" target="_blank" rel="noopener" style="color: #0c53a5;">Prof. Yu Wang</a>. I spent two years (from December 2021 to December 2023) as a post-doctoral researcher with <a href="https://scholar.google.com.hk/citations?user=j8JGVvoAAAAJ" target="_blank" rel="noopener" style="color: #0c53a5;">Prof. Yu Wang</a> and <a href="https://scholar.google.com/citations?user=KFQERBwAAAAJ" target="_blank" rel="noopener" style="color: #0c53a5;">Prof. Pinyan Lu</a>.</p>
             <p>Currently, I’m leading the Efficient Deep Learning Algorithm (EffAlg) Team in the NICS-EFC group. Our team is continuously recruiting visiting students and engineers who are interested in efficient deep learning. I’ve been instructing several undergraduate, master, and PhD students for their first projects, and I must say I have learned a lot and gained valuable experience on how to help different students learn, improve their abilities, and accomplish their goals. I’m sure we can do something interesting together. Email me and Prof. Yu Wang if you’re interested!</p>
-            <p> CV: <a href="https://nics-effalg.com/assets/cv/resume-xuefei-ning-20241017.pdf" target="_blank" rel="noopener" style="color: #0c53a5;">Download</a></p>
+            <!-- <p> CV: <a href="https://nics-effalg.com/assets/cv/resume-xuefei-ning-20241017.pdf" target="_blank" rel="noopener" style="color: #0c53a5;">Download</a></p> -->
         </div>
     </div>
 </div>
