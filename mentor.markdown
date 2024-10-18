@@ -72,7 +72,7 @@ header:
             <p style="margin: 5px 0; color: #555;">A talk about efficient LLM with a special focus on quantization.</p>
             <span style="font-size: 0.9em; color: #888;">Last updated on Aug 30, 2023</span>
             <div style="margin-top: 10px;">
-                <a href="assets/ppt/2023-08-30-QLLMIntro.pdf" target="_blank" rel="noopener" class="project-buttom">Slides</a>
+                <a class="custom_buttom" href="assets/ppt/2023-08-30-QLLMIntro.pdf" target="_blank" rel="noopener">Slides</a>
                 <a href="https://www.bilibili.com/video/BV1zm4y1u72W/" target="_blank" rel="noopener" class="project-buttom">Video</a>
             </div>
         </div>
@@ -83,7 +83,7 @@ header:
             <p style="margin: 5px 0; color: #555;">A talk on model compression towards efficient DL inference</p>
             <span style="font-size: 0.9em; color: #888;">Last updated on Aug 29, 2023</span>
             <div style="margin-top: 10px;">
-                <a href="assets/ppt/2023-08-29-Compression.pdf" target="_blank" rel="noopener" class="project-buttom">Slides</a>
+                <a class="custom_buttom" href="assets/ppt/2023-08-29-Compression.pdf" target="_blank" rel="noopener">Slides</a>
             </div>
         </div>
         <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9;">
@@ -93,7 +93,7 @@ header:
             <p style="margin: 5px 0; color: #555;">A talk on NAS researches at Renmin University.</p>
             <span style="font-size: 0.9em; color: #888;">Last updated on Dec 12, 2022</span>
             <div style="margin-top: 10px;">
-                <a href="assets/ppt/2022-12-12-NAS.pdf" target="_blank" rel="noopener" class="project-buttom">Slides</a>
+                <a class="custom_buttom" href="assets/ppt/2022-12-12-NAS.pdf" target="_blank" rel="noopener">Slides</a>
             </div>
         </div>
     </div>
