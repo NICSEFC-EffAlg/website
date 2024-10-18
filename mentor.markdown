@@ -34,9 +34,9 @@ header:
         </div>
         <div style="font-weight: bold; margin-bottom: 10px;">Research Interests</div>
         <ul style="list-style: none; padding: 0;">
-            <li>*1. Efficient deep learning (particularly efficient AIGC)*</li>
+            <li> <strong>1. Efficient deep learning (particularly efficient AIGC)</strong></li>
                 <p> I’ve been working on efficient DL since 2019. Since 2023, most of my work are centered around efficient AIGC. This is because from a young age, I have been fascinated by a future where we can be enriched with experiences beyond the constraints we face whether physical, artificial, or otherwise. I think AIGC can play a vital role in shaping this future, thus I decided to shift my research focus toward AIGC applications, leveraging my expertise in efficient DL.</p>
-            <li>*2. Towards better reasoning*</li>
+            <li> <strong>2. Towards better reasoning</strong></li>
                 <p> Recently, I have been thinking about the gaps between current techniques and the efficient, intelligent AI I imagine. While my thoughts on “what are the most key gaps and promising pathways to mitigate them” are evolving as our exploration carries on, I’m currently drawing insights from our own cognition and learning to help AI infer and learn in a more efficient and reliable way.</p>
         </ul>
     </div>
