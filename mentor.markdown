@@ -8,7 +8,27 @@ header:
 
 <!-- <h1 class="custom_title"> Mentor </h1> -->
 
+<style>
+    /* Media query for small screens */
+    @media (max-width: 768px) {
+        div[style*="display: flex;"] {
+            flex-direction: column; /* Stack elements vertically */
+            align-items: center; /* Center align items */
+        }
+        div[style*="flex: 0 0 30%;"] {
+            flex: 0 0 100%; /* Full width for small screens */
+            text-align: center; /* Center text */
+        }
+        div[style*="flex: 0 0 70%;"] {
+            flex: 0 0 100%; /* Full width for small screens */
+            padding-left: 0; /* Remove left padding */
+        }
+    }
+</style>
+
 <!-- Start of Selection -->
+
+
 <div style="display: flex; flex-wrap: wrap; margin: 20px 0;">
     <div style="flex: 0 0 30%; padding: 10px; text-align: center;">
         <img style="border-radius: 50%; width: 270px; height: 270px;" src="https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/edceebf1-ad31-4683-9545-287442f019a8.jpg" alt="Xuefei Ning">
@@ -52,29 +72,14 @@ header:
 <div style="margin: 20px 0;">
     <h1 style="text-align: center; margin-bottom: 20px;">Selected Talks</h1>
     <div style="display: flex; flex-direction: column; gap: 20px;">
+
+        {% for talk in site.data.mentor_talks %}
         <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9;">
             <h2 style="margin: 0; font-size: 22px;">
-                <a href="https://nics-effalg.com/GMCA" style="text-decoration: none; color: #0c53a5;">Generative Model Compression and Acceleration</a>
+                <a href="{{ talk.link }}" style="text-decoration: none; color: #0c53a5;">{{ talk.title }}</a>
             </h2>
-            <p style="margin: 5px 0; color: #555;">A talk on generative model compression and acceleration.</p>
+            <p style="margin: 5px 0; color: #555;">{{ talk.description }}</p>
         </div>
-        <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9;">
-            <h2 style="margin: 0; font-size: 22px;">
-                <a href="https://nics-effalg.com/QLLMIntro" style="text-decoration: none; color: #0c53a5;">An Introduction to Quantization of Large Language Models</a>
-            </h2>
-            <p style="margin: 5px 0; color: #555;">A talk about efficient LLM with a special focus on quantization.</p>
-        </div>
-        <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9;">
-            <h2 style="margin: 0; font-size: 22px;">
-                <a href="https://nics-effalg.com/Compression" style="text-decoration: none; color: #0c53a5;">Model Compression Towards Efficient Deep Learning Inference</a>
-            </h2>
-            <p style="margin: 5px 0; color: #555;">A talk on model compression towards efficient DL inference.</p>
-        </div>
-        <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9;">
-            <h2 style="margin: 0; font-size: 22px;">
-                <a href="https://nics-effalg.com/NAS" style="text-decoration: none; color: #0c53a5;">Neural Architecture Search and Architecture Encoding</a>
-            </h2>
-            <p style="margin: 5px 0; color: #555;">A talk on NAS researches at Renmin University.</p>
-        </div>
+        {% endfor %}
     </div>
 </div>
