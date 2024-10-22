@@ -77,7 +77,7 @@ header:
         {% for talk in site.data.mentor_talks %}
         <li style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9; margin-bottom: 10px;">
             <h2 style="margin: 0; font-size: 20px;">{{ talk.title }}
-                <span style="text-align: right; float: right;">
+                <span style="text-align: right;;">
                     {% if talk.slide_link %}
                     <a class="project-buttom" target="_blank" href="{{ talk.slide_link }}">Slide</a>
                     {% endif %}

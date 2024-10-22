@@ -1,15 +1,20 @@
+# TODO: modify links
+
 - title: "Generative Model Compression and Acceleration"
   description: "A talk on generative model compression and acceleration."
-  website_link: "https://nics-effalg.com/GMCA"
+  # video_link: "https://nics-effalg.com/GMCA"
+  slide_link: "../assets/ppt/2024-10-18-GMCA.pdf"
 
 - title: "An Introduction to Quantization of Large Language Models"
   description: "A talk about efficient LLM with a special focus on quantization."
-  website_link: "https://nics-effalg.com/QLLMIntro"
+  # video_link: "https://nics-effalg.com/QLLMIntro"
+  slide_link: "../assets/ppt/2023-08-30-QLLMIntro.pdf"
+  video_link: "https://www.bilibili.com/video/BV1zm4y1u72W/"
 
 - title: "Model Compression Towards Efficient Deep Learning Inference"
   description: "A talk on model compression towards efficient DL inference."
-  website_link: "https://nics-effalg.com/Compression"
+  slide_link: "../assets/ppt/2023-08-29-Compression.pdf"
 
 - title: "Neural Architecture Search and Architecture Encoding"
-  description: "A talk on NAS researches at Renmin University."
-  website_link: "https://nics-effalg.com/NAS"
+  description: "A talk on NAS researches."
+  slide_link: "../assets/ppt/2022-12-12-NAS.pdf"
