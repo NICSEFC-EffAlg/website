@@ -73,13 +73,26 @@ header:
     <h1 style="text-align: center; margin-bottom: 20px;">Selected Talks</h1>
     <div style="display: flex; flex-direction: column; gap: 20px;">
 
+        <ul style="list-style: none; padding: 0;">
         {% for talk in site.data.mentor_talks %}
-        <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9;">
-            <h2 style="margin: 0; font-size: 22px;">
-                <a href="{{ talk.link }}" style="text-decoration: none; color: #0c53a5;">{{ talk.title }}</a>
+        <li style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; background-color: #f9f9f9; margin-bottom: 10px;">
+            <h2 style="margin: 0; font-size: 20px;">{{ talk.title }}
+                <span style="text-align: right; float: right;">
+                    {% if talk.slide_link %}
+                    <a class="project-buttom" target="_blank" href="{{ talk.slide_link }}">Slide</a>
+                    {% endif %}
+                    {% if talk.video_link %}
+                    <a class="project-buttom" target="_blank" href="{{ talk.video_link }}">Video</a>
+                    {% endif %}
+                    {% if talk.website_link %}
+                    <a class="project-buttom" target="_blank" href="{{ talk.website_link }}">Website</a>
+                    {% endif %}
+                </span>
             </h2>
             <p style="margin: 5px 0; color: #555;">{{ talk.description }}</p>
-        </div>
+            
+        </li>
         {% endfor %}
+        </ul>
     </div>
 </div>

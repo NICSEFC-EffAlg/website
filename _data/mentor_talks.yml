@@ -1,15 +1,15 @@
 - title: "Generative Model Compression and Acceleration"
   description: "A talk on generative model compression and acceleration."
-  link: "https://nics-effalg.com/GMCA"
+  website_link: "https://nics-effalg.com/GMCA"
 
 - title: "An Introduction to Quantization of Large Language Models"
   description: "A talk about efficient LLM with a special focus on quantization."
-  link: "https://nics-effalg.com/QLLMIntro"
+  website_link: "https://nics-effalg.com/QLLMIntro"
 
 - title: "Model Compression Towards Efficient Deep Learning Inference"
   description: "A talk on model compression towards efficient DL inference."
-  link: "https://nics-effalg.com/Compression"
+  website_link: "https://nics-effalg.com/Compression"
 
 - title: "Neural Architecture Search and Architecture Encoding"
   description: "A talk on NAS researches at Renmin University."
-  link: "https://nics-effalg.com/NAS"
+  website_link: "https://nics-effalg.com/NAS"
