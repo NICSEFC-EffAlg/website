@@ -31,7 +31,7 @@ header:
 
 <div style="display: flex; flex-wrap: wrap; margin: 20px 0;">
     <div style="flex: 0 0 30%; padding: 10px; text-align: center;">
-        <img style="border-radius: 50%; width: 270px; height: 270px;" src="https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/edceebf1-ad31-4683-9545-287442f019a8.jpg" alt="Xuefei Ning">
+        <img style="border-radius: 50%; width: 270px; height: 270px;" src="/assets/people_images/xuefei_2024_small.jpg" alt="Xuefei Ning">
         <h2 style="margin: 10px 0;">Xuefei Ning</h2>
         <h3 style="margin: 5px 0; font-size: 16px; color: #548dce;">Research Assistant Professor at Tsinghua University</h3>
         <!-- <h3>
