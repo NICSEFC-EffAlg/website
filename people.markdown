@@ -17,7 +17,7 @@ header:
       {% else %}
       <img src="/assets/people_images/default_people.jpg" alt="{{ item.name }}" style="width:200px;height:200px;object-fit:cover;">
       {% endif %}
-      <h5 style="margin-top: 18px; margin-bottom: 48px;">{{ item.name }} <br/> <span style="font-size: 16px;">{{ item.title }} </span></h5>
+      <h5 style="margin-top: 18px; margin-bottom: 48px;">{{ item.name }} <br/> <span style="font-size: 14px;">{{ item.title }} </span></h5>
     </a>
     {% endfor %}
   </div>
@@ -33,7 +33,7 @@ header:
         {% else %}
         <img src="/assets/people_images/default_people.jpg" alt="{{ item.name }}" style="width:200px;height:200px;object-fit:cover;">
         {% endif %} -->
-        <h5 style="margin-top: 18px; margin-bottom: 48px;">{{ item.name }} <br/> <span style="font-size: 16px;">{{ item.title }} </span></h5>
+        <h5 style="margin-top: 18px; margin-bottom: 48px;">{{ item.name }} <br/> <span style="font-size: 14px;">{{ item.title }} </span></h5>
       </a>
       {% endfor %}
   </div>
@@ -48,8 +48,8 @@ header:
         {% else %}
         <img src="/assets/people_images/default_people.jpg" alt="{{ item.name }}" style="width:200px;height:200px;object-fit:cover;">
         {% endif %} -->
-        <h5 style="margin-top: 18px; margin-bottom: 48px;">{{ item.name }} <br/> <span style="font-size: 16px;">{{ item.title }} </span>
-          {% if item.first_job %} <br/> <span style="font-size: 16px;"><i>{{ item.first_job }}</i> </span>{% endif %}
+        <h5 style="margin-top: 18px; margin-bottom: 48px;">{{ item.name }} <br/> <span style="font-size: 14px;">{{ item.title }} </span>
+          {% if item.first_job %} <br/> <span style="font-size: 14px;"><i>{{ item.first_job }}</i> </span>{% endif %}
         </h5>
       </a>
       {% endfor %}
