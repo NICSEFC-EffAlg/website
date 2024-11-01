@@ -40,7 +40,7 @@ header:
 
   <!-- For alumni -->
   <div style="display:inline-block; padding: 10px 10%; width: 100%; text-align: center;">
-    <h2> Alumni </h2>
+    <h2> Alumni (from 2023) </h2>
       {% for item in site.data.people_alumni %}
       <a href="{{ item.link }}" style="color: inherit; display:inline-block; text-decoration: none; width: 250px" target="_blank">
         <!-- {% if item.image %}
