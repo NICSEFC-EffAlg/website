@@ -1,18 +1,25 @@
 - name: Xiangsheng Shi
   title: M.S.
+  first_job: Qiyuan Lab
 - name: Junbo Zhao
   title: M.S.
+  first_job: Huawei
 - name: Zixuan Zhou
   title: M.S. (with honors)
+  first_job: Bytedance
 - name: Luning Wang
   title: B.S.
+  first_job: Master student@UMich
 - name: Lidong Guo
   title: Ph.D. student
+  first_job: Ph.D. student@Tsinghua University
 - name: Lin Zhao
   title: Visiting Student
-- name: Rui Wan
-  title: Visiting Student
+  first_job: Ph.D. student@NEU
 - name: Xianying Chen # Widyadewi Soedarmadji
+  title: Visiting Student
+  first_job: Ph.D. student@Tsinghua
+- name: Rui Wan
   title: Visiting Student
 - name: Luyue Zhang
   title: Visiting Student
