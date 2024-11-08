@@ -5,6 +5,14 @@
 # special_label can be anything. Currently, there are three types of special labels: Survey, Evaluation, Benchmark
 # support links: paper_link, code_link, slide_link, website_link, video_link
 
+- title: 'Distilling Auto-regressive Models into Few Steps 1: Image Generation'
+  authors: Enshu Liu, Xuefei Ning, Yu Wang, Zinan Lin+
+  conference: ArXiv 2024
+  paper_link: ""
+  technique: Algorithm-level
+  target: Efficient Inference
+  domain: Vision Generation
+
 - title: 'Accelerating Auto-regressive Text-to-Image Generation with Training-free Speculative Jacobi Decoding'
   authors: Yao Teng, Han Shi, Xian Liu, Xuefei Ning, Guohao Dai, Yu Wang, Zhenguo Li, Xihui Liu+
   conference: ArXiv 2024
