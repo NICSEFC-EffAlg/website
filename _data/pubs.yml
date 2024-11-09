@@ -5,10 +5,9 @@
 # special_label can be anything. Currently, there are three types of special labels: Survey, Evaluation, Benchmark
 # support links: paper_link, code_link, slide_link, website_link, video_link
 
-- title: '(Chinese Book) Efficient Deep Learning: Model Compression and Design. 《高效深度学习：模型压缩与设计》 - 京东有售'
+- title: '(Chinese Book) Efficient Deep Learning: Model Compression and Design. 《高效深度学习：模型压缩与设计》 (京东有售)'
   authors: Yu Wang, Xuefei Ning
   conference: Publishing House of Electronics Industry 2024
-  paper_link: ""
   technique: Model-level
   target: Efficient Inference
   domain: Vision Recognition, Vision Generation, Language
