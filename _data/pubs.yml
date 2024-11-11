@@ -13,7 +13,7 @@
   domain: Vision Recognition, Vision Generation, Language
 
 - title: 'Distilling Auto-regressive Models into Few Steps 1: Image Generation'
-  authors: Enshu Liu, Xuefei Ning, Yu Wang, Zinan Lin+
+  authors: Enshu Liu, Xuefei Ning+, Yu Wang, Zinan Lin+
   conference: ArXiv 2024
   paper_link: ""
   technique: Algorithm-level
@@ -35,7 +35,7 @@
   target: Efficient Inference
   domain: 3D Modeling
 
-- title: 'Can LLMs Learn by Teaching? A Preliminary Study'
+- title: 'Can LLMs Learn by Teaching for Better Reasoning? A Preliminary Study'
   authors: Xuefei Ning*+, Zifu Wang*, Shiyao Li*, Zinan Lin*+, Peiran Yao*, Tianyu Fu, Matthew B. Blaschko, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: NeurIPS 2024
   paper_link: "https://arxiv.org/abs/2406.14629"
@@ -54,7 +54,7 @@
   domain: Language
 
 - title: "MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression"
-  authors: Tianyu Fu*, Haofeng Huang*, Xuefei Ning*+, Genghan Zhang, Boju Chen, Tianqi Wu, Hongyi Wang, Zixiao Huang, Shiyao Li, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
+  authors: Tianyu Fu*, Haofeng Huang*, Xuefei Ning*+, Genghan Zhang, Boju Chen, Tianqi Wu, Hongyi Wang, Zixiao Huang, Shiyao Li, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/abs/2406.14909"
   code_link: "https://github.com/thu-nics/MoA"
@@ -64,7 +64,7 @@
   domain: Language
 
 - title: "DiTFastAttn: Attention Compression for Diffusion Transformer Models"
-  authors: Zhihang Yuan*, Pu Lu*, Hanling Zhang*, Xuefei Ning+, Linfeng Zhang, Tianchen Zhao, Shengen Yan, Guohao Dai, Yu Wang+
+  authors: Zhihang Yuan*, Pu Lu*, Hanling Zhang*, Xuefei Ning+, Linfeng Zhang, Tianchen Zhao, Shengen Yan, Guohao Dai, Yu Wang
   conference: NeurIPS 2024
   paper_link: "https://arxiv.org/pdf/2406.08552"
   code_link: "https://github.com/thu-nics/DiTFastAttn"
