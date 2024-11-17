@@ -61,16 +61,16 @@
     link: https://nicsefc.ee.tsinghua.edu.cn/people/YiranShi
   - name: Qian Chen
     title: Undergraduate Student
-    image: /assets/people_images/qianchen.jpg
+    image: /assets/people_images/default_people.jpg
     link: 
   - name: Hongyu Zhu
     title: Undergraduate Student
     image: /assets/people_images/default_people.jpg
     link: 
-  - name: Yuming Lou
-    title: Undergraduate Student
-    image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/1b4d2877-088a-49d5-9f2e-96b84adf6b3e.jpg
-    link: https://nicsefc.ee.tsinghua.edu.cn/people/YumingLou
+  # - name: Yuming Lou
+  #   title: Undergraduate Student
+  #   image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/1b4d2877-088a-49d5-9f2e-96b84adf6b3e.jpg
+  #   link: https://nicsefc.ee.tsinghua.edu.cn/people/YumingLou
   - name: Yi Ge
     title: Undergraduate Student
     image: /assets/people_images/yige.jpg
