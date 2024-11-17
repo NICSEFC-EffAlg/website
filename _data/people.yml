@@ -47,10 +47,10 @@
     title: Master Student
     image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/ee103d3a-49c4-44f5-abdd-add82a701232.jpg
     link: https://nicsefc.ee.tsinghua.edu.cn/people/TongchengFang
-  - name: Haofeng Huang
-    title: Undergraduate Student
-    image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/39b3636b-7d13-4ed8-af2a-3dc6512fe449.jpg
-    link: https://nicsefc.ee.tsinghua.edu.cn/people/HaofengHuang
+  # - name: Haofeng Huang
+  #   title: Undergraduate Student
+  #   image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/39b3636b-7d13-4ed8-af2a-3dc6512fe449.jpg
+  #   link: https://nicsefc.ee.tsinghua.edu.cn/people/HaofengHuang
   - name: Tengxuan Liu
     title: Undergraduate Student
     image: https://nicsefc.ee.tsinghua.edu.cn/nics_file/people/people/55b95782-3b3c-4045-8f14-1464725ee7d4.jpg
@@ -65,7 +65,7 @@
     link: 
   - name: Hongyu Zhu
     title: Undergraduate Student
-    image: /assets/people_images/hongyuzhu.jpg
+    image: /assets/people_images/default_people.jpg
     link: 
   - name: Yuming Lou
     title: Undergraduate Student
@@ -77,12 +77,12 @@
     link: 
   - name: Dongyun Zou
     title: Undergraduate Student
-    image: 
+    image: /assets/people_images/default_people.jpg
     link: 
-  - name: Peiran (Pero) Yao # pero
-    title: Visiting Student
-    image: /assets/people_images/PeiranYao.jpg
-    link: 
+  # - name: Peiran (Pero) Yao # pero
+  #   title: Visiting Student
+  #   image: /assets/people_images/PeiranYao.jpg
+  #   link: 
   - name: Rui Xie
     title: Visiting Student
     image: /assets/people_images/ruixie.jpg
