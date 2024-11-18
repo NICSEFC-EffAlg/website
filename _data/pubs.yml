@@ -40,6 +40,8 @@
   conference: NeurIPS 2024
   paper_link: "https://arxiv.org/abs/2406.14629"
   code_link: "https://github.com/imagination-research/lbt"
+  website_link: "https://sites.google.com/view/llm-learning-by-teaching"
+  video_link: "https://www.youtube.com/watch?v=-tQRWpDrIaQ"
   technique:
   target:
   domain: Language
@@ -69,6 +71,7 @@
   paper_link: "https://arxiv.org/pdf/2406.08552"
   code_link: "https://github.com/thu-nics/DiTFastAttn"
   website_link: "https://nics-effalg.com/DiTFastAttn"
+  video_link: "https://www.bilibili.com/video/BV1VQUVYxEfx/"
   technique: Model-level (Sparsification), Model-level (Structure Optimization)
   target: Efficient Inference
   domain: Vision Generation
