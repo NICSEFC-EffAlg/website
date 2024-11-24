@@ -69,6 +69,16 @@ header:
 </div>
 -->
 
+
+<div style="margin: 20px 0;">
+    <h1 style="text-align: center; margin-bottom: 20px;">Services</h1>
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+    <li>CVPR25 Area Chair</li>
+    <li>ACL25 Senior Area Chair</li>
+    <li>DAC25 AI Track TPC Member</li>
+</div>
+
+
 <div style="margin: 20px 0;">
     <h1 style="text-align: center; margin-bottom: 20px;">Selected Talks</h1>
     <div style="display: flex; flex-direction: column; gap: 20px;">
