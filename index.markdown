@@ -209,10 +209,10 @@ function toggleDescription(button) {
 
 @keyframes scroll {
     0% {
-        transform: translateX(0);
+        transform: translateX(calc(-100% + 100vw));
     }
     100% {
-        transform: translateX(calc(-100% + 100vw));
+        transform: translateX(0);
     }
 }
 </style>
