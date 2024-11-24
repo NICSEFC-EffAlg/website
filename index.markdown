@@ -195,7 +195,7 @@ function toggleDescription(button) {
 }
 
 .sponsor-logo {
-    height: 50px; /* 统一高度 */
+    height: 65px; /* 统一高度 */
     width: auto; /* 自动调整宽度以保持比例 */
     object-fit: contain; /* 保持图像比例 */
 }
