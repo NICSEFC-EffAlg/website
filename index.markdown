@@ -174,6 +174,7 @@ function toggleDescription(button) {
 
 <h1 class="custom_title"> Sponsers </h1>
 <div class="sponsors-container">
+  <img src="/assets/sponsers/infini.png" alt="Sponsor 1" class="sponsor-logo">
   <img src="/assets/sponsers/baidu.png" alt="Sponsor 1" class="sponsor-logo">
   <img src="/assets/sponsers/benz.png" alt="Sponsor 2" class="sponsor-logo">
   <img src="/assets/sponsers/huawei.png" alt="Sponsor 3" class="sponsor-logo">
@@ -194,7 +195,7 @@ function toggleDescription(button) {
 }
 
 .sponsor-logo {
-    height: 100px; /* 统一高度 */
+    height: 50px; /* 统一高度 */
     width: auto; /* 自动调整宽度以保持比例 */
     object-fit: contain; /* 保持图像比例 */
 }
