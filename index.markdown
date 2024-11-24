@@ -25,8 +25,8 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
 <!-- Accelerating LLM and Generative AI: -->
 
 
-<ul>
-{% for new in site.data.news %}
+<ul id="news-list">
+{% for new in site.data.news limit:6 %}
   <li>
     <div style="display:flex;">
       <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px; font-family: 'Consolas', monospace;">{{ new.time }}</div> 
@@ -34,33 +34,36 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
         {{ new.text }}
       </div>
     </div>
-    
   </li>
 {% endfor %}
 </ul>
+
+<button id="load-more" style="display:block; margin: 20px auto; padding: 10px 20px; background-color: #0c53a5; color: white; border: none; cursor: pointer;">Load More</button>
+
 <script>
-  let itemsToShow = 6;
-  const newsItems = document.querySelectorAll('ul li');
-  const loadMoreBtn = document.createElement('button');
-  loadMoreBtn.textContent = 'Load More';
-  loadMoreBtn.onclick = () => {
-    itemsToShow += 6;
-    showItems();
-  };
-
-  function showItems() {
-    newsItems.forEach((item, index) => {
-      item.style.display = index < itemsToShow ? 'block' : 'none';
-    });
-    if (itemsToShow >= newsItems.length) {
-      loadMoreBtn.style.display = 'none';
-    } else {
-      loadMoreBtn.style.display = 'block';
-    }
-  }
-
-  document.querySelector('ul').after(loadMoreBtn);
-  showItems();
+  let currentIndex = 6;
+  const loadMoreButton = document.getElementById('load-more');
+  loadMoreButton.addEventListener('click', function() {
+    const newsList = document.getElementById('news-list');
+    {% for new in site.data.news offset:6 %}
+      if (currentIndex < {{ forloop.length }}) {
+        const li = document.createElement('li');
+        li.innerHTML = `
+          <div style="display:flex;">
+            <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px; font-family: 'Consolas', monospace;">{{ new.time }}</div> 
+            <div style="display:block; width: 85%;">
+              {{ new.text }}
+            </div>
+          </div>
+        `;
+        newsList.appendChild(li);
+        currentIndex++;
+        if (currentIndex >= {{ forloop.length }}) {
+          loadMoreButton.style.display = 'none';
+        }
+      }
+    {% endfor %}
+  });
 </script>
 
 
