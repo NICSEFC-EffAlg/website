@@ -75,7 +75,6 @@ header:
     <div style="display: flex; flex-direction: column; gap: 20px;">
     <li>
         <div style="display:flex;">
-            <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px; font-family: 'Consolas', monospace;">{{ new.time }}</div> 
             <div style="display:block; width: 85%;">
             CVPR25 Area Chair
             </div>
@@ -83,7 +82,6 @@ header:
     </li>
     <li>
         <div style="display:flex;">
-            <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px; font-family: 'Consolas', monospace;">{{ new.time }}</div> 
             <div style="display:block; width: 85%;">
             ACL25 Senior Area Chair
             </div>
@@ -91,7 +89,6 @@ header:
     </li>
     <li>
         <div style="display:flex;">
-            <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px; font-family: 'Consolas', monospace;">{{ new.time }}</div> 
             <div style="display:block; width: 85%;">
             DAC25 AI Track TPC Member
             </div>
