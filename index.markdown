@@ -69,20 +69,8 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
 
 
 <h1 class="custom_title"> Competition Awards </h1>
-<li>
-  <div style="display:flex;">
-    <div style="display:block; width: 85%;">
-      2020 CVPR Low-Power CV Challenges <strong>World-wide 3rd</strong>
-    </div>
-  </div>
-</li>
-<li>
-  <div style="display:flex;">
-    <div style="display:block; width: 85%;">
-      2018 NeurIPS Adversarial Robustness Competition-Model Track <strong>World-wide 2nd</strong>
-    </div>
-  </div>
-</li>
+<li><div style="display:flex;"><div style="display:block; width: 85%;">2020 CVPR Low-Power CV Challenges <strong>World-wide 3rd</strong></div></div></li>
+<li><div style="display:flex;"><div style="display:block; width: 85%;">2018 NeurIPS Adversarial Robustness Competition-Model Track <strong>World-wide 2nd</strong></div></div></li>
 
 
 <h1 class="custom_title"> Efficient DL Projects </h1>
@@ -147,11 +135,12 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
 
 <h1 class="custom_title"> Sponsers </h1>
 <div class="sponsors-container">
-    <img src="/assets/sponsers/baidu.png" alt="Sponsor 1" class="sponsor-logo">
-    <img src="/assets/sponsers/benz.png" alt="Sponsor 2" class="sponsor-logo">
-    <img src="/assets/sponsers/huawei.png" alt="Sponsor 3" class="sponsor-logo">
-    <img src="/assets/sponsers/meituan.png" alt="Sponsor 4" class="sponsor-logo">
-    <img src="/assets/sponsers/oppo.png" alt="Sponsor 5" class="sponsor-logo">
-    <img src="/assets/sponsers/tower.png" alt="Sponsor 6" class="sponsor-logo">
-
+  <img src="/assets/sponsers/baidu.png" alt="Sponsor 1" class="sponsor-logo">
+  <img src="/assets/sponsers/benz.png" alt="Sponsor 2" class="sponsor-logo">
+  <img src="/assets/sponsers/huawei.png" alt="Sponsor 3" class="sponsor-logo">
+  <img src="/assets/sponsers/meituan.png" alt="Sponsor 4" class="sponsor-logo">
+  <img src="/assets/sponsers/oppo.png" alt="Sponsor 5" class="sponsor-logo">
+  <img src="/assets/sponsers/tower.png" alt="Sponsor 6" class="sponsor-logo">
+  <img src="/assets/sponsers/toyota.png" alt="Sponsor 7" class="sponsor-logo">
+  <img src="/assets/sponsers/zongmu.png" alt="Sponsor 8" class="sponsor-logo">
 </div>
