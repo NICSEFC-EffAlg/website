@@ -73,9 +73,30 @@ header:
 <div style="margin: 20px 0;">
     <h1 style="text-align: center; margin-bottom: 20px;">Services</h1>
     <div style="display: flex; flex-direction: column; gap: 20px;">
-    <li>CVPR25 Area Chair</li>
-    <li>ACL25 Senior Area Chair</li>
-    <li>DAC25 AI Track TPC Member</li>
+    <li>
+        <div style="display:flex;">
+            <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px; font-family: 'Consolas', monospace;">{{ new.time }}</div> 
+            <div style="display:block; width: 85%;">
+            CVPR25 Area Chair
+            </div>
+        </div>
+    </li>
+    <li>
+        <div style="display:flex;">
+            <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px; font-family: 'Consolas', monospace;">{{ new.time }}</div> 
+            <div style="display:block; width: 85%;">
+            ACL25 Senior Area Chair
+            </div>
+        </div>
+    </li>
+    <li>
+        <div style="display:flex;">
+            <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px; font-family: 'Consolas', monospace;">{{ new.time }}</div> 
+            <div style="display:block; width: 85%;">
+            DAC25 AI Track TPC Member
+            </div>
+        </div>
+    </li>
 </div>
 
 

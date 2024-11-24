@@ -68,6 +68,25 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
 </script>
 
 
+<h1 class="custom_title"> Competition Awards </h1>
+<li>
+  <div style="display:flex;">
+    <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px; font-family: 'Consolas', monospace;">{{ new.time }}</div> 
+    <div style="display:block; width: 85%;">
+      2020 CVPR Low-Power CV Challenges <strong>World-wide 3rd</strong>
+    </div>
+  </div>
+</li>
+<li>
+  <div style="display:flex;">
+    <div style="display:block; width: 15%; margin-right: 5px; margin-left: 5px; min-width:100px; font-family: 'Consolas', monospace;">{{ new.time }}</div> 
+    <div style="display:block; width: 85%;">
+      2018 NeurIPS Adversarial Robustness Competition-Model Track <strong>World-wide 2nd</strong>
+    </div>
+  </div>
+</li>
+
+
 <h1 class="custom_title"> Efficient DL Projects </h1>
 <div id="option-container">
 {% for category in site.data.projects_class %}
