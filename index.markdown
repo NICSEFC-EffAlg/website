@@ -192,4 +192,10 @@ function toggleDescription(button) {
     gap: 20px; /* logo 之间的间距 */
     margin-top: 20px; /* 与标题的间距 */
 }
+
+.sponsor-logo {
+    height: 100px; /* 统一高度 */
+    width: auto; /* 自动调整宽度以保持比例 */
+    object-fit: contain; /* 保持图像比例 */
+}
 </style>
