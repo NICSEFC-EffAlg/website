@@ -165,6 +165,7 @@
   target: Efficient Inference
   domain: Language
   special_label: Evaluation
+  descrip: We evaluate the performance of 11 LLM families under W, WA, KV quantization on various tasks. Based on the evaluation results, we summarize tensor-level, model-level, and task-level knowledge for quantized LLMs.
 
 - title: "FlashEval: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models"
   authors: Lin Zhao*, Tianchen Zhao*, Zinan Lin+, Xuefei Ning+, Guohao Dai, Huazhong Yang, Yu Wang+

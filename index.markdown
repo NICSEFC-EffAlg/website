@@ -124,6 +124,13 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
           {% if pub.video_link %} <a class="project-buttom" target="_blank" href="{{ pub.video_link }}">
               Video
           </a> {% endif %}
+
+          {% if pub.descrip %}
+              <button class="show-more-btn" onclick="toggleDescription(this)">Show More</button>
+              <div class="pub-description" style="display: none;">
+                  {{ pub.descrip }}
+              </div>
+          {% endif %}
           
           </div>
         </div>
@@ -131,6 +138,38 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
     </li>
 {% endfor %}
 </div>
+
+
+<script>
+function toggleDescription(button) {
+    const description = button.nextElementSibling;
+    if (description.style.display === "none") {
+        description.style.display = "block";
+        button.textContent = "Show Less";
+    } else {
+        description.style.display = "none";
+        button.textContent = "Show More";
+    }
+}
+</script>
+
+<style>
+.show-more-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #0c53a5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.pub-description {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+</style>
 
 
 <h1 class="custom_title"> Sponsers </h1>
