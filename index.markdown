@@ -42,11 +42,12 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
 
 <script>
   let currentIndex = 6;
+  const totalNews = {{ site.data.news | size }};
   const loadMoreButton = document.getElementById('load-more');
   loadMoreButton.addEventListener('click', function() {
     const newsList = document.getElementById('news-list');
     {% for new in site.data.news offset:6 %}
-      if (currentIndex < {{ forloop.length }}) {
+      if (currentIndex < totalNews) {
         const li = document.createElement('li');
         li.innerHTML = `
           <div style="display:flex;">
@@ -58,7 +59,7 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
         `;
         newsList.appendChild(li);
         currentIndex++;
-        if (currentIndex >= {{ forloop.length }}) {
+        if (currentIndex >= totalNews) {
           loadMoreButton.style.display = 'none';
         }
       }

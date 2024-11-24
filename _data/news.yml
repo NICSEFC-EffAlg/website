@@ -11,7 +11,7 @@
 
 - time: 2024/06/24
   # text: 'Our paper <a href="https://arxiv.org/abs/2406.14909" target="_blank" style="color: #0c53a5;">MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression</a> is public on arXiv. MoA compresses attention in LLMs, so that they can compute short attention, but remember long context. It achieves 5.5-6.7x faster throughput than dense FlashAttention2, improving retrieval accuracy by 1.5-7.1x compared to uniform sparse attention. Welcome to check the <a href="https://github.com/thu-nics/MoA" target="_blank" style="color: #0c53a5;">code</a>.'
-  text: 'Our paper <a href="https://arxiv.org/abs/2406.14909" target="_blank" style="color: #0c53a5;">MoAn</a> is public on arXiv. MoA compresses attention in LLMs, so that they can compute short attention, but remember long context.'
+  text: 'Our paper <a href="https://arxiv.org/abs/2406.14909" target="_blank" style="color: #0c53a5;">MoA</a> is public on arXiv. MoA compresses attention in LLMs, so that they can compute short attention, but remember long context.'
 
 # - time: 2024/06/14
 #   text: 'Our paper <a href="https://arxiv.org/abs/2406.08552" target="_blank" style="color: #0c53a5;">DiTFastAttn: Attention Compression for Diffusion Transformer Models</a> is public on arXiv. We design three training-free techniques to compress the attention operation, which is the efficiency bottleneck when generating large-resolution images. For example, applying DiTFastAttn to PixArt-Sigma-XL can reduce the FLOPs and latency of attention computation by 88% and 37% when generating 2Kx2K images. Welcome to check the <a href="https://github.com/thu-nics/DiTFastAttn" target="_blank" style="color: #0c53a5;">code</a>.'
