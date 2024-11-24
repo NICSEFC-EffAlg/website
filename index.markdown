@@ -189,25 +189,14 @@ function toggleDescription(button) {
 .sponsors-container {
     display: flex;
     justify-content: center; /* 水平居中 */
-    flex-wrap: nowrap; /* 不换行 */
+    flex-wrap: wrap; /* 如果屏幕宽度不足，允许换行 */
     gap: 20px; /* logo 之间的间距 */
     margin-top: 20px; /* 与标题的间距 */
-    overflow: hidden; /* 隐藏溢出内容 */
-    animation: scroll 20s linear infinite; /* 滚动动画 */
 }
 
 .sponsor-logo {
     height: 65px; /* 统一高度 */
     width: auto; /* 自动调整宽度以保持比例 */
     object-fit: contain; /* 保持图像比例 */
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
 }
 </style>
