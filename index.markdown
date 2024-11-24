@@ -38,6 +38,30 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
   </li>
 {% endfor %}
 </ul>
+<script>
+  let itemsToShow = 6;
+  const newsItems = document.querySelectorAll('ul li');
+  const loadMoreBtn = document.createElement('button');
+  loadMoreBtn.textContent = 'Load More';
+  loadMoreBtn.onclick = () => {
+    itemsToShow += 6;
+    showItems();
+  };
+
+  function showItems() {
+    newsItems.forEach((item, index) => {
+      item.style.display = index < itemsToShow ? 'block' : 'none';
+    });
+    if (itemsToShow >= newsItems.length) {
+      loadMoreBtn.style.display = 'none';
+    } else {
+      loadMoreBtn.style.display = 'block';
+    }
+  }
+
+  document.querySelector('ul').after(loadMoreBtn);
+  showItems();
+</script>
 
 
 <h1 class="custom_title"> Efficient DL Projects </h1>
