@@ -73,21 +73,9 @@ header:
 <div style="margin: 20px 0;">
     <h1 style="text-align: center; margin-bottom: 20px;">Services</h1>
     <div style="display: flex; flex-direction: column; gap: 20px;">
-    <li>
-        <div style="display:flex;">
-            CVPR25 Area Chair
-        </div>
-    </li>
-    <li>
-        <div style="display:flex;">
-            ACL25 Senior Area Chair
-        </div>
-    </li>
-    <li>
-        <div style="display:flex;">
-            DAC25 AI Track TPC Member
-        </div>
-    </li>
+    <li>CVPR25 Area Chair</li>
+    <li>ACL25 Senior Area Chair</li>
+    <li>DAC25 AI Track TPC Member</li>
 </div>
 
 

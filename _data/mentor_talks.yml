@@ -1,5 +1,10 @@
 # TODO: modify links
 
+- title: "Introduction to NICS-EFC Lab Efficient Algorithm Team"
+  description: "A talk on Group Introduction."
+  slide_link: "../assets/ppt/2024-11-20-group-intro.pdf"
+  video_link: "https://www.bilibili.com/video/BV1f6UoYQEqw"
+
 - title: "Generative Model Compression and Acceleration"
   description: "A talk on generative model compression and acceleration."
   # video_link: "https://nics-effalg.com/GMCA"
@@ -18,3 +23,4 @@
 - title: "Neural Architecture Search and Architecture Encoding"
   description: "A talk on NAS researches."
   slide_link: "../assets/ppt/2022-12-12-NAS.pdf"
+
