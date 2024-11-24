@@ -183,3 +183,13 @@ function toggleDescription(button) {
   <img src="/assets/sponsers/toyota.png" alt="Sponsor 7" class="sponsor-logo">
   <img src="/assets/sponsers/zongmu.png" alt="Sponsor 8" class="sponsor-logo">
 </div>
+
+<style>
+.sponsors-container {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    flex-wrap: wrap; /* 如果屏幕宽度不足，允许换行 */
+    gap: 20px; /* logo 之间的间距 */
+    margin-top: 20px; /* 与标题的间距 */
+}
+</style>
