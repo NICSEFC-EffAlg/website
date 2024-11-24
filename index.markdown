@@ -172,31 +172,47 @@ function toggleDescription(button) {
 </style>
 
 
-<h1 class="custom_title"> Sponsers </h1>
-<div class="sponsors-container">
-  <img src="/assets/sponsers/infini.png" alt="Sponsor 1" class="sponsor-logo">
-  <img src="/assets/sponsers/baidu.png" alt="Sponsor 1" class="sponsor-logo">
-  <img src="/assets/sponsers/benz.png" alt="Sponsor 2" class="sponsor-logo">
-  <img src="/assets/sponsers/huawei.png" alt="Sponsor 3" class="sponsor-logo">
-  <img src="/assets/sponsers/meituan.png" alt="Sponsor 4" class="sponsor-logo">
-  <img src="/assets/sponsers/oppo.png" alt="Sponsor 5" class="sponsor-logo">
-  <img src="/assets/sponsers/tower.png" alt="Sponsor 6" class="sponsor-logo">
-  <img src="/assets/sponsers/toyota.png" alt="Sponsor 7" class="sponsor-logo">
-  <img src="/assets/sponsers/zongmu.png" alt="Sponsor 8" class="sponsor-logo">
+<h1 class="custom_title"> Sponsors </h1>
+<div class="sponsors-wrapper">
+  <div class="sponsors-container">
+    <img src="/assets/sponsers/infini.png" alt="Sponsor 1" class="sponsor-logo">
+    <img src="/assets/sponsers/baidu.png" alt="Sponsor 1" class="sponsor-logo">
+    <img src="/assets/sponsers/benz.png" alt="Sponsor 2" class="sponsor-logo">
+    <img src="/assets/sponsers/huawei.png" alt="Sponsor 3" class="sponsor-logo">
+    <img src="/assets/sponsers/meituan.png" alt="Sponsor 4" class="sponsor-logo">
+    <img src="/assets/sponsers/oppo.png" alt="Sponsor 5" class="sponsor-logo">
+    <img src="/assets/sponsers/tower.png" alt="Sponsor 6" class="sponsor-logo">
+    <img src="/assets/sponsers/toyota.png" alt="Sponsor 7" class="sponsor-logo">
+    <img src="/assets/sponsers/zongmu.png" alt="Sponsor 8" class="sponsor-logo">
+  </div>
 </div>
 
 <style>
+.sponsors-wrapper {
+    overflow: hidden; /* 隐藏溢出内容 */
+    width: 100%; /* 确保容器宽度 */
+}
+
 .sponsors-container {
     display: flex;
     justify-content: center; /* 水平居中 */
-    flex-wrap: wrap; /* 如果屏幕宽度不足，允许换行 */
+    flex-wrap: nowrap; /* 不换行 */
     gap: 20px; /* logo 之间的间距 */
-    margin-top: 20px; /* 与标题的间距 */
+    animation: scroll 20s linear infinite; /* 滚动动画 */
 }
 
 .sponsor-logo {
     height: 65px; /* 统一高度 */
     width: auto; /* 自动调整宽度以保持比例 */
     object-fit: contain; /* 保持图像比例 */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% + 100vw));
+    }
 }
 </style>
