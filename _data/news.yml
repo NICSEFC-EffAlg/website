@@ -4,14 +4,14 @@
 
 - time: 2024/07/01
   # text: 'Our paper <a href="https://arxiv.org/abs/2407.00945" target="_blank" style="color: #0c53a5;">Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs</a> is public on arXiv. We conduct expert pruning of MoE models and use weight merging to inherit the knowledge from the retrained and discarded experts. This is a novel and gradient-free way to inherit the knowledge during model compression. The code will soon be available at <a href="https://github.com/imagination-research/EEP" target="_blank" style="color: #0c53a5;">code</a>.'
-  text: 'Our paper <a href="https://arxiv.org/abs/2407.00945" target="_blank" style="color: #0c53a5;">EEP</a> is public on arXiv. We conduct expert pruning of MoE models and use weight merging to inherit the knowledge from the retrained and discarded experts.'
+  text: 'Our paper <a href="https://arxiv.org/abs/2407.00945" target="_blank" style="color: #0c53a5;">EEP</a> is public on arXiv.'
 
 # - time: 2024/06/24
 #   text: 'Our paper <a href="https://arxiv.org/abs/2406.14629" target="_blank" style="color: #0c53a5;">Can LLMs Learn by Teaching? A Preliminary Study</a> is public on arXiv. We make the first attempt in adapting the "learning by teach" strategy in education into LLMs and see if the contemporary LLMs are ready to learn by teach to improve the outcome or ability for mathematical reasoning and code synthesis. The results show some promise. We also provide a roadmap for future research. Welcome to check the <a href="https://github.com/imagination-research/lbt" target="_blank" style="color: #0c53a5;">code</a>.'
 
 - time: 2024/06/24
   # text: 'Our paper <a href="https://arxiv.org/abs/2406.14909" target="_blank" style="color: #0c53a5;">MoA: Mixture of Sparse Attention for Automatic Large Language Model Compression</a> is public on arXiv. MoA compresses attention in LLMs, so that they can compute short attention, but remember long context. It achieves 5.5-6.7x faster throughput than dense FlashAttention2, improving retrieval accuracy by 1.5-7.1x compared to uniform sparse attention. Welcome to check the <a href="https://github.com/thu-nics/MoA" target="_blank" style="color: #0c53a5;">code</a>.'
-  text: 'Our paper <a href="https://arxiv.org/abs/2406.14909" target="_blank" style="color: #0c53a5;">MoA</a> is public on arXiv. MoA compresses attention in LLMs, so that they can compute short attention, but remember long context.'
+  text: 'Our paper <a href="https://arxiv.org/abs/2406.14909" target="_blank" style="color: #0c53a5;">MoA</a> is public on arXiv.'
 
 # - time: 2024/06/14
 #   text: 'Our paper <a href="https://arxiv.org/abs/2406.08552" target="_blank" style="color: #0c53a5;">DiTFastAttn: Attention Compression for Diffusion Transformer Models</a> is public on arXiv. We design three training-free techniques to compress the attention operation, which is the efficiency bottleneck when generating large-resolution images. For example, applying DiTFastAttn to PixArt-Sigma-XL can reduce the FLOPs and latency of attention computation by 88% and 37% when generating 2Kx2K images. Welcome to check the <a href="https://github.com/thu-nics/DiTFastAttn" target="_blank" style="color: #0c53a5;">code</a>.'
@@ -26,7 +26,7 @@
 
 - time: 2024/04/05
   # text: 'Our paper <a href="https://arxiv.org/abs/2404.02241" target="_blank" style="color: #0c53a5;">Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better</a> is public on arXiv. This work proposes a method, Linear Combination of Saved Checkpoints (LCSC). LCSC uses gradient-free search-based checkpoint combination to obtain the final weights, achieving significant training speedups (23x on CIFAR-10 and 15x on ImageNet-64) compared to full gradient-based training. LCSC can be used to enhance pre-trained models with a small cost. Check our <a href="https://github.com/imagination-research/LCSC" target="_blank" style="color: #0c53a5;">code</a>.'
-  text: 'Our paper <a href="https://arxiv.org/abs/2404.02241" target="_blank" style="color: #0c53a5;">LCSC</a> is public on arXiv. This work proposes a method, Linear Combination of Saved Checkpoints (LCSC). Check our <a href="https://github.com/imagination-research/LCSC" target="_blank" style="color: #0c53a5;">code</a>.'
+  text: 'Our paper <a href="https://arxiv.org/abs/2404.02241" target="_blank" style="color: #0c53a5;">LCSC</a> is public on arXiv.'
 
 - time: 2024/05/02
   # text: '1 paper, <a href="https://arxiv.org/abs/2402.18158" target="_blank" style="color: #0c53a5;">Evaluating Quantized Large Language Models</a>, is accepted by ICML''24. This work evaluates 11 LLM families, different tasks (including emergent abilities, dialogue, long-context tasks, and so on), and different tensor types (Weight, Weight-Activation, Key-Value Cache). We provide quantative suggestions and qualitative insights on the quantization. Practitioners could benefit from this work with a full scope of quantization suggestions.'
