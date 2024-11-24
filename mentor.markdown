@@ -75,23 +75,17 @@ header:
     <div style="display: flex; flex-direction: column; gap: 20px;">
     <li>
         <div style="display:flex;">
-            <div style="display:block; width: 85%;">
             CVPR25 Area Chair
-            </div>
         </div>
     </li>
     <li>
         <div style="display:flex;">
-            <div style="display:block; width: 85%;">
             ACL25 Senior Area Chair
-            </div>
         </div>
     </li>
     <li>
         <div style="display:flex;">
-            <div style="display:block; width: 85%;">
             DAC25 AI Track TPC Member
-            </div>
         </div>
     </li>
 </div>
