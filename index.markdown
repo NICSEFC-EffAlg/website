@@ -184,16 +184,6 @@ function toggleDescription(button) {
     <img src="/assets/sponsers/tower.png" alt="Sponsor 6" class="sponsor-logo">
     <img src="/assets/sponsers/toyota.png" alt="Sponsor 7" class="sponsor-logo">
     <img src="/assets/sponsers/zongmu.png" alt="Sponsor 8" class="sponsor-logo">
-    <!-- 复制一份 logo 列表 -->
-    <img src="/assets/sponsers/infini.png" alt="Sponsor 1" class="sponsor-logo">
-    <img src="/assets/sponsers/baidu.png" alt="Sponsor 1" class="sponsor-logo">
-    <img src="/assets/sponsers/benz.png" alt="Sponsor 2" class="sponsor-logo">
-    <img src="/assets/sponsers/huawei.png" alt="Sponsor 3" class="sponsor-logo">
-    <img src="/assets/sponsers/meituan.png" alt="Sponsor 4" class="sponsor-logo">
-    <img src="/assets/sponsers/oppo.png" alt="Sponsor 5" class="sponsor-logo">
-    <img src="/assets/sponsers/tower.png" alt="Sponsor 6" class="sponsor-logo">
-    <img src="/assets/sponsers/toyota.png" alt="Sponsor 7" class="sponsor-logo">
-    <img src="/assets/sponsers/zongmu.png" alt="Sponsor 8" class="sponsor-logo">
   </div>
 </div>
 
@@ -222,7 +212,15 @@ function toggleDescription(button) {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.querySelector(".sponsors-container");
+    const logos = container.innerHTML;
+    container.innerHTML += logos; // 复制一份 logo 列表
+});
+</script>
