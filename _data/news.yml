@@ -1,11 +1,14 @@
+- time: 2024/11/23
+  text: Give an invited talk about efficient AIGC research at UESTC.
+  
 - time: 2024/11/20
-  text: Deliver an invited talk about our group and recent researches @AI Time.
+  text: Give an invited <a href="https://www.bilibili.com/video/BV1XUURYzEgR", target="_blank" style="color: #0c53a5;">talk</a> about our EffAlg team and recent researches at AI Time.
 
-- time: 2024/11/6
+- time: 2024/11/06
   text: Invited as a DAC AI Track TPC member.
 
-- time: 2024/11/6
-  text: Deliver an invited talk on HUAWEI 2012 Labs Global Software Technology Summit.
+- time: 2024/11/06
+  text: Give an invited talk about efficient AIGC research at HUAWEI 2012 Labs Global Software Technology Summit.
 
 - time: 2024/10/20
   text: Baidu Faculty Research Award.
@@ -17,6 +20,9 @@
   # text: 'Three of our papers are accepted by NeurIPS 2024! (1) "<a href="https://arxiv.org/abs/2406.14629" target="_blank" style="color: #0c53a5;">Can LLMs Learn by Teaching? A Preliminary Study</a>" explores a novel pathway (learning by teach) towards better and continual evolving reasoning ability of LLMs. (2) "<a href="https://arxiv.org/abs/2406.08552" target="_blank" style="color: #0c53a5;">DiTFastAttn: Attention Compression for Diffusion Transformer Models</a>" proposes post-training attention sparsification and sharing techniques to accelerate Diffusion Transformers. (3) "Rad-NeRF: Ray-decoupled Training of Neural Radiance Field" proposes a ray-decopuled soft ensemble of NeRF MLPs to better model complex scenes, and offers a new and parameter-efficient scaling dimension.'
   text: '3 papers, <a href="https://arxiv.org/abs/2406.14629" target="_blank" style="color: #0c53a5;">LbT</a>, <a href="https://arxiv.org/abs/2406.08552" target="_blank" style="color: #0c53a5;">DiTFastAttn</a>, and <a href="https://openreview.net/pdf?id=nBrnfYeKf9" target="_blank" style="color: #0c53a5;">Rad-Nerf</a>, are accepted by NeurIPS 2024!'
 
+- time: 2024/07/11
+  text: Give invited <a href="https://nics-effalg.com/assets/ppt/2024-10-18-GMCA.pdf", target="_blank" style="color: #0c53a5;">talks</a> about efficient AIGC research at Apple China and CAS.
+  
 - time: 2024/07/01
   text: Invited as an ACL Senior Area Chair.
 
