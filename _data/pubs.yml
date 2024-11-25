@@ -64,6 +64,7 @@
   technique: Model-level (Sparsification)
   target: Efficient Inference
   domain: Language
+  descrip: 'Mixture of Sparse Attention (MoA) addresses the computational and memory challenges of long-context LLM inference. It proposes an automatic compression pipeline, assigning the optimal heterogeneous elastic sparse pattern for each attention head. MoA achieves a 1.2-1.4x GPU memory reduction, boosting decode throughput by 6.6−8.2x and 1.7−1.9x compared to FlashAttention2 and vLLM, with minimal impact on performance.'
 
 - title: "DiTFastAttn: Attention Compression for Diffusion Transformer Models"
   authors: Zhihang Yuan*, Pu Lu*, Hanling Zhang*, Xuefei Ning+, Linfeng Zhang, Tianchen Zhao, Shengen Yan, Guohao Dai, Yu Wang
