@@ -73,9 +73,11 @@ header:
 <div style="margin: 20px 0;">
     <h1 style="text-align: center; margin-bottom: 20px;">Services</h1>
     <div style="display: flex; flex-direction: column; gap: 20px;">
-    <li>CVPR25 Area Chair</li>
-    <li>ACL25 Senior Area Chair</li>
-    <li>DAC25 AI Track TPC Member</li>
+    <li>Conference Reviewer: ICML (2022, 2023, 2024), NeurIPS (2022, 2023, 2024), ICLR (2023, 2024, 2025), CVPR (2022, 2023), ICCV (2023), ECCV (2022, 2024), AAAI (2023, 2024), AISTATS (2025), ECML-PKDD (2022)</li>
+    <li>Conference Area Chair: CVPR 2025</li>
+    <li>Conference Senior Area Chair: ACL 2025</li>
+    <li>Conference TPC Member: DAC 2025 AI Track</li>
+    <li>Journal Reviewer: TPAMI, IJCV, CUSR, TCSVT, Pattern Recognit., TECS, TCAD, TODAES</li>
 </div>
 
 
