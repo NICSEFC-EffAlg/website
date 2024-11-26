@@ -91,6 +91,7 @@
   technique: Model-level (Quantization)
   target: Efficient Inference
   domain: Vision Generation
+  descrip: This paper investigates the quantization of diffusion transformers, conducting a systematic analysis of the sources of quantization error. It then designs a unique static-dynamic channel balancing technique to address the time-varying channel imbalance problem. Additionally, a metric-decoupled mixed precision approach is adopted to handle failures under lower bitwidth settings (W4A8, W4A4). This method achieves lossless W4A8 quantization for a variety of popular text-to-image and text-to-video models.
 
 - title: "DiM: Diffusion Mamba for Efficient High-Resolution Image Synthesis"
   authors: Yao Teng, Yue Wu, Han Shi, Xuefei Ning, Guohao Dai, Yu Wang, Zhenguo Li, Xihui Liu+
@@ -119,6 +120,7 @@
   technique: Model-level (Quantization)
   target: Efficient Inference
   domain: Vision Generation
+  descrip: This paper addresses the issue of existing quantization techniques faces challenge when quantizing the "few-step" diffusion models. It introduces the BOS-aware quantization technique to handle the highly sensitive text embedding related layers, and proposes a novel metric decoupled sensitivity analysis method to decouple the effect of quantization on image quality and content. MixDQ achieves lossless W4A8 quantization for challenging one-step SDXL-turbo model, while existing method fall short at W8A8.
 
 - title: "A Survey on Efficient Inference for Large Language Models"
   authors: Zixuan Zhou*, Xuefei Ning*+, Ke Hong*, Tianyu Fu, Jiaming Xu, Shiyao Li, Yuming Lou, Luning Wang, Zhihang Yuan, Xiuhong Li, Shengen Yan, Guohao Dai+, Xiao-Ping Zhang, Yuhan Dong, Yu Wang+
@@ -181,6 +183,7 @@
   technique: Algorithm-level
   target: Efficient Optimization Process
   domain: Vision Generation
+  descrip: This paper addresses the issue of the evaluation process for text-to-image generation models, which often involves generating images on 1K-4K prompts, making it cumbersome for application scenarios requiring iterative evaluation. It constructs an extensive model zoo and introduces an evolutionary-inspired searching method to identify a "representative subset" of textual datasets. With equivalent evaluation quality (measured using Kendall's tau), FlashEval's 50-item prompt set can replace a 500-item randomly sampled subset, achieving a 10x speedup in evaluation efficiency.
 
 - title: "A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models"
   authors: Enshu Liu, Xuefei Ning+, Huazhong Yang, Yu Wang+
