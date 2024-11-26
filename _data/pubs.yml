@@ -79,6 +79,8 @@
   technique: Model-level (Sparsification), Model-level (Structure Optimization)
   target: Efficient Inference
   domain: Vision Generation
+  descrip: 'Diffusion Transformers (DiT) excel at image and video generation but face computational challenges due to the quadratic complexity of self-attention operators. We identify three types of redundancies in DiT and propose DiTFastAttn, a post-training compression method, to reduce them. Our method reduces up to 76% of the attention FLOPs and achieves up to 1.8x end-to-end speedup at high-resolution (2k x 2k) generation.'
+
 
 - title: "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation"
   authors: Tianchen Zhao, Tongcheng Fang, Enshu Liu, Wan Rui, Widyadewi Soedarmadji, Shiyao Li, Zinan Lin, Guohao Dai, Shengen Yan, Huazhong Yang, Xuefei Ning+, Yu Wang+
