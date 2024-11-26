@@ -15,7 +15,6 @@
 - title: 'Distilling Auto-regressive Models into Few Steps 1: Image Generation'
   authors: Enshu Liu, Xuefei Ning+, Yu Wang, Zinan Lin+
   conference: ArXiv 2024
-  paper_link: ""
   technique: Algorithm-level
   target: Efficient Inference
   domain: Vision Generation
@@ -31,7 +30,10 @@
 - title: 'Rad-NeRF: Ray-decoupled Training of Neural Radiance Field'
   authors: Lidong Guo*, Xuefei Ning*+, Yonggan Fu, Tianchen Zhao, Zhuoliang Kang, Jincheng Yu, Yingyan Celine Lin, Yu Wang+
   conference: NeurIPS 2024
-  technique:
+  paper_link: "https://openreview.net/forum?id=nBrnfYeKf9"
+  code_link: "https://github.com/thu-nics/Rad-NeRF"
+  video_link: "https://www.bilibili.com/video/BV124SMYcEVk/"
+  technique: Algorithm-level
   target: Efficient Inference
   domain: 3D Modeling
 
@@ -41,10 +43,11 @@
   paper_link: "https://arxiv.org/abs/2406.14629"
   code_link: "https://github.com/imagination-research/lbt"
   website_link: "https://sites.google.com/view/llm-learning-by-teaching"
-  video_link: "https://www.youtube.com/watch?v=-tQRWpDrIaQ"
-  technique:
-  target:
+  video_link: "https://www.bilibili.com/video/BV1f6UoYQEqw/"
+  technique: Algorithm-level
+  target: Better Reasoning
   domain: Language
+  descrip: 'This study explores whether or not the current LLMs can learn by teach (LbT), which is a well-recognized paradigm in human learning. As one can imagine, the ability of LbT could offer exciting opportunities for the models to continuously evolve by teaching other (potentially weaker) models. We implement the LbT idea into well-established pipelines to see if it can improve the reasoning outcomes and ability on complex tasks (e.g., mathematical reasoning, competition-level code synthesis). The results show some promise, and importantly, we share our thoughts on the research rationale and roadmap in detail.'
 
 - title: 'Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs'
   authors: Enshu Liu*, Junyi Zhu*, Zinan Lin+, Xuefei Ning+, Matthew B. Blaschko, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
@@ -119,8 +122,6 @@
   authors: Zixuan Zhou*, Xuefei Ning*+, Ke Hong*, Tianyu Fu, Jiaming Xu, Shiyao Li, Yuming Lou, Luning Wang, Zhihang Yuan, Xiuhong Li, Shengen Yan, Guohao Dai+, Xiao-Ping Zhang, Yuhan Dong, Yu Wang+
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/pdf/2404.14294"
-  code_link: 
-  technique:
   target: Efficient Inference
   domain: Language
   special_label: Survey
@@ -130,6 +131,7 @@
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/abs/2402.05136"
   code_link: "https://github.com/infinigence/LVEval"
+  website_link: "https://huggingface.co/datasets/Infinigence/LVEval"
   special_label: Benchmark, Evaluation
 
 - title: "Towards Floating Point-Based Attention-Free LLM: Hybrid PIM with Non-Uniform Data Format and Reduced Multiplications"
@@ -144,7 +146,6 @@
   authors: Shulin Zeng*, Jun Liu*, Guohao Dai+, Xinhao Yang, Tianyu Fu, Hongyi Wang, Wenheng Ma, Hanbo Sun, Shiyao Li, Zixiao Huang, Yadong Dai, Jintao Li, Zehao Wang, Ruoyu Zhang, Kairui Wen, Xuefei Ning, Yu Wang+
   conference: "FPGA 2024"
   paper_link: https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/3fa036e2-0d62-45c4-81e2-20d9b7189504.pdf
-  code_link: 
   technique: System-level, Model-level (Quantization), Model-level (Sparsification)
   target: "Efficient Inference"
   domain: "Language" 
@@ -162,6 +163,7 @@
   conference: ICML 2024
   paper_link: "https://arxiv.org/pdf/2402.18158"
   code_link: "https://github.com/thu-nics/qllm-eval"
+  video_link: "https://www.bilibili.com/video/BV1Kb421H7uH/"
   technique: Model-level (Quantization)
   target: Efficient Inference
   domain: Language
@@ -173,6 +175,7 @@
   conference: CVPR 2024
   paper_link: "https://arxiv.org/pdf/2403.16379"
   code_link: "https://github.com/thu-nics/FlashEval"
+  video_link: "https://www.bilibili.com/video/BV1Cz421b7Ft/"
   technique: Algorithm-level
   target: Efficient Optimization Process
   domain: Vision Generation
@@ -180,8 +183,9 @@
 - title: "A Unified Sampling Framework for Solver Searching of Diffusion Probabilistic Models"
   authors: Enshu Liu, Xuefei Ning+, Huazhong Yang, Yu Wang+
   conference: ICLR 2024
-  paper_link: https://arxiv.org/pdf/2312.07243
-  code_link: 
+  paper_link: "https://arxiv.org/pdf/2312.07243"
+  code_link: "https://github.com/thu-nics/USF"
+  video_link: "https://www.bilibili.com/video/BV17z421b79T/"
   technique: Algorithm-level
   target: Efficient Inference
   domain: Vision Generation
@@ -191,6 +195,7 @@
   conference: ICLR 2024
   paper_link: https://arxiv.org/abs/2307.15337
   code_link: "https://github.com/imagination-research/sot"
+  video_link: "https://www.bilibili.com/video/BV1EM4m1S7ZH/"
   technique: Algorithm-level
   target: Efficient Inference
   domain: Language
@@ -199,7 +204,6 @@
   authors: Shiyao Li, Xuefei Ning+, Shanghang Zhang, Lidong Guo, Tianchen Zhao, Huazhong Yang, Yu Wang+
   conference: WACV 2024
   paper_link: "https://openaccess.thecvf.com/content/WACV2024/papers/Li_TCP_Triplet_Contrastive-Relationship_Preserving_for_Class-Incremental_Learning_WACV_2024_paper.pdf"
-  code_link: 
 
 - title: "LLM-MQ: Mixed-precision Quantization for Efficient LLM Deployment"
   authors: Shiyao Li, Xuefei Ning+, Ke Hong, Tengxuan Liu, Luning Wang, Xiuhong Li, Kai Zhong, Guohao Dai, Huazhong Yang, Yu Wang+
@@ -221,7 +225,7 @@
   authors: Tianchen Zhao, Xuefei Ning+, Ke Hong, Zhongyuan Qiu, Pu Lu, Linfeng Zhang, Yali Zhao, Lipu Zhou, Guohao Dai, Huazhong Yang, Yu Wang+
   conference: ICCV 2023
   paper_link: "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhao_Ada3D__Exploiting_the_Spatial_Redundancy_with_Adaptive_Inference_for_ICCV_2023_paper.pdf"
-  code_link: 
+  video_link: "https://www.bilibili.com/video/BV1vC4y1S7FW/"
   technique: Model-level (Sparsification)
   target: Efficient Inference
   domain: Vision Recognition
@@ -231,6 +235,8 @@
   conference: ICML 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2Ff34b14d9-6e99-4fc6-ae98-3e4c7c966ef9.pdf"
   code_link: "https://github.com/jsttlgdkycy/OMS-DPM"
+  website_link: "https://sites.google.com/view/oms-dpm/"
+  video_link: "https://www.bilibili.com/video/BV1hC4y1D7oa/"
   technique: Algorithm-level
   target: Efficient Inference
   domain: Vision Generation
@@ -239,7 +245,7 @@
   authors: Junbo Zhao*, Xuefei Ning*+, Enshu Liu, Binxin Ru, Zixuan Zhou, Tianchen Zhao, Chen Chen, Jiajin Zhang, Qingmin Liao, Yu Wang+
   conference: AAAI 2023 (Oral)
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/4208e529-772e-4977-be31-0b7cc4c7a9fc.pdf"
-  code_link: "https://github.com/A-LinCui/DELE."
+  code_link: "https://github.com/A-LinCui/DELE"
   technique: Model-level (Structure Optimization)
   target: Efficient Optimization Process
   domain: Vision Recognition
@@ -257,7 +263,6 @@
   authors: Yi Cai, Xuefei Ning, Huazhong Yang, Yu Wang
   conference: AAAI 2023
   paper_link: "https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2F8ed3ecfa-b1ea-4230-88a3-14eca04c87ef.pdf"
-  code_link: 
   technique: 
   target: 
   domain: Vision Recognition
