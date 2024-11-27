@@ -117,6 +117,7 @@
   paper_link: "https://arxiv.org/pdf/2405.17873"
   code_link: "https://github.com/thu-nics/MixDQ"
   website_link: "https://a-suozhang.xyz/mixdq.github.io/"
+  video_link: "https://www.bilibili.com/video/BV1cozuYPEaE/"
   technique: Model-level (Quantization)
   target: Efficient Inference
   domain: Vision Generation
