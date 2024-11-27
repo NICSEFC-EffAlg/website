@@ -5,7 +5,7 @@
   text: 'Give an invited <a href="https://www.bilibili.com/video/BV1XUURYzEgR" target="_blank" style="color: #0c53a5;">talk</a> about our EffAlg team and recent researches at AI Time.'
 
 - time: 2024/11/06
-  text: Will serve as a DAC AI Track TPC member.
+  text: 'Will serve as a TPC member for DAC 2025''s AI Track.'
 
 - time: 2024/11/06
   text: Give an invited talk about efficient AIGC research at HUAWEI 2012 Labs Global Software Technology Summit.
@@ -14,7 +14,7 @@
   text: Get the CCF-Baidu Open Faculty Research Fund.
 
 - time: 2024/10/17
-  text: Will serve as a CVPR Area Chair.
+  text: Will serve as an Area Chair for CVPR 2025.
 
 - time: 2024/09/26
   # text: 'Three of our papers are accepted by NeurIPS 2024! (1) "<a href="https://arxiv.org/abs/2406.14629" target="_blank" style="color: #0c53a5;">Can LLMs Learn by Teaching? A Preliminary Study</a>" explores a novel pathway (learning by teach) towards better and continual evolving reasoning ability of LLMs. (2) "<a href="https://arxiv.org/abs/2406.08552" target="_blank" style="color: #0c53a5;">DiTFastAttn: Attention Compression for Diffusion Transformer Models</a>" proposes post-training attention sparsification and sharing techniques to accelerate Diffusion Transformers. (3) "Rad-NeRF: Ray-decoupled Training of Neural Radiance Field" proposes a ray-decopuled soft ensemble of NeRF MLPs to better model complex scenes, and offers a new and parameter-efficient scaling dimension.'
@@ -24,7 +24,7 @@
   text: 'Give 2 invited <a href="https://nics-effalg.com/assets/ppt/2024-10-18-GMCA.pdf" target="_blank" style="color: #0c53a5;">talks</a> about efficient AIGC research at Apple China and CAS.'
   
 - time: 2024/07/01
-  text: Will serve as an ACL Senior Area Chair.
+  text: Will serve as a Senior Area Chair for ACL 2025.
 
 - time: 2024/07/01
   # text: 'Our paper <a href="https://arxiv.org/abs/2407.00945" target="_blank" style="color: #0c53a5;">Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs</a> is public on arXiv. We conduct expert pruning of MoE models and use weight merging to inherit the knowledge from the retrained and discarded experts. This is a novel and gradient-free way to inherit the knowledge during model compression. The code will soon be available at <a href="https://github.com/imagination-research/EEP" target="_blank" style="color: #0c53a5;">code</a>.'
