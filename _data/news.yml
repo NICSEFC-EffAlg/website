@@ -22,12 +22,12 @@
 
 - time: 2024/07/11
   text: 'Give 2 invited <a href="https://nics-effalg.com/assets/ppt/2024-10-18-GMCA.pdf" target="_blank" style="color: #0c53a5;">talks</a> about efficient AIGC research at Apple China and CAS.'
-  
-- time: 2024/07/02
-  text: '1 paper, <a href="https://arxiv.org/abs/2405.17873" target="_blank" style="color: #0c53a5;">MixDQ</a>, is accepted by ECCV'24.'
 
 - time: 2024/07/01
   text: Will serve as a Senior Area Chair for ACL 2025.
+
+- time: 2024/07/01
+  text: '1 paper, <a href="https://arxiv.org/abs/2405.17873" target="_blank" style="color: #0c53a5;">MixDQ</a>, is accepted at ECCV 2024.'
 
 - time: 2024/07/01
   # text: 'Our paper <a href="https://arxiv.org/abs/2407.00945" target="_blank" style="color: #0c53a5;">Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models: Enhancing Performance and Reducing Inference Costs</a> is public on arXiv. We conduct expert pruning of MoE models and use weight merging to inherit the knowledge from the retrained and discarded experts. This is a novel and gradient-free way to inherit the knowledge during model compression. The code will soon be available at <a href="https://github.com/imagination-research/EEP" target="_blank" style="color: #0c53a5;">code</a>.'
