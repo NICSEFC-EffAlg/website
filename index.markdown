@@ -38,7 +38,7 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
 {% endfor %}
 </ul>
 
-<button id="load-more" style="display:block; margin: 20px auto; padding: 10px 20px; background-color: #0c53a5; color: white; border: none; cursor: pointer;">Load More</button>
+<button class="show-more-btn" id="load-more" style="display:block; margin: 10px auto; padding: 10px 20px; cursor: pointer; ">Load More</button>
 
 <script>
   let currentIndex = 6;
