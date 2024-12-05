@@ -59,6 +59,24 @@ input[type="checkbox"]:checked {
   text-decoration: none;
 }
 
+.show-more-btn {
+  background-color: #cef0ffc6;
+  margin: 5px;
+  padding: 5px 5px; /* 内边距，使文本与背景之间有一定的空间 */
+  border-radius: 4px; /* 圆角边框 */
+  border-color: #cef0ffc6;
+  color: #202020; /* 文本颜色，根据背景色调整以确保可读性 */
+  font-size: 16px; /* 字体大小 */
+  text-decoration: none;
+}
+
+.pub-description {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
 .project-buttom {
   background-color: #e0f1f894; /* 淡蓝色背景 */
   margin: 5px;

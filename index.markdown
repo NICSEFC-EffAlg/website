@@ -155,23 +155,6 @@ function toggleDescription(button) {
 }
 </script>
 
-<style>
-.show-more-btn {
-    margin-top: 10px;
-    padding: 5px 10px;
-    background-color: #0c53a5;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.pub-description {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-}
-</style>
 
 
 <h1 class="custom_title"> Sponsors </h1>
