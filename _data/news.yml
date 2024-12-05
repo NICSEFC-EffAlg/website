@@ -1,8 +1,8 @@
 - time: 2024/12/05
-  text: Get the <strong>2nd place</strong> in both the Model Compression Track and the Training From Scratch Track at the NeurIPS 2024 Edge-Device Large Language Model Competition!
+  text: Get the <strong>2nd place</strong> in the Model Compression Track and the Training From Scratch Track at the NeurIPS 2024 Edge-Device LLM Competition.
 
 - time: 2024/12/04
-  text: 'Zhihang gives an invited <a href="https://www.techbeat.net/talk-info?id=927" target="_blank" style="color: #0c53a5;">talk</a> about DiTFastAttn at Jiangmen TechBeat.'
+  text: Zhihang gives an invited talk about DiTFastAttn at Jiangmen TechBeat.
   
 - time: 2024/12/03
   text: Give an invited talk about efficient AIGC research at VIVO.
@@ -32,6 +32,9 @@
 - time: 2024/07/11
   text: 'Give 2 invited <a href="https://nics-effalg.com/assets/ppt/2024-10-18-GMCA.pdf" target="_blank" style="color: #0c53a5;">talks</a> about efficient AIGC research at Apple China and CAS.'
 
+- time: 2024/07/07
+  text: Zixuan gives an invited talk about our efficient LLM survey at NICE, Soochow University.
+  
 - time: 2024/07/01
   text: Will serve as a Senior Area Chair for ACL 2025.
 
@@ -56,6 +59,9 @@
   # text: 'Our 2 papers are public on arXiv. In the first paper, we propose <a href="https://arxiv.org/abs/2405.17873" target="_blank" style="color: #0c53a5;">MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization</a> that successfully tackles the challenging few-step text-to-image diffusion model quantization. With negligible visual quality degradation and content change, MixDQ could achieve W4A8, equivalent to 3.4x memory compression and 1.5x latency speedup. Check our <a href="https://github.com/A-suozhang/MixDQ" target="_blank" style="color: #0c53a5;">code</a> and <a href="https://a-suozhang.xyz/mixdq.github.io/" target="_blank" style="color: #0c53a5;">project page</a>. The second paper is <a href="https://arxiv.org/abs/2406.02540v1" target="_blank" style="color: #0c53a5;">ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation</a>, a quantization method specialized for the transformer-based video & image diffusion models. For popular large-scale models (e.g., open-sora, Latte, Pixart) for the video and image generation task, ViDiT-Q could achieve W8A8 quantization without metric degradation, and W4A8 without notable visual quality degradation. Check our <a href="https://github.com/A-suozhang/ViDiT-Q" target="_blank" style="color: #0c53a5;">code</a> and <a href="https://a-suozhang.xyz/viditq.github.io/" target="_blank" style="color: #0c53a5;">project page</a>. <strong>Update 07/01:</strong> MixDQ is accepted by ECCV''24!'
   text: '1 paper, <a href="https://arxiv.org/abs/2406.02540v1" target="_blank" style="color: #0c53a5;">ViDiT-Q</a>, are public on arXiv.'
 
+- time: 2024/04/25
+  text: Give an invited talk about our efficient LLM survey at Huawei TCS Lab.
+  
 - time: 2024/04/23
   # text: 'Our survey <a href="https://arxiv.org/pdf/2404.14294" target="_blank" style="color: #0c53a5;">A Survey on Efficient Inference for Large Language Models</a> is public on arXiv. Any discussions and suggestions are welcome!'
   text: '1 survey, <a href="https://arxiv.org/pdf/2404.14294" target="_blank" style="color: #0c53a5;">Efficient Inference for Large Language Models</a>, is public on arXiv. Any suggestions are welcome!'
@@ -68,6 +74,9 @@
   # text: '1 paper, <a href="https://arxiv.org/abs/2402.18158" target="_blank" style="color: #0c53a5;">Evaluating Quantized Large Language Models</a>, is accepted by ICML''24. This work evaluates 11 LLM families, different tasks (including emergent abilities, dialogue, long-context tasks, and so on), and different tensor types (Weight, Weight-Activation, Key-Value Cache). We provide quantative suggestions and qualitative insights on the quantization. Practitioners could benefit from this work with a full scope of quantization suggestions.'
   text: '1 paper, <a href="https://arxiv.org/abs/2402.18158" target="_blank" style="color: #0c53a5;">QLLM-Eval</a>, is accepted by ICML''24.'
 
+- time: 2024/03/22
+  text: Shiyao gives an invited talk about QLLM-Eval at MSR.
+  
 - time: 2024/02/27
   # text: '1 paper, <a href="https://arxiv.org/abs/2403.16379" target="_blank" style="color: #0c53a5;">FlashEval: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models</a>, is accepted by CVPR''24. This work is on selecting a compact data subset to evaluate text-to-image Diffusion models.'
   text: '1 paper, <a href="https://arxiv.org/abs/2403.16379" target="_blank" style="color: #0c53a5;">FlashEval</a>, is accepted by CVPR''24.'
