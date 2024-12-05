@@ -69,10 +69,10 @@ The Nanoscale Integrated Circuits and System Lab, Energy Efficient Computing Gro
 
 
 <h1 class="custom_title"> Competition Awards </h1>
-<li>2024 NeurIPS Edge-Device Large Language Model Competition, Model Compression Track <strong>World-wide 2nd</strong> </li>
-<li>2024 NeurIPS Edge-Device Large Language Model Competition, Training From Scratch Track <strong>World-wide 2nd</strong> </li>
-<li>2020 CVPR Low-Power CV Challenges <strong>World-wide 3rd</strong></li>
-<li>2018 NeurIPS Adversarial Robustness Competition-Model Track <strong>World-wide 2nd</strong></li>
+<li>2024 NeurIPS Edge-Device Large Language Model Competition, Model Compression Track <strong>2nd</strong> </li>
+<li>2024 NeurIPS Edge-Device Large Language Model Competition, Training From Scratch Track <strong>2nd</strong> </li>
+<li>2020 CVPR Low-Power CV Challenges <strong>3rd</strong></li>
+<li>2018 NeurIPS Adversarial Robustness Competition, Model Track <strong>2nd</strong></li>
 
 
 <h1 class="custom_title"> Efficient DL Projects </h1>
