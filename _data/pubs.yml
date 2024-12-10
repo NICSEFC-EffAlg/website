@@ -46,7 +46,7 @@
   code_link: "https://github.com/thu-nics/Rad-NeRF"
   video_link: "https://www.bilibili.com/video/BV124SMYcEVk/"
   technique: Algorithm-level
-  target: Efficient Inference
+  target: Better Application
   domain: 3D Modeling
 
 - title: 'Can LLMs Learn by Teaching for Better Reasoning? A Preliminary Study'
