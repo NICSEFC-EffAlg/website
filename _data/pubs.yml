@@ -24,8 +24,11 @@
   authors: Kaiyi Huang, Yukun Huang, Xuefei Ning, Zinan Lin, Yu Wang, Xihui Liu+
   conference: ArXiv 2024
   paper_link: "https://arxiv.org/abs/2412.04440"
+  website_link: "https://karine-h.github.io/GenMAC/"
+  code_link: "https://github.com/Karine-Huang/GenMAC"
+  video_link: "https://www.youtube.com/watch?v=gni-nzJQ9TI"
   technique: 
-  target: 
+  target: Better Application
   domain: Vision Generation
 
 - title: 'Accelerating Auto-regressive Text-to-Image Generation with Training-free Speculative Jacobi Decoding'
