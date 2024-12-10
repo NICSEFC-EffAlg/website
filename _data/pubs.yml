@@ -39,6 +39,14 @@
   target: Efficient Inference
   domain: Vision Generation
 
+- title: 'Training-Free and Hardware-Friendly Acceleration for Diffusion Models via Similarity-based Token Pruning'
+  authors: Evelyn Zhang, Jiayi Tang, Xuefei Ning, Linfeng Zhang
+  conference: AAAI 2025
+  paper_link: "https://openreview.net/forum?id=q7q1o78MRA"
+  technique: Model-level
+  target: Efficient Inference
+  domain: Vision Generation
+
 - title: 'Rad-NeRF: Ray-decoupled Training of Neural Radiance Field'
   authors: Lidong Guo*, Xuefei Ning*+, Yonggan Fu, Tianchen Zhao, Zhuoliang Kang, Jincheng Yu, Yingyan Celine Lin, Yu Wang+
   conference: NeurIPS 2024
