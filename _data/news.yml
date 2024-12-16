@@ -1,6 +1,9 @@
 - time: 2024/12/11
   text: 'At NeurIPS 2024 in Vancouver, Canada to present our work! Some schedules: (1) 12/11 11:00-14:00 DiTFastAttn poster @ East Exhibit Hall; (2) 12/12 11:00-14:00 Rad-NeRF poster @ East Exhibit Hall; (3) 12/12 16:30-19:30 Can LLMs Learn by Teaching for Better Reasoning? poster @ East Exhibit Hall; (4) 12/15 Workshop on Machine Learning and Compression; (5) 12/15 16:15-16:25 Presentation of Our Solution at Edge LLM Competition.'
 
+- time: 2024/12/07
+  text: 'Our tutorial proposal: Efficient Inference for Large Language Models -- Algorithm, Model, and System is accepted to EMNLP 2025 in Suzhou, China.'
+  
 - time: 2024/12/05
   text: Get the <strong>2nd place</strong> in the Model Compression Track and the Training From Scratch Track at the NeurIPS 2024 Edge-Device LLM Competition.
 
