@@ -24,3 +24,6 @@
   description: "A talk on NAS researches. @DAMO Academy of Alibaba Group (U.S.); Renmin University of China; and others."
   slide_link: "../assets/ppt/2022-12-12-NAS.pdf"
 
+- title: "A Simple Survey on Auto-Parallelism"
+  description: "An internal Chinese survey on auto parallelism methods in 2022."
+  slide_link: "../assets/ppt/2022-04-21-autoparallel_survey.pdf"
