@@ -16,6 +16,20 @@ permalink: /NeurIPS2024_EdgeLLM_Competition
 In this blog post, we delve into the technical report from Team NICS-EffAlg, which participated in the Edge-LLM Competition. The team, comprising members from Tsinghua University and Infinigence AI, presented their approach to compressing the Llama 3.1 8B model by 50% while maintaining performance. Additionally, they introduced a new model architecture for Track 2 of the competition.
 The team won the 2nd place in both the Model Compression Track and the Training From Scratch Track at the NeurIPS 2024 Edge-Device LLM Competition.
 
+<div style="display: flex; justify-content: space-between; width: 100%;">
+    <figure style="width: 33%; height: auto;">
+        <img src="../assets/posts_images/neurips2024_edgellm_competition/edgellm_competition_award1.jpg" alt="pixart1k_result">
+    </figure>
+
+    <figure style="width: 33%; height: auto;">
+        <img src="../assets/posts_images/neurips2024_edgellm_competition/edgellm_competition_award2.jpg" alt="DiTFastAttn_overview">
+    </figure>
+
+    <figure style="width: 30%; height: auto;">
+        <img src="../assets/posts_images/neurips2024_edgellm_competition/edgellm_competition_talk.jpg" alt="DiTFastAttn_overview">
+    </figure>
+</div>
+
 ## Track 1: Model Compression
 ### Motivation
 The primary goal of Track 1 was to compress the Llama 3.1 8B model by 50%. The team recognized that one-shot pruning was not feasible and opted for an iterative approach. They explored various pruning techniques, including vocabulary pruning, width pruning, and decomposition, to achieve the desired compression ratio.
