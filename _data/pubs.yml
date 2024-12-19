@@ -14,7 +14,7 @@
   domain: Vision Recognition, Vision Generation, Language
 
 - title: 'Distilling Auto-regressive Models into Few Steps 1: Image Generation'
-  authors: Enshu Liu, Xuefei Ning+, Yu Wang, Zinan Lin+
+  authors: Enshu Liu, Xuefei Ning, Yu Wang, Zinan Lin
   conference: ArXiv 2024
   technique: Algorithm-level
   target: Efficient Inference
