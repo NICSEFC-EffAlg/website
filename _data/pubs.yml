@@ -19,6 +19,9 @@
   technique: Algorithm-level
   target: Efficient Inference
   domain: Vision Generation
+  paper_link: https://arxiv.org/abs/2412.17153
+  website_link: https://imagination-research.github.io/distilled-decoding/
+  code_link: https://github.com/imagination-research/distilled-decoding
 
 - title: 'GenMAC: Compositional Text-to-Video Generation with Multi-Agent Collaboration'
   authors: Kaiyi Huang, Yukun Huang, Xuefei Ning, Zinan Lin, Yu Wang, Xihui Liu+
