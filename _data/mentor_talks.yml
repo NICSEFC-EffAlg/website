@@ -7,12 +7,11 @@
 
 - title: "Generative Model Compression and Acceleration"
   description: "A talk on generative model compression and acceleration. @Huawei; Apple-China; University of Chinese Academy of Sciences; and others."
-  # video_link: "https://nics-effalg.com/GMCA"
-  slide_link: "../assets/ppt/2024-10-18-GMCA.pdf"
+  video_link: "https://www.bilibili.com/video/BV1AWCJY3EB8/"
+  slide_link: "../assets/ppt/2024-12-21-GMCA.pdf"
 
 - title: "An Introduction to Quantization of Large Language Models"
   description: "A talk about efficient LLM with a special focus on quantization for an Competition organized by AWS-China."
-  # video_link: "https://nics-effalg.com/QLLMIntro"
   slide_link: "../assets/ppt/2023-08-30-QLLMIntro.pdf"
   video_link: "https://www.bilibili.com/video/BV1zm4y1u72W/"
 
