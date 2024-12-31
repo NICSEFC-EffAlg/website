@@ -13,6 +13,15 @@
   target: Efficient Inference
   domain: Vision Recognition, Vision Generation, Language
 
+- title: 'MBQ: Modality-Balanced Quantization for Large Vision-Language Models'
+  authors: Shiyao Li*, Yingchun Hu*, Xuefei Ning+, Xihui Liu, Ke Hong, Xiaotao Jia+, Xiuhong Li, Yaqi Yan, Pei Ran, Guohao Dai, Shengen Yan, Huazhong Yang, Yu Wang+
+  conference: ArXiv 2024
+  paper_link: "https://arxiv.org/abs/2412.19509"
+  code_link: "https://github.com/thu-nics/MBQ"
+  technique: Model-level (Quantization)
+  target: Efficient Inference
+  domain: Language
+  
 - title: 'Distilling Auto-regressive Models into Few Steps 1: Image Generation'
   authors: Enshu Liu, Xuefei Ning, Yu Wang, Zinan Lin
   conference: ArXiv 2024
