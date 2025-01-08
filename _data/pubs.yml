@@ -13,6 +13,17 @@
   target: Efficient Inference
   domain: Vision Recognition, Vision Generation, Language
 
+- title: 'FrameFusion: Combining Similarity and Importance for Video Token Reduction on Large Visual Language Models'
+  authors: Tianyu Fu*, Tengxuan Liu*, Qinghao Han*, Guohao Dai, Shengen Yan, Huazhong Yang, Xuefei Ning, Yu Wang
+  conference: ArXiv 2024
+  paper_link: "https://arxiv.org/abs/2501.01986"
+  code_link: "https://github.com/thu-nics/FrameFusion"
+  website_link: "https://thu-nics.github.io/FrameFusion_Project_Page/"
+  technique: Model-level (Sparsification)
+  target: Efficient Inference
+  domain: Language
+  descrip: 'FrameFusion addresses the extensive vision token in video understanding scenarios for Large Vision Language Models (LVLMs). It combines similarity-based token merging and importance-based token pruning, retaining only important and unique tokens. Experiments show that FrameFusion reduces vision tokens by 70%, achieving 3.4 – 4.4× LLM speedups and 1.6 – 1.9× end-to-end speedups, with an average performance impact of less than 3%.'
+
 - title: 'MBQ: Modality-Balanced Quantization for Large Vision-Language Models'
   authors: Shiyao Li*, Yingchun Hu*, Xuefei Ning+, Xihui Liu, Ke Hong, Xiaotao Jia+, Xiuhong Li, Yaqi Yan, Pei Ran, Guohao Dai, Shengen Yan, Huazhong Yang, Yu Wang+
   conference: ArXiv 2024
