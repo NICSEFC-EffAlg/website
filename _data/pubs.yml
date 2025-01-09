@@ -24,6 +24,14 @@
   domain: Language
   descrip: 'FrameFusion addresses the extensive vision token in video understanding scenarios for Large Vision Language Models (LVLMs). It combines similarity-based token merging and importance-based token pruning, retaining only important and unique tokens. Experiments show that FrameFusion reduces vision tokens by 70%, achieving 3.4 – 4.4× LLM speedups and 1.6 – 1.9× end-to-end speedups, with an average performance impact of less than 3%.'
 
+- title: 'E-CAR: efficient continuous autoregressive image generation via multistage modeling'
+  authors: Zhihang Yuan*, Yuzhang Shang*, Hanling Zhang, Tongcheng Fang, Rui Xie, Bingxin Xu, Yan Yan, Shengen Yan, Guohao Dai, Yu Wang+
+  conference: ArXiv 2024
+  paper_link: "https://arxiv.org/abs/2412.14170"
+  technique: Model-level (Structure Optimization)
+  target: Efficient Inference
+  domain: Vision Generation
+
 - title: 'MBQ: Modality-Balanced Quantization for Large Vision-Language Models'
   authors: Shiyao Li*, Yingchun Hu*, Xuefei Ning+, Xihui Liu, Ke Hong, Xiaotao Jia+, Xiuhong Li, Yaqi Yan, Pei Ran, Guohao Dai, Shengen Yan, Huazhong Yang, Yu Wang+
   conference: ArXiv 2024
