@@ -1,5 +1,10 @@
 # TODO: modify links
 
+- title: "Zhiyuan's Annual Discussion on the 10 AI Trends - Inference Optimization"
+  description: "A talk to summarize the key work and my opinions on the near-term trends at the start of 2025. "
+  slide_link: "../assets/ppt/2025-01-08-trend-on-inference-optimization.pdf"
+
+  
 - title: "Introduction to NICS-EFC Lab Efficient Algorithm Team"
   description: "A talk to introduce our EffAlg Group. @AI Time."
   slide_link: "../assets/ppt/2024-11-20-group-intro.pdf"
