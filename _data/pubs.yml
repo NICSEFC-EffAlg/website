@@ -41,16 +41,6 @@
   target: Efficient Inference
   domain: Language
   
-- title: 'Distilling Auto-regressive Models into Few Steps 1: Image Generation'
-  authors: Enshu Liu, Xuefei Ning, Yu Wang, Zinan Lin
-  conference: ArXiv 2024
-  technique: Algorithm-level
-  target: Efficient Inference
-  domain: Vision Generation
-  paper_link: https://arxiv.org/abs/2412.17153
-  website_link: https://imagination-research.github.io/distilled-decoding/
-  code_link: https://github.com/imagination-research/distilled-decoding
-
 - title: 'GenMAC: Compositional Text-to-Video Generation with Multi-Agent Collaboration'
   authors: Kaiyi Huang, Yukun Huang, Xuefei Ning, Zinan Lin, Yu Wang, Xihui Liu+
   conference: ArXiv 2024
@@ -62,12 +52,42 @@
   target: Better Application
   domain: Vision Generation
 
+- title: 'Distilling Auto-regressive Models into Few Steps 1: Image Generation'
+  authors: Enshu Liu, Xuefei Ning, Yu Wang, Zinan Lin
+  conference: ICLR 2025
+  technique: Algorithm-level
+  target: Efficient Inference
+  domain: Vision Generation
+  paper_link: https://arxiv.org/abs/2412.17153
+  website_link: https://imagination-research.github.io/distilled-decoding/
+  code_link: https://github.com/imagination-research/distilled-decoding
+
 - title: 'Accelerating Auto-regressive Text-to-Image Generation with Training-free Speculative Jacobi Decoding'
   authors: Yao Teng, Han Shi, Xian Liu, Xuefei Ning, Guohao Dai, Yu Wang, Zhenguo Li, Xihui Liu+
-  conference: ArXiv 2024
+  conference: ICLR 2025
   paper_link: "https://arxiv.org/abs/2410.01699"
   technique: Algorithm-level
   target: Efficient Inference
+  domain: Vision Generation
+
+- title: "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation"
+  authors: Tianchen Zhao, Tongcheng Fang, Enshu Liu, Wan Rui, Widyadewi Soedarmadji, Shiyao Li, Zinan Lin, Guohao Dai, Shengen Yan, Huazhong Yang, Xuefei Ning+, Yu Wang+
+  conference: ICLR 2025
+  paper_link: "https://arxiv.org/pdf/2406.02540"
+  code_link: "https://github.com/thu-nics/ViDiT-Q"
+  website_link: https://nics-effalg.com/ViDiT_Q
+  technique: Model-level (Quantization)
+  target: Efficient Inference
+  domain: Vision Generation
+  descrip: This paper investigates the quantization of diffusion transformers, conducting a systematic analysis of the sources of quantization error. It then designs a unique static-dynamic channel balancing technique to address the time-varying channel imbalance problem. Additionally, a metric-decoupled mixed precision approach is adopted to handle failures under lower bitwidth settings (W4A8, W4A4). This method achieves lossless W4A8 quantization for a variety of popular text-to-image and text-to-video models.
+
+- title: "Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better"
+  authors: Enshu Liu*, Junyi Zhu*, Zinan Lin+, Xuefei Ning+, Matthew B. Blaschko, Sergey Yekhanin, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
+  conference: ICLR 2025
+  paper_link: "https://arxiv.org/pdf/2404.02241"
+  code_link: "https://github.com/imagination-research/LCSC"
+  technique: Algorithm-level
+  target: Efficient Training, Efficient Inference
   domain: Vision Generation
 
 - title: 'Training-Free and Hardware-Friendly Acceleration for Diffusion Models via Similarity-based Token Pruning'
@@ -132,18 +152,6 @@
   domain: Vision Generation
   descrip: 'Diffusion Transformers (DiT) excel at image and video generation but face computational challenges due to the quadratic complexity of self-attention operators. We identify three types of redundancies in DiT and propose DiTFastAttn, a post-training compression method, to reduce them. Our method reduces up to 76% of the attention FLOPs and achieves up to 1.8x end-to-end speedup at high-resolution (2k x 2k) generation.'
 
-
-- title: "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation"
-  authors: Tianchen Zhao, Tongcheng Fang, Enshu Liu, Wan Rui, Widyadewi Soedarmadji, Shiyao Li, Zinan Lin, Guohao Dai, Shengen Yan, Huazhong Yang, Xuefei Ning+, Yu Wang+
-  conference: ArXiv 2024
-  paper_link: "https://arxiv.org/pdf/2406.02540"
-  code_link: "https://github.com/thu-nics/ViDiT-Q"
-  website_link: https://nics-effalg.com/ViDiT_Q
-  technique: Model-level (Quantization)
-  target: Efficient Inference
-  domain: Vision Generation
-  descrip: This paper investigates the quantization of diffusion transformers, conducting a systematic analysis of the sources of quantization error. It then designs a unique static-dynamic channel balancing technique to address the time-varying channel imbalance problem. Additionally, a metric-decoupled mixed precision approach is adopted to handle failures under lower bitwidth settings (W4A8, W4A4). This method achieves lossless W4A8 quantization for a variety of popular text-to-image and text-to-video models.
-
 - title: "DiM: Diffusion Mamba for Efficient High-Resolution Image Synthesis"
   authors: Yao Teng, Yue Wu, Han Shi, Xuefei Ning, Guohao Dai, Yu Wang, Zhenguo Li, Xihui Liu+
   conference: ArXiv 2024
@@ -151,15 +159,6 @@
   code_link: "https://github.com/tyshiwo1/DiM-DiffusionMamba/"
   technique: Model-level (Structure Optimization)
   target: Efficient Inference
-  domain: Vision Generation
-
-- title: "Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better"
-  authors: Enshu Liu*, Junyi Zhu*, Zinan Lin+, Xuefei Ning+, Matthew B. Blaschko, Sergey Yekhanin, Shengen Yan, Guohao Dai, Huazhong Yang, Yu Wang+
-  conference: ArXiv 2024
-  paper_link: "https://arxiv.org/pdf/2404.02241"
-  code_link: "https://github.com/imagination-research/LCSC"
-  technique: Algorithm-level
-  target: Efficient Training, Efficient Inference
   domain: Vision Generation
 
 - title: "MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization"
